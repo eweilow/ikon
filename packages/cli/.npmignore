@@ -11,3 +11,9 @@ tsconfig.*.json
 .cache-loader
 *.tsbuildinfo
 !tsconfig.process.json
+
+dist/cjs/process/**
+dist/esm/process/**
+!process/build.ts
+!process/dev.ts
+!process/index.ts

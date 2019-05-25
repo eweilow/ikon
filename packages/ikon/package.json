@@ -23,14 +23,21 @@
     "datauri": "2.0.0",
     "favicons": "5.4.0",
     "hasha": "5.0.0",
-    "hot-module-replacement": "3.0.3",
     "prepend-transform": "0.0.1019",
     "sharp": "0.22.1",
     "to-ico": "1.1.5",
-    "ts-node": "8.1.1"
+    "ts-node": "8.1.1",
+    "chalk": "2.4.2",
+    "pretty-error": "2.1.1",
+    "source-map-support": "0.5.10",
+    "yargs": "13.2.1",
+    "mkdirp": "0.5.1"
   },
   "devDependencies": {
+    "@types/node": "12.0.2",
+    "@types/yargs": "12.0.9",
     "@types/hasha": "3.0.1",
+    "@types/mkdirp": "0.5.2",
     "@types/puppeteer": "1.12.4",
     "@types/react": "16.8.5",
     "@types/react-dom": "16.8.2",

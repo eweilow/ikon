@@ -67,3 +67,6 @@ dist/
 *.d.ts
 *.d.ts.map
 *.js.map
+
+examples/simple/generated
+examples/simple/icons

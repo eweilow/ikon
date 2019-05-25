@@ -1,0 +1,41 @@
+{
+  "name": "@eweilow/ikon-cli",
+  "version": "0.0.0",
+  "description": "The CLI for @eweilow-ikon",
+  "main": "./dist/cjs",
+  "module": "./dist/esm",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "ikon": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eweilow/ikon.git"
+  },
+  "author": "eweilow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eweilow/ikon/issues"
+  },
+  "homepage": "https://github.com/eweilow/ikon",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "pretty-error": "2.1.1",
+    "source-map-support": "0.5.10",
+    "yargs": "13.2.1",
+    "@eweilow/ikon": "^0.0.0",
+    "@eweilow/ikon-devserver": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.2",
+    "@types/yargs": "12.0.9"
+  },
+  "gitHead": "b7dc79987a794604c8538d3b9e9f2d17f8ab66da",
+  "keywords": [
+    "ikon"
+  ],
+  "types": "./"
+}

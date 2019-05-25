@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist/cjs",
+    "declarationDir": "./"
+  },
+  "references": [
+    {
+      "path": "../ikon/tsconfig.cjs.json"
+    },
+    {
+      "path": "../devserver/tsconfig.cjs.json"
+    }
+  ]
+}

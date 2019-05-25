@@ -6,11 +6,19 @@ export async function bootIconGenerationProcess(
   iconGenerator: string,
   publicPath: string,
   outDir: string,
-  mode: "watch" | "build"
+  mode: "watch" | "build",
+  args: any,
+  verbose: boolean = false
 ) {
-  const script = join(__dirname, "../../src/process.ts");
+  const script = join(__dirname, "../../process/index.ts");
 
-  console.log("Forking %s in %s", script, dirname(iconGenerator));
+  if (verbose) {
+    console.log(
+      "[ikon:master] Forking %s in %s",
+      script,
+      dirname(iconGenerator)
+    );
+  }
   const worker = fork(script, [], {
     cwd: dirname(iconGenerator),
     env: {
@@ -20,8 +28,9 @@ export async function bootIconGenerationProcess(
       outDir,
       mode,
       NODE_ENV: process.env.NODE_ENV,
+      IKON_ARGS: JSON.stringify(args),
       TS_NODE_IGNORE: "false",
-      TS_NODE_PROJECT: join(__dirname, "../../tsconfig.process.json")
+      TS_NODE_PROJECT: join(__dirname, "../../process/tsconfig.process.json")
     },
     execArgv: ["-r", require.resolve("ts-node/register")],
     stdio: "pipe"
@@ -32,8 +41,17 @@ export async function bootIconGenerationProcess(
     exitCode = code;
   });
 
-  worker.stdout!.pipe(prependTransform("[icons:out] ")).pipe(process.stdout);
-  worker.stderr!.pipe(prependTransform("[icons:err] ")).pipe(process.stderr);
+  if (verbose) {
+    worker
+      .stdout!.pipe(prependTransform("[ikon:fork:out] "))
+      .pipe(process.stdout);
+    worker
+      .stderr!.pipe(prependTransform("[ikon:fork:err] "))
+      .pipe(process.stderr);
+  } else {
+    worker.stdout!.pipe(process.stdout);
+    worker.stderr!.pipe(process.stderr);
+  }
   process.stdin.pipe(worker.stdin!);
 
   return new Promise<string[]>((resolve, reject) => {
@@ -53,12 +71,18 @@ export async function bootIconGenerationProcess(
 
     const data: string[] = [];
     worker.on("message", message => {
-      data.push(message);
+      if (mode === "build") {
+        data.push(message);
 
-      console.log(" - %s", message);
+        if (verbose) {
+          console.log("[ikon:master] generated %s", message);
+        } else {
+          console.log("%d icons built", data.length);
+        }
 
-      if (process.send) {
-        process.send(message);
+        if (process.send) {
+          process.send(message);
+        }
       }
     });
     worker.on("error", err => {

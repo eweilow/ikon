@@ -6,6 +6,18 @@
     },
     {
       "path": "packages/ikon/tsconfig.esm.json"
+    },
+    {
+      "path": "packages/cli/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/cli/tsconfig.esm.json"
+    },
+    {
+      "path": "packages/devserver/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/devserver/tsconfig.esm.json"
     }
   ]
 }

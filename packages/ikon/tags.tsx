@@ -9,6 +9,7 @@ import { generateFavicon } from "./favicon";
 import { DefaultAppIconName, DefaultLaunchScreenName } from "./sizes";
 import { IconGenerationComponent } from "./types";
 import { renderIcon, getIcons } from "./render";
+import mkdirp from "mkdirp";
 
 export async function generateTags(
   Component: IconGenerationComponent,
@@ -18,6 +19,8 @@ export async function generateTags(
   onTagCreated?: (tag: string) => void,
   onImageCreated?: (name: string, buffer: Buffer) => void
 ) {
+  mkdirp.sync(outDir);
+
   const browsers: Browser[] = [];
 
   const browsersCount = Math.min(
@@ -51,7 +54,7 @@ export async function generateTags(
       pages.push(page);
     }
   }
-  console.log("Booted %d pages", pages);
+  console.log("Booted %d pages", pages.length);
 
   const tags: string[] = [];
   function tagDidComplete(tag: string) {

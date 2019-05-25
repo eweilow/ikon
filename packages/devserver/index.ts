@@ -1,12 +1,10 @@
 import Datauri from "datauri";
 import { createServer } from "http";
 import { extname, join } from "path";
-import React from "react";
 
-import { generateTags } from "../tags";
-import { IconGenerationComponentProps } from "../types";
+import { generateTags, IconGenerationComponent } from "@eweilow/ikon";
 
-export function startDevServer(file: string) {
+export function startDevServer(file: string, wantedPort: number) {
   const { attemptStartServer } = require("./start") as typeof import("./start");
   // MUST BE IN LOCAL SCOPE
 
@@ -14,17 +12,13 @@ export function startDevServer(file: string) {
     ignore: /node_modules/
   });
 
-  let Component: React.ReactType<IconGenerationComponentProps> = require(file)
-    .default;
-  let generateIcons: typeof import("../render").generateIcons = require("./render")
+  let Component: IconGenerationComponent = require(file).default;
+  let generateIcons: typeof import("@eweilow/ikon").generateIcons = require("@eweilow/ikon")
     .generateIcons;
+
   (module as any).hot.accept(file, () => {
     console.log("Reloading %s", file);
     Component = require(file).default;
-  });
-  (module as any).hot.accept("./render", () => {
-    console.log("Reloading %s", "./render");
-    generateIcons = require("./render").generateIcons;
   });
 
   const server = createServer(async (req, res) => {
@@ -76,9 +70,17 @@ export function startDevServer(file: string) {
     res.end();
   });
 
-  attemptStartServer(() => server, 4001)
+  attemptStartServer(() => server, wantedPort)
     .then(({ port }) => {
-      console.log("Dev server listening on port %d", port);
+      if (port !== wantedPort) {
+        console.log(
+          "Ikon dev server couldn't listen on port %d, listening on port %d instead",
+          wantedPort,
+          port
+        );
+      } else {
+        console.log("Ikon dev server listening on port %d", port);
+      }
       (process as any).send(port);
     })
     .catch(err => {

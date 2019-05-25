@@ -1,4 +1,4 @@
-import { ReactType } from "react";
+import { FC } from "react";
 
 export type IconGenerationComponentProps = {
   width: number;
@@ -9,4 +9,4 @@ export type IconGenerationComponentProps = {
   type: "icon" | "splash" | "favicon";
 };
 
-export type IconGenerationComponent = ReactType<IconGenerationComponentProps>;
+export type IconGenerationComponent = FC<IconGenerationComponentProps>;

@@ -8,7 +8,8 @@
     "**/node_modules/**",
     "**/*.d.ts",
     "*.d.ts",
-    "*.test.ts"
+    "*.test.ts",
+    "process.ts"
   ],
   "extends": "../../tsconfig.base.json"
 }
