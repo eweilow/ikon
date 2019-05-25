@@ -1,12 +1,14 @@
-import Datauri from "datauri";
 import { createServer } from "http";
-import { extname, join } from "path";
 
-import { generateTags, IconGenerationComponent } from "@eweilow/ikon";
+import { generateTagsHTML, generateIconsHTML } from "./html";
+
+export { generateTagsHTML, generateIconsHTML };
+
+import { IconGenerationComponent } from "@eweilow/ikon";
+import { join } from "path";
 
 export function startDevServer(file: string, wantedPort: number) {
   const { attemptStartServer } = require("./start") as typeof import("./start");
-  // MUST BE IN LOCAL SCOPE
 
   require("hot-module-replacement")({
     ignore: /node_modules/
@@ -21,43 +23,44 @@ export function startDevServer(file: string, wantedPort: number) {
     Component = require(file).default;
   });
 
+  const publicPath = "/icons";
+  const outDir = join(process.cwd(), "./dist/");
+
   const server = createServer(async (req, res) => {
     if (req.url === "/tags") {
       try {
-        res.write(`<html><body><pre>`);
-        await generateTags(
+        await generateTagsHTML(
           Component,
-          "/generated-icons",
-          join(process.cwd(), "./dist/"),
-          4,
-          tag =>
-            res.write(tag.replace(/</g, "&lt;").replace(/>/g, "&gt;") + "\n")
+          chunk => res.write(chunk),
+          outDir,
+          publicPath
         );
-        res.write(`</pre></body></html>`);
       } catch (err) {
-        res.write("<pre>" + err.stack + "</pre>");
+        res.write("<html><body><pre>" + err.stack + "</pre></body></html>");
       }
     } else if (req.url === "/icons") {
       try {
-        res.write(`<html><body>`);
-        await generateTags(
+        await generateIconsHTML(
           Component,
-          "/generated-icons",
-          join(process.cwd(), "./dist/"),
-          4,
-          undefined,
-          (name, image) => {
-            const outputUri = new Datauri();
-            outputUri.format(extname(name), image);
-
-            const src = outputUri.content;
-
-            res.write(`<img src="${src}"/>\n`);
-          }
+          chunk => res.write(chunk),
+          outDir,
+          publicPath,
+          false
         );
-        res.write(`</body></html>`);
       } catch (err) {
-        res.write("<pre>" + err.stack + "</pre>");
+        res.write("<html><body><pre>" + err.stack + "</pre></body></html>");
+      }
+    } else if (req.url === "/real-icons") {
+      try {
+        await generateIconsHTML(
+          Component,
+          chunk => res.write(chunk),
+          outDir,
+          publicPath,
+          true
+        );
+      } catch (err) {
+        res.write("<html><body><pre>" + err.stack + "</pre></body></html>");
       }
     } else {
       try {
