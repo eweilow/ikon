@@ -1,4 +1,3 @@
-import { start } from "pretty-error";
 import yargs from "yargs";
 import { bootIconGenerationProcess } from "./boot";
 import { join } from "path";
@@ -43,6 +42,7 @@ export default yargs
           join(process.cwd(), args.file),
           args.publicPath,
           "",
+          "",
           "watch",
           { port: args.port },
           args.verbose
@@ -75,11 +75,45 @@ export default yargs
           join(process.cwd(), args.file),
           args.publicPath,
           join(process.cwd(), args.outDir),
+          join(process.cwd(), args.outDir),
           "build",
           {},
           args.verbose
         ).then(built =>
           bundleFiles(built, join(process.cwd(), args.generationDir))
+        )
+      );
+    }
+  )
+  .command(
+    "export",
+    "Build a deployable version of the development server",
+    args =>
+      args
+        .option("iconsDir", {
+          alias: "i",
+          type: "string",
+          description: "The path to write icons into",
+          default: "./dist/icons"
+        })
+        .demandOption("iconsDir")
+        .option("outDir", {
+          alias: "o",
+          type: "string",
+          description: "The path to write the build into",
+          default: "./dist"
+        })
+        .demandOption("outDir"),
+    args => {
+      handlePromise(
+        bootIconGenerationProcess(
+          join(process.cwd(), args.file),
+          args.publicPath,
+          join(process.cwd(), args.outDir),
+          join(process.cwd(), args.iconsDir),
+          "html",
+          {},
+          args.verbose
         )
       );
     }

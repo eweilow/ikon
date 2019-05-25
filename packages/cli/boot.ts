@@ -6,7 +6,8 @@ export async function bootIconGenerationProcess(
   iconGenerator: string,
   publicPath: string,
   outDir: string,
-  mode: "watch" | "build",
+  iconsDir: string,
+  mode: "watch" | "build" | "html",
   args: any,
   verbose: boolean = false
 ) {
@@ -26,6 +27,7 @@ export async function bootIconGenerationProcess(
       publicPath,
       iconGenerator,
       outDir,
+      iconsDir,
       mode,
       NODE_ENV: process.env.NODE_ENV,
       IKON_ARGS: JSON.stringify(args),
@@ -47,12 +49,15 @@ export async function bootIconGenerationProcess(
       .pipe(process.stdout);
     worker
       .stderr!.pipe(prependTransform("[ikon:fork:err] "))
-      .pipe(process.stderr);
+      .pipe(process.stdout);
   } else {
     worker.stdout!.pipe(process.stdout);
-    worker.stderr!.pipe(process.stderr);
+    worker.stderr!.pipe(process.stdout);
   }
-  process.stdin.pipe(worker.stdin!);
+
+  if (process.stdin && process.stdin.isTTY) {
+    process.stdin.pipe(worker.stdin!);
+  }
 
   return new Promise<string[]>((resolve, reject) => {
     function didExit(code: number | null) {
