@@ -5,7 +5,9 @@
   "description": "A React-based icon generator for modern web apps",
   "scripts": {
     "build-ts": "tsc --build",
-    "build-ts-watch": "yarn build-ts --watch"
+    "build-ts-watch": "yarn build-ts --watch",
+    "now-build": "yarn build-ts --verbose && yarn workspace @eweilow/ikon-examples-basic run now-prepare",
+    "now-deploy": "yarn now-build && now --target production"
   },
   "repository": {
     "type": "git",
