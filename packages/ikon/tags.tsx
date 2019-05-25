@@ -1,5 +1,5 @@
 import { Sema } from "async-sema";
-import { promises } from "fs";
+import { promises, existsSync } from "fs";
 import hasha from "hasha";
 import { cpus } from "os";
 import { join } from "path";
@@ -17,11 +17,10 @@ export async function generateTags(
   outDir: string,
   maxConcurrency: number,
   onTagCreated?: (tag: string) => void,
-  onImageCreated?: (name: string, buffer: Buffer) => void
+  onImageCreated?: (name: string, buffer: Buffer, publicName: string) => void,
+  skipBuildIfPossible: boolean = false
 ) {
   mkdirp.sync(outDir);
-
-  const browsers: Browser[] = [];
 
   const browsersCount = Math.min(
     maxConcurrency,
@@ -29,32 +28,46 @@ export async function generateTags(
   );
   const pagesPerBrowser = 1;
 
-  console.log("Booting %d browsers", browsersCount);
-
   const sema = new Sema(browsersCount * pagesPerBrowser);
   const pages: Page[] = [];
-  for (let i = 0; i < browsersCount; i++) {
-    const browser = await puppeteer.launch({
-      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
-      timeout: 5000,
-      args: [
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-        "--disable-background-timer-throttling",
-        "--disable-backgrounding-occluded-windows",
-        "--disable-renderer-backgrounding",
-        "--disable-dev-shm-usage"
-      ],
-      pipe: true
-    });
-    browsers.push(browser);
+  const browsers: Browser[] = [];
 
-    for (let p = 0; p < pagesPerBrowser; p++) {
-      const page = await browser.newPage();
-      pages.push(page);
+  let booted: boolean = false;
+  let bootPromise!: Promise<void>;
+  async function bootPuppeteerIfNeeded() {
+    if (booted) {
+      return bootPromise;
     }
+    async function innerBoot() {
+      console.log("Booting %d browsers", browsersCount);
+
+      for (let i = 0; i < browsersCount; i++) {
+        const browser = await puppeteer.launch({
+          executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
+          timeout: 5000,
+          args: [
+            "--no-sandbox",
+            "--disable-setuid-sandbox",
+            "--disable-background-timer-throttling",
+            "--disable-backgrounding-occluded-windows",
+            "--disable-renderer-backgrounding",
+            "--disable-dev-shm-usage"
+          ],
+          pipe: true
+        });
+        browsers.push(browser);
+
+        for (let p = 0; p < pagesPerBrowser; p++) {
+          const page = await browser.newPage();
+          pages.push(page);
+        }
+      }
+      console.log("Booted %d pages", pages.length);
+    }
+    bootPromise = innerBoot();
+    booted = true;
+    await bootPromise;
   }
-  console.log("Booted %d pages", pages.length);
 
   const tags: string[] = [];
   function tagDidComplete(tag: string) {
@@ -64,9 +77,9 @@ export async function generateTags(
     tags.push(tag);
   }
 
-  function imageDidComplete(name: string, buffer: Buffer) {
+  function imageDidComplete(name: string, buffer: Buffer, publicName: string) {
     if (onImageCreated != null) {
-      onImageCreated(name, buffer);
+      onImageCreated(name, buffer, publicName);
     }
   }
 
@@ -75,12 +88,21 @@ export async function generateTags(
     const filePaths = await Promise.all(
       icons.map(async icon => {
         await sema.acquire();
-        const page = pages.shift() as Page;
         try {
-          const src = await renderIcon(icon, Component, page);
           const fileName = join(outDir, icon.key + ".png");
-          await promises.writeFile(fileName, src);
-          imageDidComplete(fileName, src);
+
+          let src!: Buffer;
+          if (skipBuildIfPossible && existsSync(fileName)) {
+            src = await promises.readFile(fileName);
+          } else {
+            await bootPuppeteerIfNeeded();
+            const page = pages.shift() as Page;
+            try {
+              src = await renderIcon(icon, Component, page);
+            } finally {
+              pages.push(page);
+            }
+          }
 
           const hash =
             "?h=" +
@@ -88,6 +110,10 @@ export async function generateTags(
               algorithm: "sha1",
               encoding: "hex"
             }).slice(0, 8);
+
+          const publicName = `${publicPath}/${icon.key}.png${hash}`;
+          await promises.writeFile(fileName, src);
+          imageDidComplete(fileName, src, publicName);
 
           if (icon.type === "splash") {
             tagDidComplete(
@@ -97,13 +123,11 @@ export async function generateTags(
                 icon.width < icon.height ? "portrait" : "landscape"
               }) and (-webkit-device-pixel-ratio: ${
                 icon.pixelRatio
-              })" href="${publicPath}/${icon.key}.png${hash}">`
+              })" href="${publicName}">`
             );
             if (icon.key === DefaultLaunchScreenName) {
               tagDidComplete(
-                `<link rel="apple-touch-icon" href="${publicPath}/${
-                  icon.key
-                }.png${hash}">`
+                `<link rel="apple-touch-icon" href="${publicName}">`
               );
             }
           } else {
@@ -111,31 +135,24 @@ export async function generateTags(
               tagDidComplete(
                 `<link rel="apple-touch-icon" sizes="${icon.width *
                   icon.pixelRatio}x${icon.height *
-                  icon.pixelRatio}" href="${publicPath}/${
-                  icon.key
-                }.png${hash}">`
+                  icon.pixelRatio}" href="${publicName}">`
               );
               if (icon.key === DefaultAppIconName) {
                 tagDidComplete(
-                  `<link rel="apple-touch-icon" href="${publicPath}/${
-                    icon.key
-                  }.png${hash}">`
+                  `<link rel="apple-touch-icon" href="${publicName}">`
                 );
               }
             } else {
               tagDidComplete(
                 `<link rel="icon" type="image/png" sizes="${icon.width *
                   icon.pixelRatio}x${icon.height *
-                  icon.pixelRatio}" href="${publicPath}/${
-                  icon.key
-                }.png${hash}">`
+                  icon.pixelRatio}" href="${publicName}">`
               );
             }
           }
           return fileName;
         } finally {
           sema.release();
-          pages.push(page);
         }
       })
     );
@@ -154,7 +171,11 @@ export async function generateTags(
     tagDidComplete(
       `<link rel="shortcut icon" href="${publicPath}/favicon.ico${faviconHash}">`
     );
-    imageDidComplete(faviconName, favicon);
+    imageDidComplete(
+      faviconName,
+      favicon,
+      `${publicPath}/favicon.ico${faviconHash}`
+    );
   } finally {
     for (const browser of browsers) {
       await browser.close();
