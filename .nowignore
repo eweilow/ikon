@@ -61,7 +61,6 @@ typings/
 .next
 
 
-dist/
 *.js
 *.jsx
 *.jsx.map
@@ -69,7 +68,5 @@ dist/
 *.d.ts.map
 *.js.map
 
-examples/simple/generated
-examples/simple/icons
 
 !cli.js
