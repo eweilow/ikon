@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "dist",
+    "web",
+    "__tests__",
+    "**/__tests__/**",
+    "node_modules",
+    "**/node_modules/**",
+    "**/*.d.ts",
+    "*.d.ts",
+    "*.test.ts",
+    "process.ts"
+  ],
+  "extends": "../../tsconfig.base.json"
+}

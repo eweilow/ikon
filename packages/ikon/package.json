@@ -1,0 +1,53 @@
+{
+  "name": "@eweilow/ikon",
+  "version": "0.0.0",
+  "description": "A React-based icon generator for modern web apps",
+  "main": "./dist/cjs",
+  "module": "./dist/esm",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eweilow/ikon.git"
+  },
+  "author": "eweilow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eweilow/ikon/issues"
+  },
+  "homepage": "https://github.com/eweilow/ikon",
+  "dependencies": {
+    "async-sema": "3.0.0",
+    "datauri": "2.0.0",
+    "favicons": "5.4.0",
+    "hasha": "5.0.0",
+    "hot-module-replacement": "3.0.3",
+    "prepend-transform": "0.0.1019",
+    "sharp": "0.22.1",
+    "to-ico": "1.1.5",
+    "ts-node": "8.1.1"
+  },
+  "devDependencies": {
+    "@types/hasha": "3.0.1",
+    "@types/puppeteer": "1.12.4",
+    "@types/react": "16.8.5",
+    "@types/react-dom": "16.8.2",
+    "@types/sharp": "0.22.2",
+    "puppeteer": "1.17.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "styled-jsx": "3.2.1"
+  },
+  "peerDependencies": {
+    "puppeteer": "^1.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "gitHead": "b7dc79987a794604c8538d3b9e9f2d17f8ab66da",
+  "keywords": [
+    "ikon"
+  ],
+  "types": "./"
+}

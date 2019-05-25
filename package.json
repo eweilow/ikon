@@ -1,0 +1,33 @@
+{
+  "name": "@eweilow/ikon-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A React-based icon generator for modern web apps",
+  "scripts": {
+    "build-ts": "tsc --build",
+    "build-ts-watch": "yarn build-ts --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eweilow/ikon.git"
+  },
+  "author": "eweilow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eweilow/ikon/issues"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@types/**"
+    ]
+  },
+  "homepage": "https://github.com/eweilow/ikon#readme",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "3.4.1",
+    "prettier": "1.16.4"
+  }
+}

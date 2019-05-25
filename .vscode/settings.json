@@ -1,0 +1,46 @@
+{
+  "files.exclude": {
+    "**/.cache-loader": true,
+    "**/.DS_Store": true,
+    "**/.excitare": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.vscode": true,
+    "**/*.d.ts": true,
+    "**/*.d.ts.map": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/*.jsx": {
+      "when": "$(basename).tsx"
+    },
+    "**/*.jsx.map": {
+      "when": "$(basename)"
+    },
+    "**/CVS": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#FF4081",
+    "list.activeSelectionForeground": "#FF4081",
+    "list.inactiveSelectionForeground": "#FF4081",
+    "list.highlightForeground": "#FF4081",
+    "scrollbarSlider.activeBackground": "#FF408150",
+    "editorSuggestWidget.highlightForeground": "#FF4081",
+    "textLink.foreground": "#FF4081",
+    "progressBar.background": "#FF4081",
+    "pickerGroup.foreground": "#FF4081",
+    "tab.activeBorder": "#ff0077",
+    "activityBar.background": "#263120",
+    "titleBar.activeBackground": "#36442C",
+    "titleBar.activeForeground": "#FAFBF9"
+  }
+}

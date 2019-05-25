@@ -1,0 +1,11 @@
+{
+  "exclude": ["**"],
+  "references": [
+    {
+      "path": "packages/ikon/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/ikon/tsconfig.esm.json"
+    }
+  ]
+}
