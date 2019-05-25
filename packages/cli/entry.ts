@@ -5,8 +5,6 @@ import { join } from "path";
 import { handlePromise } from "./handle";
 import { bundleFiles } from "@eweilow/ikon";
 
-start();
-
 const { version: packageVersion } = require("../../package.json");
 
 export default yargs
