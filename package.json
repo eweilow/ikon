@@ -29,8 +29,9 @@
   },
   "homepage": "https://github.com/eweilow/ikon#readme",
   "devDependencies": {
+    "lerna": "3.10.7",
+    "prettier": "1.16.4",
     "tslint": "^5.12.1",
-    "typescript": "3.4.1",
-    "prettier": "1.16.4"
+    "typescript": "3.4.1"
   }
 }
