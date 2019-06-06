@@ -4,17 +4,15 @@ import { IconGenerationComponentProps } from "./types";
 const icons = require("favicons/dist/config/icons.json");
 
 const startScreen = (
-  key: string | undefined,
+  id: string | undefined,
   name: string,
   width: number,
   height: number,
   pixelRatio: number
 ) =>
   ({
-    key:
-      key != null
-        ? key
-        : `${name}-${width * pixelRatio}-${height * pixelRatio}`,
+    id:
+      id != null ? id : `${name}-${width * pixelRatio}-${height * pixelRatio}`,
     name,
     width,
     height,

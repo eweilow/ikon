@@ -89,7 +89,7 @@ export async function generateTags(
       icons.map(async icon => {
         await sema.acquire();
         try {
-          const fileName = join(outDir, icon.key + ".png");
+          const fileName = join(outDir, icon.id + ".png");
 
           let src!: Buffer;
           if (skipBuildIfPossible && existsSync(fileName)) {
@@ -111,7 +111,7 @@ export async function generateTags(
               encoding: "hex"
             }).slice(0, 8);
 
-          const publicName = `${publicPath}/${icon.key}.png${hash}`;
+          const publicName = `${publicPath}/${icon.id}.png${hash}`;
           await promises.writeFile(fileName, src);
           imageDidComplete(fileName, src, publicName);
 
@@ -125,7 +125,7 @@ export async function generateTags(
                 icon.pixelRatio
               })" href="${publicName}">`
             );
-            if (icon.key === DefaultLaunchScreenName) {
+            if (icon.id === DefaultLaunchScreenName) {
               tagDidComplete(
                 `<link rel="apple-touch-icon" href="${publicName}">`
               );
@@ -137,7 +137,7 @@ export async function generateTags(
                   icon.pixelRatio}x${icon.height *
                   icon.pixelRatio}" href="${publicName}">`
               );
-              if (icon.key === DefaultAppIconName) {
+              if (icon.id === DefaultAppIconName) {
                 tagDidComplete(
                   `<link rel="apple-touch-icon" href="${publicName}">`
                 );

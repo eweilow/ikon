@@ -3,7 +3,7 @@ import { FC } from "react";
 export type IconGenerationComponentProps = {
   width: number;
   height: number;
-  key: string;
+  id: string;
   name: string;
   pixelRatio: number;
   type: "icon" | "splash" | "favicon";
