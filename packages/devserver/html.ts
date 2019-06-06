@@ -8,7 +8,8 @@ export async function generateTagsHTML(
   Component: IconGenerationComponent,
   write: StreamWriter,
   outDir: string,
-  publicPath: string
+  publicPath: string,
+  extraBodyContent: string = ""
 ) {
   write(`<html><body><pre>`);
   await generateTags(
@@ -20,7 +21,9 @@ export async function generateTagsHTML(
     undefined,
     true
   );
-  write(`</pre></body></html>`);
+  write(`</pre>`);
+  write(extraBodyContent);
+  write(`</body></html>`);
 }
 
 export async function generateIconsHTML(
@@ -28,7 +31,8 @@ export async function generateIconsHTML(
   write: StreamWriter,
   outDir: string,
   publicPath: string,
-  useRealFiles: boolean
+  useRealFiles: boolean,
+  extraBodyContent: string = ""
 ) {
   write(`<html><body>`);
   await generateTags(
@@ -51,5 +55,6 @@ export async function generateIconsHTML(
     },
     true
   );
+  write(extraBodyContent);
   write(`</body></html>`);
 }
