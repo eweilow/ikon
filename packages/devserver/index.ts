@@ -6,6 +6,7 @@ export { generateTagsHTML, generateIconsHTML };
 
 import { IconGenerationComponent } from "@eweilow/ikon";
 import { join } from "path";
+import open from "open";
 
 export function startDevServer(file: string, wantedPort: number) {
   const { attemptStartServer } = require("./start") as typeof import("./start");
@@ -74,7 +75,7 @@ export function startDevServer(file: string, wantedPort: number) {
   });
 
   attemptStartServer(() => server, wantedPort)
-    .then(({ port }) => {
+    .then(async ({ port }) => {
       if (port !== wantedPort) {
         console.log(
           "Ikon dev server couldn't listen on port %d, listening on port %d instead",
@@ -84,6 +85,13 @@ export function startDevServer(file: string, wantedPort: number) {
       } else {
         console.log("Ikon dev server listening on port %d", port);
       }
+
+      if (shouldOpen) {
+        await open("http://localhost:" + port, {
+          wait: true
+        });
+      }
+
       (process as any).send(port);
     })
     .catch(err => {

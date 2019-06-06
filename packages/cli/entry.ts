@@ -30,12 +30,18 @@ export default yargs
     "dev",
     "Start development mode",
     args =>
-      args.option("port", {
-        alias: "p",
-        type: "number",
-        description: "The port to use",
-        default: 4001
-      }),
+      args
+        .option("port", {
+          alias: "p",
+          type: "number",
+          description: "The port to use",
+          default: 4001
+        })
+        .option("open", {
+          type: "boolean",
+          description: "Automatically open a browser",
+          default: true
+        }),
     args => {
       handlePromise(
         bootIconGenerationProcess(
@@ -44,7 +50,7 @@ export default yargs
           "",
           "",
           "watch",
-          { port: args.port },
+          { port: args.port, shouldOpen: args.open },
           args.verbose
         )
       );
