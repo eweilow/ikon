@@ -5,4 +5,4 @@ export { generateIcons } from "./render";
 export { IconGenerationComponent, IconGenerationComponentProps } from "./types";
 
 export { generateTags } from "./tags";
-export { loadFileAsDataURL } from "./media";
+export { mediaEvents, useFileAsDataURL } from "./media";
