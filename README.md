@@ -1,3 +1,5 @@
+![npm (scoped)](https://img.shields.io/npm/v/@eweilow/ikon-cli.svg)
+
 # Ikon (**work in progress**)
 
 Warning: this is a work in progress, so bugs might really occur. If you chose to use Ikon, please let me know if any issues arise.
