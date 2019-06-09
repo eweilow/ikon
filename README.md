@@ -1,4 +1,4 @@
-![npm (scoped)](https://img.shields.io/npm/v/@eweilow/ikon-cli.svg)
+[![npm (scoped)](https://img.shields.io/npm/v/@eweilow/ikon-cli.svg)](https://www.npmjs.com/package/@eweilow/ikon-cli)
 
 # Ikon (**work in progress**)
 
