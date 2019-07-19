@@ -1,4 +1,4 @@
-[![npm (scoped)](https://img.shields.io/npm/v/@eweilow/ikon-cli.svg)](https://www.npmjs.com/package/@eweilow/ikon-cli) [![Build Status](https://travis-ci.com/eweilow/ikon.svg?branch=master)](https://travis-ci.com/eweilow/ikon)
+[![npm (scoped)](https://img.shields.io/npm/v/@eweilow/ikon-cli.svg)](https://www.npmjs.com/package/@eweilow/ikon-cli) [![Build Status](https://travis-ci.com/eweilow/ikon.svg?branch=master)](https://travis-ci.com/eweilow/ikon) [![Greenkeeper badge](https://badges.greenkeeper.io/eweilow/ikon.svg)](https://greenkeeper.io/)
 
 # Ikon (**work in progress**)
 
