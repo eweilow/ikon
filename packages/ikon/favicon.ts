@@ -12,9 +12,7 @@ export async function generateFavicon(
     .filter(({ icon }) => icon.type === "favicon")
     .map(el => el.path);
 
-  const favicons = await Promise.all(
-    faviconPaths.map(filePath => promises.readFile(filePath))
-  );
+  const favicons = await Promise.all(faviconPaths.map(filePath => promises.readFile(filePath)));
   const favicon = await toIco(favicons);
   return favicon;
 }

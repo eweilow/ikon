@@ -14,11 +14,7 @@ export async function bootIconGenerationProcess(
   const script = join(__dirname, "../../process/index.ts");
 
   if (verbose) {
-    console.log(
-      "[ikon:master] Forking %s in %s",
-      script,
-      dirname(iconGenerator)
-    );
+    console.log("[ikon:master] Forking %s in %s", script, dirname(iconGenerator));
   }
   const worker = fork(script, [], {
     cwd: dirname(iconGenerator),
@@ -44,12 +40,8 @@ export async function bootIconGenerationProcess(
   });
 
   if (verbose) {
-    worker
-      .stdout!.pipe(prependTransform("[ikon:fork:out] "))
-      .pipe(process.stdout);
-    worker
-      .stderr!.pipe(prependTransform("[ikon:fork:err] "))
-      .pipe(process.stdout);
+    worker.stdout!.pipe(prependTransform("[ikon:fork:out] ")).pipe(process.stdout);
+    worker.stderr!.pipe(prependTransform("[ikon:fork:err] ")).pipe(process.stdout);
   } else {
     worker.stdout!.pipe(process.stdout);
     worker.stderr!.pipe(process.stdout);
@@ -62,11 +54,7 @@ export async function bootIconGenerationProcess(
   return new Promise<string[]>((resolve, reject) => {
     function didExit(code: number | null) {
       if (code !== null && code !== 0) {
-        return reject(
-          new Error(
-            `Icon build for generator '${iconGenerator}' exited with ${code}`
-          )
-        );
+        return reject(new Error(`Icon build for generator '${iconGenerator}' exited with ${code}`));
       }
       resolve(data);
     }

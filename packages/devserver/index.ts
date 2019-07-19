@@ -8,12 +8,7 @@ import { dirname, join } from "path";
 import { generateIconsHTML, generateTagsHTML } from "./html";
 export { generateTagsHTML, generateIconsHTML };
 
-
-export function startDevServer(
-  file: string,
-  wantedPort: number,
-  shouldOpen: boolean = true
-) {
+export function startDevServer(file: string, wantedPort: number, shouldOpen: boolean = true) {
   const dir = dirname(file);
   require("hot-module-replacement")({
     ignore: (s: string) => {
@@ -179,9 +174,7 @@ export function startDevServer(
       try {
         const src = await generateIcons(Component);
         res.write(
-          src
-            .replace("</body>", hotReloadTag + "</body>")
-            .replace("<html>", "<html>" + headTag)
+          src.replace("</body>", hotReloadTag + "</body>").replace("<html>", "<html>" + headTag)
         );
       } catch (err) {
         res.write("<pre>" + err.stack + "</pre>");

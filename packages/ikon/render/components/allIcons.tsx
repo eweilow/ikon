@@ -7,10 +7,7 @@ import {
   IPadStartScreens,
   IPhoneStartScreens
 } from "../../sizes";
-import {
-  IconGenerationComponent,
-  IconGenerationComponentProps
-} from "../../types";
+import { IconGenerationComponent, IconGenerationComponentProps } from "../../types";
 
 import { Html } from "./html";
 import { Icons } from "./icons";

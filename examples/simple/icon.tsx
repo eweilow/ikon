@@ -17,8 +17,7 @@ const Component: IconGenerationComponent = props => {
         width: "100%"
       }}
     >
-      {props.id}: {props.width}x{props.height}@
-      {(props.pixelRatio * 100).toFixed(0)}%
+      {props.id}: {props.width}x{props.height}@{(props.pixelRatio * 100).toFixed(0)}%
       <img
         src={html5}
         style={{
