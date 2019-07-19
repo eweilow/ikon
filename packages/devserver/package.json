@@ -24,11 +24,11 @@
   "dependencies": {
     "@eweilow/ikon": "^0.0.1-alpha.0",
     "hot-module-replacement": "3.0.3",
-    "open": "6.3.0"
+    "open": "6.4.0"
   },
   "devDependencies": {
-    "@types/node": "12.0.2",
-    "@types/open": "6.1.0"
+    "@types/node": "12.6.8",
+    "@types/open": "6.2.1"
   },
   "gitHead": "b7dc79987a794604c8538d3b9e9f2d17f8ab66da",
   "keywords": [
