@@ -69,6 +69,8 @@ dist/
 *.d.ts.map
 *.js.map
 
+.jest
+
 examples/simple/generated
 examples/simple/icons
 

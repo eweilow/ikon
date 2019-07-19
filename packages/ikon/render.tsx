@@ -5,6 +5,8 @@ import { renderToStaticMarkup } from "react-dom/server";
 import sharp from "sharp";
 
 import { resetMediaCache } from "./media";
+import { AllIcons } from "./render/components/allIcons";
+import { SingleIcon } from "./render/components/singleIcon";
 import {
   AndroidAppIconSizes,
   FaviconSizes,
@@ -12,8 +14,6 @@ import {
   IPadStartScreens,
   IPhoneStartScreens
 } from "./sizes";
-import { AllIcons } from "./render/components/allIcons";
-import { SingleIcon } from "./render/components/singleIcon";
 import { IconGenerationComponent, IconGenerationComponentProps } from "./types";
 
 export async function generateIcons(Component: IconGenerationComponent) {

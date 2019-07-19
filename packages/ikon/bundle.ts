@@ -1,13 +1,13 @@
 import { promises } from "fs";
-import { join } from "path";
 import mkdirp from "mkdirp";
+import { join } from "path";
 
 export async function bundleFiles(built: string[], outDir: string) {
   mkdirp.sync(outDir);
 
-  let typescript: string[] = [];
-  let javascript: string[] = [];
-  let icons: any[] = [];
+  const typescript: string[] = [];
+  const javascript: string[] = [];
+  const icons: any[] = [];
 
   typescript.push(`import React from "react"`);
   typescript.push(``);
@@ -20,6 +20,7 @@ export async function bundleFiles(built: string[], outDir: string) {
     const re = /([^\s=]+)=["']([^"']+)["']/g;
     const props: any = {};
     let match: any;
+    // tslint:disable-next-line:no-conditional-assignment
     while ((match = re.exec(icon)) != null) {
       const [, name, value] = match;
       props[name] = value;
@@ -53,8 +54,5 @@ export async function bundleFiles(built: string[], outDir: string) {
   await promises.writeFile(join(outDir, "icons.html"), built.join("\n"));
   await promises.writeFile(join(outDir, "icons.tsx"), typescript.join("\n"));
   await promises.writeFile(join(outDir, "icons.jsx"), javascript.join("\n"));
-  await promises.writeFile(
-    join(outDir, "icons.json"),
-    JSON.stringify(icons, null, "  ")
-  );
+  await promises.writeFile(join(outDir, "icons.json"), JSON.stringify(icons, null, "  "));
 }

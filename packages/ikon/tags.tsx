@@ -1,15 +1,15 @@
 import { Sema } from "async-sema";
-import { promises, existsSync } from "fs";
+import { existsSync, promises } from "fs";
 import hasha from "hasha";
+import mkdirp from "mkdirp";
 import { cpus } from "os";
 import { join } from "path";
 import puppeteer, { Browser, Page } from "puppeteer";
 
 import { generateFavicon } from "./favicon";
+import { getIcons, renderIcon } from "./render";
 import { DefaultAppIconName, DefaultLaunchScreenName } from "./sizes";
 import { IconGenerationComponent } from "./types";
-import { renderIcon, getIcons } from "./render";
-import mkdirp from "mkdirp";
 
 export async function generateTags(
   Component: IconGenerationComponent,
@@ -22,10 +22,7 @@ export async function generateTags(
 ) {
   mkdirp.sync(outDir);
 
-  const browsersCount = Math.min(
-    maxConcurrency,
-    Math.max(1, (cpus() || []).length)
-  );
+  const browsersCount = Math.min(maxConcurrency, Math.max(1, (cpus() || []).length));
   const pagesPerBrowser = 1;
 
   const sema = new Sema(browsersCount * pagesPerBrowser);
@@ -121,32 +118,24 @@ export async function generateTags(
                 icon.width
               }) and (device-height: ${icon.height}) and (orientation: ${
                 icon.width < icon.height ? "portrait" : "landscape"
-              }) and (-webkit-device-pixel-ratio: ${
-                icon.pixelRatio
-              })" href="${publicName}">`
+              }) and (-webkit-device-pixel-ratio: ${icon.pixelRatio})" href="${publicName}">`
             );
             if (icon.id === DefaultLaunchScreenName) {
-              tagDidComplete(
-                `<link rel="apple-touch-icon" href="${publicName}">`
-              );
+              tagDidComplete(`<link rel="apple-touch-icon" href="${publicName}">`);
             }
           } else {
             if (icon.name.includes("apple")) {
               tagDidComplete(
-                `<link rel="apple-touch-icon" sizes="${icon.width *
-                  icon.pixelRatio}x${icon.height *
+                `<link rel="apple-touch-icon" sizes="${icon.width * icon.pixelRatio}x${icon.height *
                   icon.pixelRatio}" href="${publicName}">`
               );
               if (icon.id === DefaultAppIconName) {
-                tagDidComplete(
-                  `<link rel="apple-touch-icon" href="${publicName}">`
-                );
+                tagDidComplete(`<link rel="apple-touch-icon" href="${publicName}">`);
               }
             } else {
               tagDidComplete(
                 `<link rel="icon" type="image/png" sizes="${icon.width *
-                  icon.pixelRatio}x${icon.height *
-                  icon.pixelRatio}" href="${publicName}">`
+                  icon.pixelRatio}x${icon.height * icon.pixelRatio}" href="${publicName}">`
               );
             }
           }
@@ -168,14 +157,8 @@ export async function generateTags(
         encoding: "hex"
       }).slice(0, 8);
 
-    tagDidComplete(
-      `<link rel="shortcut icon" href="${publicPath}/favicon.ico${faviconHash}">`
-    );
-    imageDidComplete(
-      faviconName,
-      favicon,
-      `${publicPath}/favicon.ico${faviconHash}`
-    );
+    tagDidComplete(`<link rel="shortcut icon" href="${publicPath}/favicon.ico${faviconHash}">`);
+    imageDidComplete(faviconName, favicon, `${publicPath}/favicon.ico${faviconHash}`);
   } finally {
     for (const browser of browsers) {
       await browser.close();

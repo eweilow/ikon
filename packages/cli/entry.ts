@@ -1,9 +1,9 @@
-import yargs from "yargs";
-import { bootIconGenerationProcess } from "./boot";
 import { join } from "path";
-import { handlePromise } from "./handle";
-import { bundleFiles } from "@eweilow/ikon";
+import yargs from "yargs";
 
+import { handlePromise } from "./handle";
+
+// tslint:disable-next-line:no-var-requires
 const { version: packageVersion } = require("../../package.json");
 
 export default yargs
@@ -43,6 +43,7 @@ export default yargs
           default: true
         }),
     args => {
+      const { bootIconGenerationProcess } = require("./boot");
       handlePromise(
         bootIconGenerationProcess(
           join(process.cwd(), args.file),
@@ -76,6 +77,7 @@ export default yargs
         })
         .demandOption("generationDir"),
     args => {
+      const { bootIconGenerationProcess } = require("./boot");
       handlePromise(
         bootIconGenerationProcess(
           join(process.cwd(), args.file),
@@ -85,9 +87,10 @@ export default yargs
           "build",
           {},
           args.verbose
-        ).then(built =>
-          bundleFiles(built, join(process.cwd(), args.generationDir))
-        )
+        ).then(built => {
+          const { bundleFiles } = require("@eweilow/ikon");
+          return bundleFiles(built, join(process.cwd(), args.generationDir));
+        })
       );
     }
   )
@@ -111,6 +114,7 @@ export default yargs
         })
         .demandOption("outDir"),
     args => {
+      const { bootIconGenerationProcess } = require("./boot");
       handlePromise(
         bootIconGenerationProcess(
           join(process.cwd(), args.file),
