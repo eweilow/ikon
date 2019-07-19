@@ -1,4 +1,1 @@
-export {
-  IconGenerationComponent,
-  IconGenerationComponentProps
-} from "@eweilow/ikon";
+export { IconGenerationComponent, IconGenerationComponentProps } from "@eweilow/ikon";

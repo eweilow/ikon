@@ -1,9 +1,7 @@
 import React from "react";
 
-import {
-  IconGenerationComponent,
-  IconGenerationComponentProps
-} from "../../types";
+import { IconGenerationComponent, IconGenerationComponentProps } from "../../types";
+
 import { Html } from "./html";
 
 export const SingleIcon: React.FC<{

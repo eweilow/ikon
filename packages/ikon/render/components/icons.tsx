@@ -1,8 +1,6 @@
 import React from "react";
-import {
-  IconGenerationComponentProps,
-  IconGenerationComponent
-} from "../../types";
+
+import { IconGenerationComponent, IconGenerationComponentProps } from "../../types";
 
 export const Icons: React.FC<{
   icons: IconGenerationComponentProps[];
@@ -39,14 +37,8 @@ export const Icons: React.FC<{
             margin: 16,
             background: "#f5f5f5",
             borderRadius: 2,
-            borderTopLeftRadius: Math.max(
-              2,
-              size.pixelRatio * props.borderRadius * size.width
-            ),
-            borderTopRightRadius: Math.max(
-              2,
-              size.pixelRatio * props.borderRadius * size.width
-            ),
+            borderTopLeftRadius: Math.max(2, size.pixelRatio * props.borderRadius * size.width),
+            borderTopRightRadius: Math.max(2, size.pixelRatio * props.borderRadius * size.width),
             boxShadow: "0px 2px 12px #0000000f, 0px 2px 4px #0000000d",
             position: "relative"
           }}
@@ -57,9 +49,8 @@ export const Icons: React.FC<{
               position: "absolute",
               top: props.scale * size.height * 0.5,
               left: props.scale * size.width * 0.5,
-              transform: ` scale(${props.scale /
-                size.pixelRatio}) translate(-${50 * size.pixelRatio}%, -${50 *
-                size.pixelRatio}%)`,
+              transform: ` scale(${props.scale / size.pixelRatio}) translate(-${50 *
+                size.pixelRatio}%, -${50 * size.pixelRatio}%)`,
               transformOrigin: "center",
               width: size.width * size.pixelRatio,
               height: size.height * size.pixelRatio,
@@ -86,12 +77,8 @@ export const Icons: React.FC<{
               padding: "0 8px"
             }}
           >
-            {size.width !== size.height
-              ? `${size.width}x${size.height}`
-              : size.width}
-            {size.pixelRatio > 1
-              ? " @ " + size.pixelRatio.toFixed(2) + "x"
-              : null}
+            {size.width !== size.height ? `${size.width}x${size.height}` : size.width}
+            {size.pixelRatio > 1 ? " @ " + size.pixelRatio.toFixed(2) + "x" : null}
           </footer>
         </div>
       ))}

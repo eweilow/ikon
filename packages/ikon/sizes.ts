@@ -11,8 +11,7 @@ const startScreen = (
   pixelRatio: number
 ) =>
   ({
-    id:
-      id != null ? id : `${name}-${width * pixelRatio}-${height * pixelRatio}`,
+    id: id != null ? id : `${name}-${width * pixelRatio}-${height * pixelRatio}`,
     name,
     width,
     height,
@@ -21,12 +20,7 @@ const startScreen = (
   } as IconGenerationComponentProps);
 
 const iconBaseSize = 128;
-const icon = (
-  key: string,
-  name: string,
-  size: number,
-  type: string = "icon"
-) => {
+const icon = (key: string, name: string, size: number, type: string = "icon") => {
   const startScreenData = startScreen(
     key === "apple-touch-icon.png" || key === "apple-touch-icon-precomposed.png"
       ? key.split(".")[0]

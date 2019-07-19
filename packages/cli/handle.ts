@@ -1,7 +1,4 @@
-export async function handlePromise(
-  promise: Promise<any>,
-  exit: boolean = true
-) {
+export async function handlePromise(promise: Promise<any>, exit: boolean = true) {
   try {
     await promise;
     const chalk = require("chalk");

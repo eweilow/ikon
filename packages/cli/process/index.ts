@@ -1,5 +1,5 @@
-import { devProcess } from "./dev";
 import { buildProcess, htmlProcess } from "./build";
+import { devProcess } from "./dev";
 
 async function main() {
   const args = JSON.parse(process.env!.IKON_ARGS || "{}");

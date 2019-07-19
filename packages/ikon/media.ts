@@ -1,6 +1,6 @@
 import Datauri from "datauri";
-import { join } from "path";
 import { EventEmitter } from "events";
+import { join } from "path";
 
 export const mediaEvents = new EventEmitter();
 

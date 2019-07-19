@@ -1,19 +1,14 @@
+import { IconGenerationComponent } from "@eweilow/ikon";
+import { EventEmitter } from "events";
+import { FSWatcher, unwatchFile, watch, watchFile } from "fs";
 import { createServer } from "http";
+import open from "open";
+import { dirname, join } from "path";
 
-import { generateTagsHTML, generateIconsHTML } from "./html";
+import { generateIconsHTML, generateTagsHTML } from "./html";
 export { generateTagsHTML, generateIconsHTML };
 
-import { IconGenerationComponent } from "@eweilow/ikon";
-import { join, dirname } from "path";
-import open from "open";
-import { EventEmitter } from "events";
-import { watchFile, unwatchFile, watch, FSWatcher } from "fs";
-
-export function startDevServer(
-  file: string,
-  wantedPort: number,
-  shouldOpen: boolean = true
-) {
+export function startDevServer(file: string, wantedPort: number, shouldOpen: boolean = true) {
   const dir = dirname(file);
   require("hot-module-replacement")({
     ignore: (s: string) => {
@@ -27,7 +22,7 @@ export function startDevServer(
   const { attemptStartServer } = require("./start") as typeof import("./start");
 
   let Component: IconGenerationComponent = require(file).default;
-  let ikon: typeof import("@eweilow/ikon") = require("@eweilow/ikon");
+  const ikon: typeof import("@eweilow/ikon") = require("@eweilow/ikon");
   const { generateIcons, mediaEvents } = ikon;
 
   const hotEvents = new EventEmitter();
@@ -179,9 +174,7 @@ export function startDevServer(
       try {
         const src = await generateIcons(Component);
         res.write(
-          src
-            .replace("</body>", hotReloadTag + "</body>")
-            .replace("<html>", "<html>" + headTag)
+          src.replace("</body>", hotReloadTag + "</body>").replace("<html>", "<html>" + headTag)
         );
       } catch (err) {
         res.write("<pre>" + err.stack + "</pre>");

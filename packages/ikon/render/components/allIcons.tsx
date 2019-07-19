@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Html } from "./html";
-
 import {
   AndroidAppIconSizes,
   FaviconSizes,
@@ -9,12 +7,10 @@ import {
   IPadStartScreens,
   IPhoneStartScreens
 } from "../../sizes";
+import { IconGenerationComponent, IconGenerationComponentProps } from "../../types";
 
+import { Html } from "./html";
 import { Icons } from "./icons";
-import {
-  IconGenerationComponent,
-  IconGenerationComponentProps
-} from "../../types";
 
 const rotate = (icons: IconGenerationComponentProps[]) =>
   icons.map(icon => ({

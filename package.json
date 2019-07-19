@@ -8,7 +8,11 @@
     "build-ts-watch": "yarn build-ts --watch",
     "now-build": "yarn build-ts --verbose && yarn workspace @eweilow/ikon-examples-basic run now-prepare",
     "now-deploy": "yarn now-build && now --target production",
-    "publish-prerelease": "lerna publish prerelease --dist-tag latest"
+    "publish-prerelease": "lerna publish prerelease --dist-tag latest",
+    "check-style": "prettier -c **/*.{ts,tsx}",
+    "check-lint": "tslint -c tslint.json --project tsconfig.base.json",
+    "check-unit": "jest --coverage --runInBand",
+    "test": "yarn check-style && yarn check-lint && yarn check-unit"
   },
   "repository": {
     "type": "git",
@@ -30,9 +34,18 @@
   },
   "homepage": "https://github.com/eweilow/ikon#readme",
   "devDependencies": {
+    "@eweilow/ts-jest-fork": "24.0.1-test",
+    "@types/jest": "^24.0.15",
+    "@types/jest-image-snapshot": "2.8.0",
+    "@types/node": "12.6.8",
+    "@types/prettier": "^1.18.0",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "jest-image-snapshot": "2.9.0",
     "lerna": "3.10.7",
     "prettier": "1.16.4",
     "tslint": "^5.12.1",
+    "tslint-config-prettier": "1.18.0",
     "typescript": "3.4.1"
   }
 }

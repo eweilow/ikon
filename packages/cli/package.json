@@ -29,7 +29,9 @@
   },
   "devDependencies": {
     "@types/node": "12.0.2",
-    "@types/yargs": "12.0.9"
+    "@types/yargs": "12.0.9",
+    "tmp-promise": "2.0.2",
+    "tmp": "0.1.0"
   },
   "gitHead": "b7dc79987a794604c8538d3b9e9f2d17f8ab66da",
   "keywords": [

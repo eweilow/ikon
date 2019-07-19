@@ -1,0 +1,23 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "interface-over-type-literal": false,
+    "member-access": [true, "no-public"],
+    "member-ordering": false,
+    "trailing-comma": [true, "never"],
+    "no-console": false,
+    "ordered-imports": [
+      true,
+      {
+        "named-imports-order": "lowercase-last",
+        "import-sources-order": "case-insensitive",
+        "grouped-imports": true,
+        "module-source-path": "full"
+      }
+    ],
+    "variable-name": [true, "ban-keywords"],
+    "object-literal-sort-keys": false,
+    "no-object-literal-type-assertion": false,
+    "no-empty": false
+  }
+}

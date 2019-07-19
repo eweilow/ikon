@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateIconsHTML renders correctly 1`] = `
+"<html><body>
+<img src=\\"//favicon-16-16.png?h=06804237\\"/>
+
+<img src=\\"//favicon-24-24.png?h=2b2416ce\\"/>
+
+<img src=\\"//favicon-32-32.png?h=4beb1a43\\"/>
+
+<img src=\\"//favicon-48-48.png?h=ed5e3b95\\"/>
+
+<img src=\\"//favicon-64-64.png?h=2c887f6d\\"/>
+
+<img src=\\"//favicon-72-72.png?h=11bca9f8\\"/>
+
+<img src=\\"//favicon-96-96.png?h=c982d080\\"/>
+
+<img src=\\"//favicon-128-128.png?h=7fd1e436\\"/>
+
+<img src=\\"//android-chrome-36-36.png?h=2418a4a3\\"/>
+
+<img src=\\"//android-chrome-48-48.png?h=ed5e3b95\\"/>
+
+<img src=\\"//android-chrome-72-72.png?h=11bca9f8\\"/>
+
+<img src=\\"//android-chrome-96-96.png?h=c982d080\\"/>
+
+<img src=\\"//android-chrome-144-144.png?h=2fd1dee9\\"/>
+
+<img src=\\"//android-chrome-192-192.png?h=b71edbe2\\"/>
+
+<img src=\\"//android-chrome-256-256.png?h=b3db4b56\\"/>
+
+<img src=\\"//android-chrome-384-384.png?h=687240c7\\"/>
+
+<img src=\\"//android-chrome-512-512.png?h=aad27010\\"/>
+
+<img src=\\"//apple-touch-icon-57-57.png?h=c6bce9e9\\"/>
+
+<img src=\\"//apple-touch-icon-60-60.png?h=ad141b83\\"/>
+
+<img src=\\"//apple-touch-icon-72-72.png?h=11bca9f8\\"/>
+
+<img src=\\"//apple-touch-icon-76-76.png?h=833e8747\\"/>
+
+<img src=\\"//apple-touch-icon-114-114.png?h=9c295d64\\"/>
+
+<img src=\\"//apple-touch-icon-120-120.png?h=40259424\\"/>
+
+<img src=\\"//apple-touch-icon-144-144.png?h=2fd1dee9\\"/>
+
+<img src=\\"//apple-touch-icon-152-152.png?h=777fee3d\\"/>
+
+<img src=\\"//apple-touch-icon-167-167.png?h=6be670f9\\"/>
+
+<img src=\\"//apple-touch-icon-180-180.png?h=cf34fc39\\"/>
+
+<img src=\\"//apple-touch-icon.png?h=cf34fc39\\"/>
+
+<img src=\\"//apple-touch-icon-precomposed.png?h=cf34fc39\\"/>
+
+<img src=\\"//apple-touch-icon-1024-1024.png?h=b8283de9\\"/>
+
+<img src=\\"//apple-touch-icon-512-512.png?h=aad27010\\"/>
+
+<img src=\\"//apple-launch-xs-max-1242-2688.png?h=b9b4b54d\\"/>
+
+<img src=\\"//apple-launch-xr-828-1792.png?h=082bbf50\\"/>
+
+<img src=\\"//apple-launch-xs-1125-2436.png?h=8622ebb9\\"/>
+
+<img src=\\"//apple-launch-8-plus-1242-2208.png?h=8f68b921\\"/>
+
+<img src=\\"//apple-launch-8-752-1334.png?h=dfff9205\\"/>
+
+<img src=\\"//apple-launch-screen-default.png?h=294216d0\\"/>
+
+<img src=\\"//apple-launch-ipad-pro-xl-2048-2732.png?h=1cd6efa6\\"/>
+
+<img src=\\"//apple-launch-ipad-pro-1668-2388.png?h=d4ea21ac\\"/>
+
+<img src=\\"//apple-launch-ipad-pro-s-1668-2224.png?h=35f51b1e\\"/>
+
+<img src=\\"//apple-launch-ipad-air-1536-2048.png?h=250bc275\\"/>
+
+<img src=\\"//favicon.ico?h=5f6bd7c9\\"/>
+
+
+</body></html>"
+`;

@@ -1,6 +1,6 @@
-import React from "react";
-import { IconGenerationComponent } from "@eweilow/ikon-cli";
 import { useFileAsDataURL } from "@eweilow/ikon";
+import { IconGenerationComponent } from "@eweilow/ikon-cli";
+import React from "react";
 
 const Component: IconGenerationComponent = props => {
   const html5 = useFileAsDataURL("./html5.svg");
@@ -17,8 +17,7 @@ const Component: IconGenerationComponent = props => {
         width: "100%"
       }}
     >
-      {props.id}: {props.width}x{props.height}@
-      {(props.pixelRatio * 100).toFixed(0)}%
+      {props.id}: {props.width}x{props.height}@{(props.pixelRatio * 100).toFixed(0)}%
       <img
         src={html5}
         style={{

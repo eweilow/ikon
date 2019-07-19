@@ -2,6 +2,8 @@
 
 "use strict";
 
+console.log("hi");
+/*
 require("source-map-support").install();
 delete process.env.SHOULD_USE_TSNODE;
 
@@ -13,10 +15,11 @@ try {
 } catch (err) {}
 if (resolved == null) {
   try {
-    resolved = require.resolve("@eweilow/ikon/dist/cjs/entry");
+    resolved = require.resolve("@eweilow/ikon-cli/dist/cjs/entry");
   } catch (err) {}
 }
 if (resolved == null) {
-  throw new Error("Could not find @eweilow/ikon");
+  throw new Error("Could not find @eweilow/ikon-cli");
 }
 require(resolved);
+*/
