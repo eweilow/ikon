@@ -9,14 +9,15 @@ export async function generateTagsHTML(
   write: StreamWriter,
   outDir: string,
   publicPath: string,
-  extraBodyContent: string = ""
+  extraBodyContent: string = "",
+  concurrency: number = 4
 ) {
   write(`<html><body><pre>`);
   await generateTags(
     Component,
     publicPath,
     outDir,
-    4,
+    concurrency,
     tag => write(tag.replace(/</g, "&lt;").replace(/>/g, "&gt;") + "\n"),
     undefined,
     true
@@ -32,14 +33,15 @@ export async function generateIconsHTML(
   outDir: string,
   publicPath: string,
   useRealFiles: boolean,
-  extraBodyContent: string = ""
+  extraBodyContent: string = "",
+  concurrency: number = 4
 ) {
   write(`<html><body>`);
   await generateTags(
     Component,
     publicPath,
     outDir,
-    4,
+    concurrency,
     undefined,
     (name, image, publicName) => {
       let src!: string;
