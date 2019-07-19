@@ -1,4 +1,4 @@
-import { generateTags, IconGenerationComponent } from "@eweilow/ikon";
+import { IconGenerationComponent, generateTags } from "@eweilow/ikon";
 import Datauri from "datauri";
 import { extname } from "path";
 

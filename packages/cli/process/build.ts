@@ -1,6 +1,6 @@
+import { generateIcons } from "@eweilow/ikon";
 import { createWriteStream } from "fs";
 import { join } from "path";
-import { generateIcons } from "@eweilow/ikon";
 
 export async function buildProcess(args: any) {
   const {

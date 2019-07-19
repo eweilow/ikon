@@ -1,5 +1,6 @@
 import { promises } from "fs";
 import toIco from "to-ico";
+
 import { IconGenerationComponentProps } from "./types";
 
 export async function generateFavicon(

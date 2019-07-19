@@ -4,6 +4,7 @@ import {
   IconGenerationComponent,
   IconGenerationComponentProps
 } from "../../types";
+
 import { Html } from "./html";
 
 export const SingleIcon: React.FC<{

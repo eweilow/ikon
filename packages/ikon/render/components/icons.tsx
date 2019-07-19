@@ -1,7 +1,8 @@
 import React from "react";
+
 import {
-  IconGenerationComponentProps,
-  IconGenerationComponent
+  IconGenerationComponent,
+  IconGenerationComponentProps
 } from "../../types";
 
 export const Icons: React.FC<{
