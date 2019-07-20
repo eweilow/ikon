@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/eweilow/ikon#readme",
   "dependencies": {
-    "@eweilow/ikon-cli": "0.0.1-alpha.0"
+    "@eweilow/ikon-cli": "^0.0.1-alpha.1"
   }
 }
