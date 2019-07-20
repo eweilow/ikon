@@ -2,8 +2,6 @@
 
 "use strict";
 
-console.log("hi");
-/*
 require("source-map-support").install();
 delete process.env.SHOULD_USE_TSNODE;
 
@@ -22,4 +20,3 @@ if (resolved == null) {
   throw new Error("Could not find @eweilow/ikon-cli");
 }
 require(resolved);
-*/
