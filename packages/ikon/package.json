@@ -42,7 +42,7 @@
     "@types/react-dom": "16.8.4",
     "@types/sharp": "0.22.2",
     "@types/yargs": "13.0.0",
-    "puppeteer": "1.18.1",
+    "puppeteer": "1.19.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "styled-jsx": "3.2.1"
