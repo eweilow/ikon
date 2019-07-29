@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@types/node": "12.6.8",
-    "@types/yargs": "13.0.0",
+    "@types/yargs": "13.0.1",
     "tmp": "0.1.0",
     "tmp-promise": "2.0.2"
   },
