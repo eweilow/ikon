@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/eweilow/ikon.svg?branch=master)](https://travis-ci.com/eweilow/ikon)
 [![npm (scoped)](https://img.shields.io/npm/v/@eweilow/ikon-cli.svg)](https://www.npmjs.com/package/@eweilow/ikon-cli)
-[![Greenkeeper badge](https://badges.greenkeeper.io/eweilow/ikon.svg)](https://greenkeeper.io/)
+[![Renovate badge](https://badges.renovateapi.com/github/eweilow/ikon)](https://renovatebot.com/)
 
 # Ikon (**work in progress**)
 
