@@ -38,7 +38,7 @@
     "@types/mkdirp": "0.5.2",
     "@types/node": "12.6.8",
     "@types/puppeteer": "1.19.0",
-    "@types/react": "16.8.23",
+    "@types/react": "16.8.24",
     "@types/react-dom": "16.8.5",
     "@types/sharp": "0.22.2",
     "@types/yargs": "13.0.1",
