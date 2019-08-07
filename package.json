@@ -35,9 +35,9 @@
   "homepage": "https://github.com/eweilow/ikon#readme",
   "devDependencies": {
     "@eweilow/ts-jest-fork": "24.0.1-test",
-    "@types/jest": "^24.0.16",
+    "@types/jest": "^24.0.17",
     "@types/jest-image-snapshot": "2.8.0",
-    "@types/node": "12.6.9",
+    "@types/node": "12.7.1",
     "@types/prettier": "^1.18.1",
     "babel-jest": "24.8.0",
     "jest": "24.8.0",
