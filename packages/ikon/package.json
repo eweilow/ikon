@@ -38,19 +38,19 @@
     "@types/mkdirp": "0.5.2",
     "@types/node": "12.6.9",
     "@types/puppeteer": "1.19.0",
-    "@types/react": "16.8.24",
+    "@types/react": "16.9.0",
     "@types/react-dom": "16.8.5",
     "@types/sharp": "0.22.2",
     "@types/yargs": "13.0.2",
     "puppeteer": "1.19.0",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
     "styled-jsx": "3.2.1"
   },
   "peerDependencies": {
     "puppeteer": "^1.19.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "gitHead": "b7dc79987a794604c8538d3b9e9f2d17f8ab66da",
   "keywords": [
