@@ -20,9 +20,9 @@
   "homepage": "https://github.com/eweilow/ikon",
   "dependencies": {
     "async-sema": "3.0.0",
-    "chalk": "2.4.2",
+    "chalk": "3.0.0",
     "datauri": "2.0.0",
-    "favicons": "5.4.1",
+    "favicons": "6.0.0",
     "hasha": "5.0.0",
     "mkdirp": "0.5.1",
     "prepend-transform": "0.0.1019",
@@ -36,21 +36,21 @@
   "devDependencies": {
     "@types/hasha": "3.0.1",
     "@types/mkdirp": "0.5.2",
-    "@types/node": "12.7.1",
+    "@types/node": "12.12.27",
     "@types/puppeteer": "1.19.0",
-    "@types/react": "16.9.0",
-    "@types/react-dom": "16.8.5",
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
     "@types/sharp": "0.24.0",
-    "@types/yargs": "13.0.2",
+    "@types/yargs": "13.0.8",
     "puppeteer": "1.19.0",
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
     "styled-jsx": "3.2.1"
   },
   "peerDependencies": {
     "puppeteer": "^1.19.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "gitHead": "b7dc79987a794604c8538d3b9e9f2d17f8ab66da",
   "keywords": [
