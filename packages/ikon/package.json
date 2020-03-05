@@ -22,7 +22,7 @@
     "async-sema": "3.0.0",
     "chalk": "2.4.2",
     "datauri": "2.0.0",
-    "favicons": "5.4.1",
+    "favicons": "6.0.0",
     "hasha": "5.0.0",
     "mkdirp": "0.5.1",
     "prepend-transform": "0.0.1019",
