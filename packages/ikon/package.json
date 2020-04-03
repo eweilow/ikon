@@ -24,7 +24,7 @@
     "datauri": "2.0.0",
     "favicons": "6.0.0",
     "hasha": "5.0.0",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.4",
     "prepend-transform": "0.0.1019",
     "pretty-error": "2.1.1",
     "sharp": "0.24.1",
