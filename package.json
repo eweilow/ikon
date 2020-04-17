@@ -41,7 +41,7 @@
     "@types/prettier": "^1.19.0",
     "babel-jest": "24.8.0",
     "jest": "24.8.0",
-    "jest-image-snapshot": "2.9.0",
+    "jest-image-snapshot": "3.1.0",
     "lerna": "3.16.4",
     "prettier": "1.18.2",
     "tslint": "^5.18.0",
