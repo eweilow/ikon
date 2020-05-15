@@ -36,9 +36,9 @@
   "devDependencies": {
     "@eweilow/ts-jest-fork": "24.0.1-test",
     "@types/jest": "^24.9.1",
-    "@types/jest-image-snapshot": "2.11.1",
-    "@types/node": "12.12.27",
-    "@types/prettier": "^1.19.0",
+    "@types/jest-image-snapshot": "2.12.1",
+    "@types/node": "12.12.39",
+    "@types/prettier": "^1.19.1",
     "babel-jest": "24.8.0",
     "jest": "24.8.0",
     "jest-image-snapshot": "2.9.0",
