@@ -27,10 +27,11 @@
     "mkdirp": "0.5.1",
     "prepend-transform": "0.0.1019",
     "pretty-error": "2.1.1",
-    "sharp": "0.24.1",
+    "sharp": "^0.25.3",
     "source-map-support": "0.5.13",
     "to-ico": "1.1.5",
-    "ts-node": "8.3.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3",
     "yargs": "13.3.0"
   },
   "devDependencies": {
