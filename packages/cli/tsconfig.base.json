@@ -9,9 +9,7 @@
     "**/*.d.ts",
     "*.d.ts",
     "*.test.ts",
-    "process/index.ts",
-    "process/build.ts",
-    "process/dev.ts"
+    "process/index.ts"
   ],
   "extends": "../../tsconfig.base.json"
 }
