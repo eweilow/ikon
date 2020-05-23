@@ -25,7 +25,7 @@
     "@eweilow/ikon": "^0.0.1-alpha.5",
     "@eweilow/ikon-devserver": "^0.0.1-alpha.5",
     "source-map-support": "^0.5.19",
-    "ts-node": "^8.10.1",
+    "ts-node": "^8.3.0",
     "typescript": "^3.9.3",
     "yargs": "13.3.0"
   },
