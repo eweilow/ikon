@@ -40,7 +40,7 @@
     "@types/jest-image-snapshot": "^3.1.0",
     "@types/node": "^14.0.5",
     "@types/prettier": "^2.0.1",
-    "babel-jest": "24.8.0",
+    "babel-jest": "25.5.1",
     "jest": "24.8.0",
     "jest-image-snapshot": "2.9.0",
     "lerna": "3.16.4",
