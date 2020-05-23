@@ -65,7 +65,7 @@ export async function bootIconGenerationProcess(
     const data: string[] = [];
     worker.on("message", message => {
       if (mode === "build") {
-        data.push(message);
+        data.push(message as any);
 
         if (verbose) {
           console.log("[ikon:master] generated %s", message);
