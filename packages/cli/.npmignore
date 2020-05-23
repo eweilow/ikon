@@ -12,6 +12,4 @@ tsconfig.*.json
 *.tsbuildinfo
 !tsconfig.process.json
 
-dist/cjs/process/**
-dist/esm/process/**
 !process/index.ts
