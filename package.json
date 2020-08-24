@@ -36,7 +36,7 @@
   "devDependencies": {
     "@eweilow/paket-cli": "^0.0.1-alpha.6",
     "@eweilow/ts-jest-fork": "24.0.1-test",
-    "@types/jest": "^25.2.3",
+    "@types/jest": "^26.0.10",
     "@types/jest-image-snapshot": "^3.1.0",
     "@types/node": "^14.0.5",
     "@types/prettier": "^2.0.1",
