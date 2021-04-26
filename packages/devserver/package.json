@@ -23,7 +23,7 @@
   "homepage": "https://github.com/eweilow/ikon",
   "dependencies": {
     "@eweilow/ikon": "^0.0.1-alpha.6",
-    "hot-module-replacement": "3.0.3",
+    "hot-module-replacement": "3.0.4",
     "open": "6.4.0"
   },
   "devDependencies": {
