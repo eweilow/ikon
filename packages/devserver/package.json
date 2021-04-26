@@ -24,7 +24,7 @@
   "dependencies": {
     "@eweilow/ikon": "^0.0.1-alpha.6",
     "hot-module-replacement": "3.0.3",
-    "open": "6.4.0"
+    "open": "7.4.2"
   },
   "devDependencies": {
     "@types/node": "^14.0.5",
