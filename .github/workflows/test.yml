@@ -1,8 +1,6 @@
-name: Tools/Tests
+name: Test
 on: push
-defaults:
-  run:
-    working-directory: tools
+
 jobs:
   test:
     name: "Run Unit Tests"
