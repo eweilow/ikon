@@ -1,0 +1,61 @@
+name: Tools/Tests
+on: push
+defaults:
+  run:
+    working-directory: tools
+jobs:
+  test:
+    name: "Run Unit Tests"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Run tests
+        run: yarn check-unit --ci
+
+  check-format:
+    name: "Check formatting"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Run tests
+        run: yarn check-style
+
+  check-lint:
+    name: "Check linting"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Run tests
+        run: yarn check-lint
+
+  check-build:
+    name: "Check build"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Run build
+        run: yarn build-ts
