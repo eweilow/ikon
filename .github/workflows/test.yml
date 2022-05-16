@@ -3,57 +3,30 @@ on: push
 
 jobs:
   test:
-    name: "Run Unit Tests"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16.x
-      - name: Install dependencies
-        run: yarn install --immutable
-      - name: Run tests
-        run: yarn check-unit --ci
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        nodejs: [16.x, 18.x]
 
-  check-format:
-    name: "Check formatting"
-    runs-on: ubuntu-latest
+    name: "Test"
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: 16.x
+          node-version: ${{ matrix.nodejs }}
       - name: Install dependencies
         run: yarn install --immutable
-      - name: Run tests
-        run: yarn check-style
 
-  check-lint:
-    name: "Check linting"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16.x
-      - name: Install dependencies
-        run: yarn install --immutable
-      - name: Run tests
-        run: yarn check-lint
-
-  check-build:
-    name: "Check build"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16.x
-      - name: Install dependencies
-        run: yarn install --immutable
       - name: Run build
         run: yarn build-ts
+
+      - name: Check style
+        run: yarn check-style
+
+      - name: Run lint
+        run: yarn check-lint
+
+      - name: Run tests
+        run: yarn check-unit --ci
