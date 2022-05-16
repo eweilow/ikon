@@ -48,5 +48,6 @@
     "tslint": "^5.18.0",
     "tslint-config-prettier": "1.18.0",
     "typescript": "^3.9.3"
-  }
+  },
+  "packageManager": "yarn@3.2.1"
 }
