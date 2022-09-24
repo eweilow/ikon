@@ -2,7 +2,7 @@ import { ChildProcess, spawn } from "child_process";
 import { join } from "path";
 
 export function wrapCommand<T extends { [key: string]: string }>(cmd: string, cwd: string, env: T) {
-  let childProcess: ChildProcess;
+  let childProcess: ChildProcess | null = null;
 
   function start() {
     const nodeExec = process.env.npm_node_execpath || process.execPath;
@@ -14,10 +14,11 @@ export function wrapCommand<T extends { [key: string]: string }>(cmd: string, cw
   }
 
   function stopped() {
-    return new Promise((resolve, reject) => {
+    return new Promise<void>((resolve, reject) => {
       if (childProcess == null) {
-        resolve();
+        return resolve();
       }
+
       childProcess.on("error", err => reject(err));
 
       childProcess.on("exit", code => {
@@ -52,15 +53,15 @@ export function wrapCommand<T extends { [key: string]: string }>(cmd: string, cw
       if (childProcess == null) {
         throw new Error("childProcess is null!");
       }
-      return new Promise((resolve, reject) => {
+      return new Promise<void>((resolve, reject) => {
         const listener = data => {
           if (data.toString().indexOf(forStr) >= 0) {
-            childProcess.stdout.off("data", listener);
+            childProcess?.stdout?.off("data", listener);
             resolve();
           }
         };
-        childProcess.stdout.on("data", listener);
-        childProcess.on("exit", code => {
+        childProcess?.stdout?.on("data", listener);
+        childProcess?.on("exit", code => {
           if (code !== 0) {
             reject("Exited with code " + code);
           }
@@ -80,12 +81,12 @@ export function wrapCommand<T extends { [key: string]: string }>(cmd: string, cw
         err(data.toString());
         console.error(data.toString());
       };
-      childProcess.stdout.on("data", currentOutFn);
-      childProcess.stderr.on("data", currentErrFn);
+      childProcess?.stdout?.on("data", currentOutFn);
+      childProcess?.stderr?.on("data", currentErrFn);
     },
     unpipe() {
-      childProcess.stdout.off("data", currentOutFn);
-      childProcess.stderr.off("data", currentErrFn);
+      childProcess?.stdout?.off("data", currentOutFn);
+      childProcess?.stderr?.off("data", currentErrFn);
     },
     stopped
   };
