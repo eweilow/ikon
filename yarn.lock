@@ -417,12 +417,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eweilow/ikon-cli@^0.0.1-alpha.8, @eweilow/ikon-cli@workspace:packages/cli":
+"@eweilow/ikon-cli@^0.0.1-alpha.9, @eweilow/ikon-cli@workspace:packages/cli":
   version: 0.0.0-use.local
   resolution: "@eweilow/ikon-cli@workspace:packages/cli"
   dependencies:
-    "@eweilow/ikon": ^0.0.1-alpha.6
-    "@eweilow/ikon-devserver": ^0.0.1-alpha.6
+    "@eweilow/ikon": ^0.0.1-alpha.9
+    "@eweilow/ikon-devserver": ^0.0.1-alpha.9
     "@types/node": ^18.7.19
     "@types/yargs": ^17.0.13
     source-map-support: ^0.5.21
@@ -436,11 +436,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eweilow/ikon-devserver@^0.0.1-alpha.6, @eweilow/ikon-devserver@workspace:packages/devserver":
+"@eweilow/ikon-devserver@^0.0.1-alpha.9, @eweilow/ikon-devserver@workspace:packages/devserver":
   version: 0.0.0-use.local
   resolution: "@eweilow/ikon-devserver@workspace:packages/devserver"
   dependencies:
-    "@eweilow/ikon": ^0.0.1-alpha.6
+    "@eweilow/ikon": ^0.0.1-alpha.9
     "@types/node": ^18.7.19
     "@types/open": ^6.2.1
     hot-module-replacement: ^3.0.4
@@ -454,7 +454,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eweilow/ikon-examples-basic@workspace:examples/simple"
   dependencies:
-    "@eweilow/ikon-cli": ^0.0.1-alpha.8
+    "@eweilow/ikon-cli": ^0.0.1-alpha.9
   languageName: unknown
   linkType: soft
 
@@ -479,7 +479,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eweilow/ikon@^0.0.1-alpha.6, @eweilow/ikon@workspace:packages/ikon":
+"@eweilow/ikon@^0.0.1-alpha.9, @eweilow/ikon@workspace:packages/ikon":
   version: 0.0.0-use.local
   resolution: "@eweilow/ikon@workspace:packages/ikon"
   dependencies:
