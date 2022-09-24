@@ -28,7 +28,6 @@
         "@types/puppeteer",
         "sharp",
         "@types/sharp",
-        "favicons"
       ],
       "excludePackagePatterns": ["^@types/"],
       "updateTypes": ["minor", "patch"],
@@ -49,10 +48,6 @@
     {
       "packageNames": ["sharp", "@types/sharp"],
       "groupName": "sharp packages"
-    },
-    {
-      "packageNames": ["favicons"],
-      "groupName": "favicons"
     },
     {
       "packageNames": ["react", "react-dom", "@types/react", "@types/react-dom"],

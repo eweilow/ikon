@@ -22,7 +22,6 @@
     "async-sema": "3.0.0",
     "chalk": "3.0.0",
     "datauri": "2.0.0",
-    "favicons": "^7.0.0-beta.4",
     "hasha": "^5.2.0",
     "mkdirp": "^1.0.4",
     "prepend-transform": "0.0.1019",

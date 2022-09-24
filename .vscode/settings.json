@@ -11,6 +11,8 @@
     },
     "**/*.jsx.map": {
       "when": "$(basename)"
-    }
+    },
+    "**/*.d.ts": true,
+    "**/*.d.ts.map": true
   }
 }

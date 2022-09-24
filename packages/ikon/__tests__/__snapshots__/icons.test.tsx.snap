@@ -416,46 +416,6 @@ exports[`generateIcons renders HTML correctly 1`] = `
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:31.57894736842105px;border-top-right-radius:31.57894736842105px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.7111111111111111) translate(-70.3125%, -70.3125%);transform-origin:center;width:180px;height:180px;border-radius:31.57894736842105px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#80808c;background:#7f7f73;text-align:center\\"
-              >
-                this is a test! size: 128x128 at 1.40625
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              128 @ 1.41x
-            </footer>
-          </div>
-          <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:31.57894736842105px;border-top-right-radius:31.57894736842105px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.7111111111111111) translate(-70.3125%, -70.3125%);transform-origin:center;width:180px;height:180px;border-radius:31.57894736842105px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#80808c;background:#7f7f73;text-align:center\\"
-              >
-                this is a test! size: 128x128 at 1.40625
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              128 @ 1.41x
-            </footer>
-          </div>
-          <div
             style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:179.64912280701753px;border-top-right-radius:179.64912280701753px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
@@ -476,23 +436,23 @@ exports[`generateIcons renders HTML correctly 1`] = `
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:89.82456140350877px;border-top-right-radius:89.82456140350877px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:31.57894736842105px;border-top-right-radius:31.57894736842105px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.25) translate(-200%, -200%);transform-origin:center;width:512px;height:512px;border-radius:89.82456140350877px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.7111111111111111) translate(-70.3125%, -70.3125%);transform-origin:center;width:180px;height:180px;border-radius:31.57894736842105px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#808091;background:#7f7f6e;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#80808c;background:#7f7f73;text-align:center\\"
               >
-                this is a test! size: 128x128 at 4
+                this is a test! size: 128x128 at 1.40625
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              128 @ 4.00x
+              128 @ 1.41x
             </footer>
           </div>
         </div>
@@ -670,43 +630,43 @@ exports[`generateIcons renders HTML correctly 1`] = `
           style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
         >
           <div
-            style=\\"width:414px;height:928px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:320px;height:600px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:448px;left:207px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:1242px;height:2688px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:284px;left:160px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:640px;height:1136px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#9f832d;background:#607cd2;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#413ac8;background:#bec537;text-align:center\\"
               >
-                this is a test! size: 414x896 at 3
+                this is a test! size: 320x568 at 2
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              414x896 @ 3.00x
+              320x568 @ 2.00x
             </footer>
           </div>
           <div
-            style=\\"width:414px;height:928px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:375px;height:699px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:448px;left:207px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:828px;height:1792px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:333.5px;left:187.5px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:750px;height:1334px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#9f83c8;background:#607c37;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#789dc8;background:#876237;text-align:center\\"
               >
-                this is a test! size: 414x896 at 2
+                this is a test! size: 375x667 at 2
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              414x896 @ 2.00x
+              375x667 @ 2.00x
             </footer>
           </div>
           <div
@@ -730,6 +690,66 @@ exports[`generateIcons renders HTML correctly 1`] = `
             </footer>
           </div>
           <div
+            style=\\"width:390px;height:876px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:422px;left:195px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:1170px;height:2532px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#874f2d;background:#78b0d2;text-align:center\\"
+              >
+                this is a test! size: 390x844 at 3
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              390x844 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style=\\"width:414px;height:928px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:448px;left:207px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:828px;height:1792px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#9f83c8;background:#607c37;text-align:center\\"
+              >
+                this is a test! size: 414x896 at 2
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              414x896 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style=\\"width:414px;height:928px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:448px;left:207px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:1242px;height:2688px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#9f832d;background:#607cd2;text-align:center\\"
+              >
+                this is a test! size: 414x896 at 3
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              414x896 @ 3.00x
+            </footer>
+          </div>
+          <div
             style=\\"width:414px;height:768px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
@@ -750,23 +770,43 @@ exports[`generateIcons renders HTML correctly 1`] = `
             </footer>
           </div>
           <div
-            style=\\"width:376px;height:699px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:414px;height:768px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:333.5px;left:188px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:752px;height:1334px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:368px;left:207px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:1242px;height:2208px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#799dc8;background:#866237;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#9fe22d;background:#601dd2;text-align:center\\"
               >
-                this is a test! size: 376x667 at 2
+                this is a test! size: 414x736 at 3
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              376x667 @ 2.00x
+              414x736 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style=\\"width:428px;height:958px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:463px;left:214px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:1284px;height:2778px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#ada12d;background:#525ed2;text-align:center\\"
+              >
+                this is a test! size: 428x926 at 3
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              428x926 @ 3.00x
             </footer>
           </div>
           <div
@@ -797,23 +837,43 @@ exports[`generateIcons renders HTML correctly 1`] = `
           style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
         >
           <div
-            style=\\"width:1024px;height:1398px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:768px;height:1056px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:683px;left:512px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2048px;height:2732px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:512px;left:384px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1536px;height:2048px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#45bc8;background:#fba437;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#34c8;background:#fcfb37;text-align:center\\"
               >
-                this is a test! size: 1024x1366 at 2
+                this is a test! size: 768x1024 at 2
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              1024x1366 @ 2.00x
+              768x1024 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style=\\"width:810px;height:1112px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:540px;left:405px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1620px;height:2160px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#2d3cc8;background:#d2c337;text-align:center\\"
+              >
+                this is a test! size: 810x1080 at 2
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              810x1080 @ 2.00x
             </footer>
           </div>
           <div
@@ -857,23 +917,23 @@ exports[`generateIcons renders HTML correctly 1`] = `
             </footer>
           </div>
           <div
-            style=\\"width:768px;height:1056px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:1024px;height:1398px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:512px;left:384px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1536px;height:2048px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:683px;left:512px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2048px;height:2732px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#34c8;background:#fcfb37;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#45bc8;background:#fba437;text-align:center\\"
               >
-                this is a test! size: 768x1024 at 2
+                this is a test! size: 1024x1366 at 2
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              768x1024 @ 2.00x
+              1024x1366 @ 2.00x
             </footer>
           </div>
         </div>
@@ -886,43 +946,43 @@ exports[`generateIcons renders HTML correctly 1`] = `
           style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
         >
           <div
-            style=\\"width:896px;height:446px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:568px;height:352px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:207px;left:448px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:2688px;height:1242px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:160px;left:284px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1136px;height:640px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#839f2d;background:#7c60d2;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#3a41c8;background:#c5be37;text-align:center\\"
               >
-                this is a test! size: 896x414 at 3
+                this is a test! size: 568x320 at 2
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              896x414 @ 3.00x
+              568x320 @ 2.00x
             </footer>
           </div>
           <div
-            style=\\"width:896px;height:446px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:667px;height:407px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:207px;left:448px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1792px;height:828px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:187.5px;left:333.5px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1334px;height:750px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#839fc8;background:#7c6037;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#9d78c8;background:#628737;text-align:center\\"
               >
-                this is a test! size: 896x414 at 2
+                this is a test! size: 667x375 at 2
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              896x414 @ 2.00x
+              667x375 @ 2.00x
             </footer>
           </div>
           <div
@@ -946,6 +1006,66 @@ exports[`generateIcons renders HTML correctly 1`] = `
             </footer>
           </div>
           <div
+            style=\\"width:844px;height:422px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:195px;left:422px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:2532px;height:1170px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#4f872d;background:#b078d2;text-align:center\\"
+              >
+                this is a test! size: 844x390 at 3
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              844x390 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style=\\"width:896px;height:446px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:207px;left:448px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1792px;height:828px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#839fc8;background:#7c6037;text-align:center\\"
+              >
+                this is a test! size: 896x414 at 2
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              896x414 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style=\\"width:896px;height:446px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:207px;left:448px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:2688px;height:1242px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#839f2d;background:#7c60d2;text-align:center\\"
+              >
+                this is a test! size: 896x414 at 3
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              896x414 @ 3.00x
+            </footer>
+          </div>
+          <div
             style=\\"width:736px;height:446px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
@@ -966,23 +1086,43 @@ exports[`generateIcons renders HTML correctly 1`] = `
             </footer>
           </div>
           <div
-            style=\\"width:667px;height:408px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:736px;height:446px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:188px;left:333.5px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1334px;height:752px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:207px;left:368px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:2208px;height:1242px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#9d79c8;background:#628637;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#e29f2d;background:#1d60d2;text-align:center\\"
               >
-                this is a test! size: 667x376 at 2
+                this is a test! size: 736x414 at 3
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              667x376 @ 2.00x
+              736x414 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style=\\"width:926px;height:460px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:214px;left:463px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:2778px;height:1284px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#a1ad2d;background:#5e52d2;text-align:center\\"
+              >
+                this is a test! size: 926x428 at 3
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              926x428 @ 3.00x
             </footer>
           </div>
           <div
@@ -1015,23 +1155,43 @@ exports[`generateIcons renders HTML correctly 1`] = `
           style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
         >
           <div
-            style=\\"width:1366px;height:1056px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:1024px;height:800px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:512px;left:683px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2732px;height:2048px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:384px;left:512px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2048px;height:1536px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#5b4c8;background:#a4fb37;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#43c8;background:#fbfc37;text-align:center\\"
               >
-                this is a test! size: 1366x1024 at 2
+                this is a test! size: 1024x768 at 2
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              1366x1024 @ 2.00x
+              1024x768 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style=\\"width:1080px;height:842px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            class=\\"iconWrapper\\"
+          >
+            <div
+              style=\\"position:absolute;top:405px;left:540px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2160px;height:1620px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              class=\\"icon\\"
+            >
+              <div
+                style=\\"height:100%;width:100%;color:#3c2dc8;background:#c3d237;text-align:center\\"
+              >
+                this is a test! size: 1080x810 at 2
+              </div>
+            </div>
+            <footer
+              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+            >
+              1080x810 @ 2.00x
             </footer>
           </div>
           <div
@@ -1075,23 +1235,23 @@ exports[`generateIcons renders HTML correctly 1`] = `
             </footer>
           </div>
           <div
-            style=\\"width:1024px;height:800px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
+            style=\\"width:1366px;height:1056px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
             class=\\"iconWrapper\\"
           >
             <div
-              style=\\"position:absolute;top:384px;left:512px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2048px;height:1536px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
+              style=\\"position:absolute;top:512px;left:683px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2732px;height:2048px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
               class=\\"icon\\"
             >
               <div
-                style=\\"height:100%;width:100%;color:#43c8;background:#fbfc37;text-align:center\\"
+                style=\\"height:100%;width:100%;color:#5b4c8;background:#a4fb37;text-align:center\\"
               >
-                this is a test! size: 1024x768 at 2
+                this is a test! size: 1366x1024 at 2
               </div>
             </div>
             <footer
               style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
             >
-              1024x768 @ 2.00x
+              1366x1024 @ 2.00x
             </footer>
           </div>
         </div>
