@@ -69,6 +69,7 @@ export const FaviconSizes: IconGenerationComponentProps[] = [
   icon("favicon.ico", "favicon", 72, "favicon"),
   icon("favicon.ico", "favicon", 96, "favicon"),
   icon("favicon.ico", "favicon", 128, "favicon"),
+  icon("favicon.ico", "favicon", 256, "favicon"),
 ];
 
 export const DefaultLaunchScreenName = "apple-launch-screen-default";
