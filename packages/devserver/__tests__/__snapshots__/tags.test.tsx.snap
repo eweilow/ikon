@@ -18,6 +18,8 @@ exports[`generateTagsHTML renders correctly 1`] = `
 
 &lt;link rel="icon" type="image/png" sizes="128x128" href="//favicon-128-128.png?h=test"&gt;
 
+&lt;link rel="icon" type="image/png" sizes="256x256" href="//favicon-256-256.png?h=test"&gt;
+
 &lt;link rel="icon" type="image/png" sizes="36x36" href="//android-chrome-36-36.png?h=test"&gt;
 
 &lt;link rel="icon" type="image/png" sizes="48x48" href="//android-chrome-48-48.png?h=test"&gt;

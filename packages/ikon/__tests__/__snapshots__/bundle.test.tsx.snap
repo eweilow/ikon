@@ -9,6 +9,7 @@ exports[`generateTags renders correctly: html 1`] = `
 <link rel="icon" type="image/png" sizes="72x72" href="//favicon-72-72.png?h=test">
 <link rel="icon" type="image/png" sizes="96x96" href="//favicon-96-96.png?h=test">
 <link rel="icon" type="image/png" sizes="128x128" href="//favicon-128-128.png?h=test">
+<link rel="icon" type="image/png" sizes="256x256" href="//favicon-256-256.png?h=test">
 <link rel="icon" type="image/png" sizes="36x36" href="//android-chrome-36-36.png?h=test">
 <link rel="icon" type="image/png" sizes="48x48" href="//android-chrome-48-48.png?h=test">
 <link rel="icon" type="image/png" sizes="72x72" href="//android-chrome-72-72.png?h=test">
@@ -98,6 +99,12 @@ exports[`generateTags renders correctly: json 1`] = `
     "type": "image/png",
     "sizes": "128x128",
     "href": "//favicon-128-128.png?h=test"
+  },
+  {
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "256x256",
+    "href": "//favicon-256-256.png?h=test"
   },
   {
     "rel": "icon",
@@ -311,6 +318,7 @@ const Icons = () => (<>
   <link rel="icon" type="image/png" sizes="72x72" href="//favicon-72-72.png?h=test" />
   <link rel="icon" type="image/png" sizes="96x96" href="//favicon-96-96.png?h=test" />
   <link rel="icon" type="image/png" sizes="128x128" href="//favicon-128-128.png?h=test" />
+  <link rel="icon" type="image/png" sizes="256x256" href="//favicon-256-256.png?h=test" />
   <link rel="icon" type="image/png" sizes="36x36" href="//android-chrome-36-36.png?h=test" />
   <link rel="icon" type="image/png" sizes="48x48" href="//android-chrome-48-48.png?h=test" />
   <link rel="icon" type="image/png" sizes="72x72" href="//android-chrome-72-72.png?h=test" />
@@ -366,6 +374,7 @@ const Icons: React.FC = () => (<>
   <link rel="icon" type="image/png" sizes="72x72" href="//favicon-72-72.png?h=test" />
   <link rel="icon" type="image/png" sizes="96x96" href="//favicon-96-96.png?h=test" />
   <link rel="icon" type="image/png" sizes="128x128" href="//favicon-128-128.png?h=test" />
+  <link rel="icon" type="image/png" sizes="256x256" href="//favicon-256-256.png?h=test" />
   <link rel="icon" type="image/png" sizes="36x36" href="//android-chrome-36-36.png?h=test" />
   <link rel="icon" type="image/png" sizes="48x48" href="//android-chrome-48-48.png?h=test" />
   <link rel="icon" type="image/png" sizes="72x72" href="//android-chrome-72-72.png?h=test" />

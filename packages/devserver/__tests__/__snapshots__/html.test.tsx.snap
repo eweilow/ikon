@@ -18,6 +18,8 @@ exports[`generateIconsHTML renders correctly 1`] = `
 
 <img src="//favicon-128-128.png?h=test"/>
 
+<img src="//favicon-256-256.png?h=test"/>
+
 <img src="//android-chrome-36-36.png?h=test"/>
 
 <img src="//android-chrome-48-48.png?h=test"/>

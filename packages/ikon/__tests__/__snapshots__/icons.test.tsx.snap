@@ -1778,6 +1778,65 @@ exports[`generateIcons renders HTML correctly 1`] = `
               128
             </footer>
           </div>
+          <div
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 256px;
+                height: 256px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #8080c8;
+                  background: #7f7f37;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 128x128 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              128 @ 2.00x
+            </footer>
+          </div>
         </div>
       </section>
       <section>
