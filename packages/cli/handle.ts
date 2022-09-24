@@ -18,8 +18,8 @@ export async function handlePromise(promise: Promise<any>, exit: boolean = true)
     handler.alias(process.cwd(), "cwd");
     handler.appendStyle({
       "pretty-error > trace > item": {
-        marginBottom: 0
-      }
+        marginBottom: 0,
+      },
     });
     const renderedError = handler.render(err);
     console.error(renderedError);

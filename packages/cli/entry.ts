@@ -11,38 +11,38 @@ export default yargs
   .option("file", {
     alias: "f",
     type: "string",
-    description: "The TypeScript file containing the icon component"
+    description: "The TypeScript file containing the icon component",
   })
   .option("publicPath", {
     alias: "d",
     type: "string",
     description: "The public path that icons are placed under",
-    default: "/icons"
+    default: "/icons",
   })
   .option("verbose", {
     alias: "v",
     type: "boolean",
     description: "Use verbose logging",
-    default: false
+    default: false,
   })
   .demandOption("file")
   .command(
     "dev",
     "Start development mode",
-    args =>
+    (args) =>
       args
         .option("port", {
           alias: "p",
           type: "number",
           description: "The port to use",
-          default: 4001
+          default: 4001,
         })
         .option("open", {
           type: "boolean",
           description: "Automatically open a browser",
-          default: true
+          default: true,
         }),
-    args => {
+    (args) => {
       const { bootIconGenerationProcess } = require("./boot");
       handlePromise(
         bootIconGenerationProcess(
@@ -60,23 +60,23 @@ export default yargs
   .command(
     "build",
     "Build icons",
-    args =>
+    (args) =>
       args
         .option("outDir", {
           alias: "o",
           type: "string",
           description: "The path to write icons to",
-          default: "./icons"
+          default: "./icons",
         })
         .demandOption("outDir")
         .option("generationDir", {
           alias: "g",
           type: "string",
           description: "The path to write generated files to",
-          default: "./generated"
+          default: "./generated",
         })
         .demandOption("generationDir"),
-    args => {
+    (args) => {
       const { bootIconGenerationProcess } = require("./boot");
       handlePromise(
         bootIconGenerationProcess(
@@ -87,7 +87,7 @@ export default yargs
           "build",
           {},
           args.verbose
-        ).then(built => {
+        ).then((built) => {
           const { bundleFiles } = require("@eweilow/ikon");
           return bundleFiles(built, join(process.cwd(), args.generationDir));
         })
@@ -97,23 +97,23 @@ export default yargs
   .command(
     "export",
     "Build a deployable version of the development server",
-    args =>
+    (args) =>
       args
         .option("iconsDir", {
           alias: "i",
           type: "string",
           description: "The path to write icons into",
-          default: "./dist/icons"
+          default: "./dist/icons",
         })
         .demandOption("iconsDir")
         .option("outDir", {
           alias: "o",
           type: "string",
           description: "The path to write the build into",
-          default: "./dist"
+          default: "./dist",
         })
         .demandOption("outDir"),
-    args => {
+    (args) => {
       const { bootIconGenerationProcess } = require("./boot");
       handlePromise(
         bootIconGenerationProcess(

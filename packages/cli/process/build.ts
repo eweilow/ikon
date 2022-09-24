@@ -12,22 +12,20 @@ export async function buildProcess(args: any) {
     process.env.publicPath as string,
     process.env.iconsDir as string,
     4,
-    tag => (process as any).send(tag)
+    (tag) => (process as any).send(tag)
   );
 }
 
 export async function htmlProcess(args: any) {
-  const {
-    generateTagsHTML,
-    generateIconsHTML
-  } = require("@eweilow/ikon-devserver") as typeof import("@eweilow/ikon-devserver");
+  const { generateTagsHTML, generateIconsHTML } =
+    require("@eweilow/ikon-devserver") as typeof import("@eweilow/ikon-devserver");
 
   const Component = require(process.env.iconGenerator as string).default;
 
   let stream = createWriteStream(join(process.env.outDir as string, "./tags.html"));
   await generateTagsHTML(
     Component,
-    chunk => stream.write(chunk),
+    (chunk) => stream.write(chunk),
     process.env.iconsDir as string,
     process.env.publicPath as string
   );
@@ -36,7 +34,7 @@ export async function htmlProcess(args: any) {
   stream = createWriteStream(join(process.env.outDir as string, "./icons.html"));
   await generateIconsHTML(
     Component,
-    chunk => stream.write(chunk),
+    (chunk) => stream.write(chunk),
     process.env.iconsDir as string,
     process.env.publicPath as string,
     true

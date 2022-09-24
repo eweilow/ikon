@@ -17,7 +17,7 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
         return false;
       }
       return true;
-    }
+    },
   });
 
   const { attemptStartServer } = require("./start") as typeof import("./start");
@@ -28,7 +28,7 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
 
   const hotEvents = new EventEmitter();
   const listeners = new Map<string, FSWatcher>();
-  mediaEvents.on("reset", args => {
+  mediaEvents.on("reset", (args) => {
     if (listeners.has(args)) {
       listeners.get(args)!.close();
     }
@@ -36,7 +36,7 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
   });
 
   const throttledEvents = new Set<string>();
-  mediaEvents.on("load", args => {
+  mediaEvents.on("load", (args) => {
     if (!listeners.has(args)) {
       function listener(event: string, filename: string) {
         if (event === "change") {
@@ -61,7 +61,7 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
     });
   }
 
-  hotEvents.on("hot", args => {
+  hotEvents.on("hot", (args) => {
     console.log("Reloading %s", args);
   });
 
@@ -85,7 +85,7 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
     if (req.url === "/reload.js") {
       res.writeHead(200, {
         "Content-Type": "text/javascript",
-        "Cache-Control": "no-cache"
+        "Cache-Control": "no-cache",
       });
       res.write(hotReloadScript);
       res.end();
@@ -93,7 +93,7 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
       res.writeHead(200, {
         "Content-Type": "text/event-stream",
         "Cache-Control": "no-cache",
-        Connection: "keep-alive"
+        Connection: "keep-alive",
       });
       res.write("\n");
       function listener() {
@@ -110,7 +110,7 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
       try {
         await generateTagsHTML(
           Component,
-          chunk => res.write(chunk),
+          (chunk) => res.write(chunk),
           outDir,
           publicPath,
           hotReloadTag
@@ -133,7 +133,7 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
       try {
         await generateIconsHTML(
           Component,
-          chunk => res.write(chunk),
+          (chunk) => res.write(chunk),
           outDir,
           publicPath,
           false,
@@ -157,7 +157,7 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
       try {
         await generateIconsHTML(
           Component,
-          chunk => res.write(chunk),
+          (chunk) => res.write(chunk),
           outDir,
           publicPath,
           true,
@@ -209,13 +209,13 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
 
       if (shouldOpen) {
         await open("http://localhost:" + port, {
-          wait: true
+          wait: true,
         });
       }
 
       (process as any).send(port);
     })
-    .catch(err => {
+    .catch((err) => {
       console.error(err);
       process.exit(1);
     });

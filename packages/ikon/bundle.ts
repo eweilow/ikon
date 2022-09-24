@@ -30,7 +30,7 @@ export async function bundleFiles(built: string[], outDir: string) {
 
     const line = `  <link ${Object.keys(props)
       .map(
-        prop =>
+        (prop) =>
           `${prop}=${
             typeof props[prop] === "string"
               ? JSON.stringify(props[prop])

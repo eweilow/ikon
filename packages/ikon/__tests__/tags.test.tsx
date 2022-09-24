@@ -25,7 +25,7 @@ describe("generateTags", () => {
     const images: Array<{ name: string; buffer: Buffer; publicName: string }> = [];
 
     await generateTags(
-      props => {
+      (props) => {
         const r = Math.floor(props.width % 255);
         const g = Math.floor(props.height % 255);
         const b = Math.floor((props.pixelRatio * 100) % 255);
@@ -34,10 +34,10 @@ describe("generateTags", () => {
             style={{
               height: "100%",
               width: "100%",
-              color: "#" + [r, g, b].map(s => s.toString(16)).join(""),
-              background: "#" + [r, g, b].map(s => (255 - s).toString(16)).join(""),
+              color: "#" + [r, g, b].map((s) => s.toString(16)).join(""),
+              background: "#" + [r, g, b].map((s) => (255 - s).toString(16)).join(""),
               textAlign: "center",
-              position: "relative"
+              position: "relative",
             }}
           >
             <div
@@ -50,7 +50,7 @@ describe("generateTags", () => {
                 height: 16,
                 width: 16,
                 borderRadius: 8,
-                background: "white"
+                background: "white",
               }}
             />
           </div>
@@ -59,7 +59,7 @@ describe("generateTags", () => {
       "/",
       tmpDir.path,
       1,
-      tag => tags.push(tag),
+      (tag) => tags.push(tag),
       (name, buffer, publicName) => images.push({ name, buffer, publicName }),
       false
     );
@@ -70,7 +70,7 @@ describe("generateTags", () => {
         continue;
       }
       expect(image.buffer).toMatchImageSnapshot({
-        customSnapshotIdentifier: fileName
+        customSnapshotIdentifier: fileName,
       });
 
       expect(existsSync(join(tmpDir.path, fileName))).toBe(true);

@@ -28,14 +28,14 @@ export async function bootIconGenerationProcess(
       NODE_ENV: process.env.NODE_ENV,
       IKON_ARGS: JSON.stringify(args),
       TS_NODE_IGNORE: "false",
-      TS_NODE_PROJECT: join(__dirname, "../../process/tsconfig.process.json")
+      TS_NODE_PROJECT: join(__dirname, "../../process/tsconfig.process.json"),
     },
     execArgv: ["-r", require.resolve("ts-node/register")],
-    stdio: "pipe"
+    stdio: "pipe",
   });
 
   let exitCode: number | null = null;
-  worker.on("exit", code => {
+  worker.on("exit", (code) => {
     exitCode = code;
   });
 
@@ -63,7 +63,7 @@ export async function bootIconGenerationProcess(
     }
 
     const data: string[] = [];
-    worker.on("message", message => {
+    worker.on("message", (message) => {
       if (mode === "build") {
         data.push(message as any);
 
@@ -78,13 +78,13 @@ export async function bootIconGenerationProcess(
         }
       }
     });
-    worker.on("error", err => {
+    worker.on("error", (err) => {
       reject(err);
     });
-    worker.on("close", code => {
+    worker.on("close", (code) => {
       didExit(code);
     });
-    worker.on("exit", code => {
+    worker.on("exit", (code) => {
       didExit(code);
     });
   });

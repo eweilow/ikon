@@ -8,12 +8,12 @@ export const Icons: React.FC<{
   scale: number;
   borderRadius: number;
   Component: IconGenerationComponent;
-}> = props => (
+}> = (props) => (
   <section>
     <h1
       style={{
         textAlign: "center",
-        margin: "16px 8px"
+        margin: "16px 8px",
       }}
     >
       {props.title}
@@ -25,10 +25,10 @@ export const Icons: React.FC<{
         alignItems: "center",
         justifyContent: "center",
         width: "100%",
-        textAlign: "center"
+        textAlign: "center",
       }}
     >
-      {props.icons.map(size => (
+      {props.icons.map((size) => (
         <div
           key={JSON.stringify(size)}
           style={{
@@ -40,7 +40,7 @@ export const Icons: React.FC<{
             borderTopLeftRadius: Math.max(2, size.pixelRatio * props.borderRadius * size.width),
             borderTopRightRadius: Math.max(2, size.pixelRatio * props.borderRadius * size.width),
             boxShadow: "0px 2px 12px #0000000f, 0px 2px 4px #0000000d",
-            position: "relative"
+            position: "relative",
           }}
           className="iconWrapper"
         >
@@ -49,15 +49,16 @@ export const Icons: React.FC<{
               position: "absolute",
               top: props.scale * size.height * 0.5,
               left: props.scale * size.width * 0.5,
-              transform: ` scale(${props.scale / size.pixelRatio}) translate(-${50 *
-                size.pixelRatio}%, -${50 * size.pixelRatio}%)`,
+              transform: ` scale(${props.scale / size.pixelRatio}) translate(-${
+                50 * size.pixelRatio
+              }%, -${50 * size.pixelRatio}%)`,
               transformOrigin: "center",
               width: size.width * size.pixelRatio,
               height: size.height * size.pixelRatio,
               borderRadius: size.pixelRatio * props.borderRadius * size.width,
               overflow: "hidden",
               pointerEvents: "none",
-              boxShadow: "0px 2px 12px #0000000f, 0px 2px 4px #0000000d"
+              boxShadow: "0px 2px 12px #0000000f, 0px 2px 4px #0000000d",
             }}
             className="icon"
           >
@@ -74,7 +75,7 @@ export const Icons: React.FC<{
               right: 0,
               fontSize: 12,
               fontWeight: "bold",
-              padding: "0 8px"
+              padding: "0 8px",
             }}
           >
             {size.width !== size.height ? `${size.width}x${size.height}` : size.width}

@@ -19,7 +19,7 @@ export async function generateTagsHTML(
     publicPath,
     outDir,
     concurrency,
-    tag => write(tag.replace(/</g, "&lt;").replace(/>/g, "&gt;") + "\n"),
+    (tag) => write(tag.replace(/</g, "&lt;").replace(/>/g, "&gt;") + "\n"),
     undefined,
     true
   );

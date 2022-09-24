@@ -13,7 +13,7 @@ import {
   FaviconSizes,
   IOSAppIconSizes,
   IPadStartScreens,
-  IPhoneStartScreens
+  IPhoneStartScreens,
 } from "./sizes";
 import { IconGenerationComponent, IconGenerationComponentProps } from "./types";
 
@@ -28,7 +28,7 @@ export function getIcons() {
     ...AndroidAppIconSizes,
     ...IOSAppIconSizes,
     ...IPhoneStartScreens,
-    ...IPadStartScreens
+    ...IPadStartScreens,
   ];
 }
 
@@ -65,14 +65,14 @@ export async function renderIcon(
     height: icon.height * icon.pixelRatio,
     isMobile: false,
     hasTouch: false,
-    deviceScaleFactor: superSampling
+    deviceScaleFactor: superSampling,
   });
 
   let src = await page.screenshot({
     fullPage: true,
     encoding: "binary",
     omitBackground: true,
-    type: "png"
+    type: "png",
   });
 
   assert(typeof src !== "string");

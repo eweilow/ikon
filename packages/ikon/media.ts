@@ -17,11 +17,11 @@ export function useFileAsDataURL(file: string) {
   if (cache.has(fullPath)) {
     return cache.get(fullPath)?.content!;
   }
-  const contents = readFileSync(file)
+  const contents = readFileSync(file);
 
   const datauri = new Datauri();
-  datauri.format(extname(file), contents)
-  
+  datauri.format(extname(file), contents);
+
   cache.set(fullPath, datauri);
 
   mediaEvents.emit("load", fullPath);

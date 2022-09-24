@@ -13,7 +13,7 @@ const startScreen = (
     width,
     height,
     pixelRatio,
-    type: "splash"
+    type: "splash",
   } as IconGenerationComponentProps);
 
 const iconBaseSize = 128;
@@ -28,7 +28,7 @@ const icon = (key: string, name: string, size: number, type: string = "icon") =>
 
   return {
     ...startScreenData,
-    type
+    type,
   } as IconGenerationComponentProps;
 };
 
@@ -41,7 +41,7 @@ export const AndroidAppIconSizes: IconGenerationComponentProps[] = [
   icon("android-chrome-192x192.png", "android-chrome", 192),
   icon("android-chrome-256x256.png", "android-chrome", 256),
   icon("android-chrome-384x384.png", "android-chrome", 384),
-  icon("android-chrome-512x512.png", "android-chrome", 512)
+  icon("android-chrome-512x512.png", "android-chrome", 512),
 ];
 
 export const DefaultAppIconName = "apple-touch-icon";
@@ -57,7 +57,7 @@ export const IOSAppIconSizes: IconGenerationComponentProps[] = [
   icon("apple-touch-icon", "apple-touch-icon", 167),
   icon("apple-touch-icon", "apple-touch-icon", 180),
   icon("apple-touch-icon.png", "apple-touch-icon", 1024),
-  icon("apple-touch-icon-precomposed.png", "apple-touch-icon-precomposed", 180)
+  icon("apple-touch-icon-precomposed.png", "apple-touch-icon-precomposed", 180),
 ];
 
 export const FaviconSizes: IconGenerationComponentProps[] = [
@@ -68,7 +68,7 @@ export const FaviconSizes: IconGenerationComponentProps[] = [
   icon("favicon.ico", "favicon", 64, "favicon"),
   icon("favicon.ico", "favicon", 72, "favicon"),
   icon("favicon.ico", "favicon", 96, "favicon"),
-  icon("favicon.ico", "favicon", 128, "favicon")
+  icon("favicon.ico", "favicon", 128, "favicon"),
 ];
 
 export const DefaultLaunchScreenName = "apple-launch-screen-default";
@@ -86,7 +86,7 @@ export const IPhoneStartScreens: IconGenerationComponentProps[] = [
   startScreen(undefined, "apple-launch-8-plus", 414, 736, 3), // iPhone 8 Plus, iPhone 7 Plus
   startScreen(undefined, "apple-launch-6-plus", 414, 736, 3), // iPhone 6 Plus, iPhone 6s Plus
   startScreen(undefined, "apple-launch-12-pro-max", 428, 926, 3), // iPhone 12 Pro Max
-  startScreen(DefaultLaunchScreenName, "apple-launch-8", 376, 667, 3)
+  startScreen(DefaultLaunchScreenName, "apple-launch-8", 376, 667, 3),
 ];
 
 /**
@@ -97,5 +97,5 @@ export const IPadStartScreens: IconGenerationComponentProps[] = [
   startScreen(undefined, "apple-launch-ipad-pro", 810, 1080, 2), // 10.2" iPad
   startScreen(undefined, "apple-launch-ipad-pro-l", 834, 1194, 2), // 11" iPad Pro, 10.5" iPad Pro
   startScreen(undefined, "apple-launch-air", 834, 1112, 2), // 10.5" iPad Air
-  startScreen(undefined, "apple-launch-ipad-pro-xl", 1024, 1366, 2) // 12.9" iPad Pro
+  startScreen(undefined, "apple-launch-ipad-pro-xl", 1024, 1366, 2), // 12.9" iPad Pro
 ];

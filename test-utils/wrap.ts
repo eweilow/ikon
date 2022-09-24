@@ -9,7 +9,7 @@ export function wrapCommand<T extends { [key: string]: string }>(cmd: string, cw
     console.log([join(__dirname, "../packages/cli/cli.js"), ...cmd.split(" ")]);
     childProcess = spawn(nodeExec, [join(__dirname, "../packages/cli/cli.js"), ...cmd.split(" ")], {
       cwd,
-      env
+      env,
     });
   }
 
@@ -19,9 +19,9 @@ export function wrapCommand<T extends { [key: string]: string }>(cmd: string, cw
         return resolve();
       }
 
-      childProcess.on("error", err => reject(err));
+      childProcess.on("error", (err) => reject(err));
 
-      childProcess.on("exit", code => {
+      childProcess.on("exit", (code) => {
         childProcess = null;
 
         if (code === 0) {
@@ -54,14 +54,14 @@ export function wrapCommand<T extends { [key: string]: string }>(cmd: string, cw
         throw new Error("childProcess is null!");
       }
       return new Promise<void>((resolve, reject) => {
-        const listener = data => {
+        const listener = (data) => {
           if (data.toString().indexOf(forStr) >= 0) {
             childProcess?.stdout?.off("data", listener);
             resolve();
           }
         };
         childProcess?.stdout?.on("data", listener);
-        childProcess?.on("exit", code => {
+        childProcess?.on("exit", (code) => {
           if (code !== 0) {
             reject("Exited with code " + code);
           }
@@ -73,11 +73,11 @@ export function wrapCommand<T extends { [key: string]: string }>(cmd: string, cw
         throw new Error("childProcess is null!");
       }
 
-      currentOutFn = data => {
+      currentOutFn = (data) => {
         out(data.toString());
         console.log(data.toString());
       };
-      currentErrFn = data => {
+      currentErrFn = (data) => {
         err(data.toString());
         console.error(data.toString());
       };
@@ -88,6 +88,6 @@ export function wrapCommand<T extends { [key: string]: string }>(cmd: string, cw
       childProcess?.stdout?.off("data", currentOutFn);
       childProcess?.stderr?.off("data", currentErrFn);
     },
-    stopped
+    stopped,
   };
 }

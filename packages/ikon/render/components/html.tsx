@@ -12,7 +12,7 @@ export const Html = (props: React.PropsWithChildren<{ background: string }>) => 
             padding: 0; 
             background: ${props.background}; 
             color: #696969 
-          }`
+          }`,
         }}
       />
     </head>

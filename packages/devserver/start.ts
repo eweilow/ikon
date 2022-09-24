@@ -21,7 +21,7 @@ export async function attemptStartServer(obj: () => IStartable, preferredPort: n
             resolve(address.port);
           }
         });
-        createdServer.on("error", error => {
+        createdServer.on("error", (error) => {
           reject(error);
         });
         server = createdServer;
@@ -50,6 +50,6 @@ export async function attemptStartServer(obj: () => IStartable, preferredPort: n
   }
   return {
     port,
-    server
+    server,
   };
 }
