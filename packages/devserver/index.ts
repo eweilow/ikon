@@ -1,4 +1,5 @@
 import { IconGenerationComponent } from "@eweilow/ikon";
+import assert from "assert";
 import { EventEmitter } from "events";
 import { FSWatcher, unwatchFile, watch, watchFile } from "fs";
 import { createServer } from "http";
@@ -115,6 +116,8 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
           hotReloadTag
         );
       } catch (err) {
+        assert(err instanceof Error);
+
         res.write(
           "<html>" +
             headTag +
@@ -137,6 +140,8 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
           hotReloadTag
         );
       } catch (err) {
+        assert(err instanceof Error);
+
         res.write(
           "<html>" +
             headTag +
@@ -159,6 +164,8 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
           hotReloadTag
         );
       } catch (err) {
+        assert(err instanceof Error);
+
         res.write(
           "<html>" +
             headTag +
@@ -177,6 +184,8 @@ export function startDevServer(file: string, wantedPort: number, shouldOpen: boo
           src.replace("</body>", hotReloadTag + "</body>").replace("<html>", "<html>" + headTag)
         );
       } catch (err) {
+        assert(err instanceof Error);
+
         res.write("<pre>" + err.stack + "</pre>");
       }
       res.end();

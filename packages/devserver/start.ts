@@ -28,7 +28,7 @@ export async function attemptStartServer(obj: () => IStartable, preferredPort: n
       });
       break;
     } catch (err) {
-      if (err.code !== "EADDRINUSE") {
+      if ((err as any)?.code !== "EADDRINUSE") {
         throw err;
       }
       preferredPort = 0;

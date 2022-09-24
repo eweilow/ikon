@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Html: React.FC<{ background: string }> = props => (
+export const Html = (props: React.PropsWithChildren<{ background: string }>) => (
   <html>
     <head>
       <style

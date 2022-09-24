@@ -1,4 +1,5 @@
-import Datauri from "datauri";
+import assert from "assert";
+import Datauri from "datauri/parser";
 import { Page } from "puppeteer";
 import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
@@ -49,6 +50,8 @@ export async function renderIcon(
   const datauri = new Datauri();
   datauri.format(".html", data);
 
+  assert(datauri.content != null);
+
   const realWidth = icon.width * icon.pixelRatio;
   let superSampling: number = 1;
   if (icon.pixelRatio === 1 && realWidth < 512) {
@@ -65,12 +68,15 @@ export async function renderIcon(
     deviceScaleFactor: superSampling
   });
 
-  const src = await page.screenshot({
+  let src = await page.screenshot({
     fullPage: true,
     encoding: "binary",
     omitBackground: true,
     type: "png"
   });
+
+  assert(typeof src !== "string");
+
   const resized =
     superSampling !== 1
       ? await sharp(src)

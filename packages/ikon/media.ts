@@ -1,6 +1,7 @@
-import Datauri from "datauri";
+import Datauri from "datauri/parser";
 import { EventEmitter } from "events";
-import { join } from "path";
+import { readFileSync } from "fs";
+import { extname, join } from "path";
 
 export const mediaEvents = new EventEmitter();
 
@@ -14,9 +15,13 @@ export function resetMediaCache() {
 export function useFileAsDataURL(file: string) {
   const fullPath = join(process.cwd(), file);
   if (cache.has(fullPath)) {
-    return cache.get(fullPath).content;
+    return cache.get(fullPath)?.content!;
   }
-  const datauri = new Datauri(fullPath);
+  const contents = readFileSync(file)
+
+  const datauri = new Datauri();
+  datauri.format(extname(file), contents)
+  
   cache.set(fullPath, datauri);
 
   mediaEvents.emit("load", fullPath);
