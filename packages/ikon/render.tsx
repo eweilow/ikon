@@ -68,7 +68,7 @@ export async function renderIcon(
     deviceScaleFactor: superSampling,
   });
 
-  let src = await page.screenshot({
+  const src = await page.screenshot({
     fullPage: true,
     encoding: "binary",
     omitBackground: true,

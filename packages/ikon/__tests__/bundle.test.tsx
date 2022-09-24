@@ -20,7 +20,7 @@ describe("generateTags", () => {
 
   it("renders correctly", async () => {
     const tags: string[] = [];
-    const images: Array<{ name: string; buffer: Buffer; publicName: string }> = [];
+    const images: { name: string; buffer: Buffer; publicName: string }[] = [];
 
     await generateTags(
       (props) => {
