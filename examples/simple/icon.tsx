@@ -2,7 +2,7 @@ import { useFileAsDataURL } from "@eweilow/ikon";
 import { IconGenerationComponent } from "@eweilow/ikon-cli";
 import React from "react";
 
-const Component: IconGenerationComponent = props => {
+const Component: IconGenerationComponent = (props) => {
   const html5 = useFileAsDataURL("./html5.svg");
   const css3 = useFileAsDataURL("./css3.svg");
 
@@ -14,7 +14,7 @@ const Component: IconGenerationComponent = props => {
         color: "#5afd1d",
         fontWeight: "bold",
         height: "100%",
-        width: "100%"
+        width: "100%",
       }}
     >
       {props.id}: {props.width}x{props.height}@{(props.pixelRatio * 100).toFixed(0)}%
@@ -24,7 +24,7 @@ const Component: IconGenerationComponent = props => {
           width: 50 * props.pixelRatio,
           maxWidth: props.width <= 64 ? "90%" : "100%",
           position: "relative",
-          zIndex: 1
+          zIndex: 1,
         }}
       />
       <img
@@ -33,7 +33,7 @@ const Component: IconGenerationComponent = props => {
           width: 50 * props.pixelRatio,
           maxWidth: props.width <= 64 ? "90%" : "100%",
           position: "relative",
-          zIndex: 1
+          zIndex: 1,
         }}
       />
     </div>

@@ -1,392 +1,409 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`generateTags renders correctly: html 1`] = `
-"<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"16x16\\" href=\\"//favicon-16-16.png?h=06804237\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"24x24\\" href=\\"//favicon-24-24.png?h=2b2416ce\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"32x32\\" href=\\"//favicon-32-32.png?h=4beb1a43\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"48x48\\" href=\\"//favicon-48-48.png?h=ed5e3b95\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"64x64\\" href=\\"//favicon-64-64.png?h=2c887f6d\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"72x72\\" href=\\"//favicon-72-72.png?h=11bca9f8\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"96x96\\" href=\\"//favicon-96-96.png?h=c982d080\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"128x128\\" href=\\"//favicon-128-128.png?h=7fd1e436\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"36x36\\" href=\\"//android-chrome-36-36.png?h=2418a4a3\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"48x48\\" href=\\"//android-chrome-48-48.png?h=ed5e3b95\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"72x72\\" href=\\"//android-chrome-72-72.png?h=11bca9f8\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"96x96\\" href=\\"//android-chrome-96-96.png?h=c982d080\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"144x144\\" href=\\"//android-chrome-144-144.png?h=2fd1dee9\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"192x192\\" href=\\"//android-chrome-192-192.png?h=b71edbe2\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"256x256\\" href=\\"//android-chrome-256-256.png?h=b3db4b56\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"384x384\\" href=\\"//android-chrome-384-384.png?h=687240c7\\">
-<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"512x512\\" href=\\"//android-chrome-512-512.png?h=aad27010\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"57x57\\" href=\\"//apple-touch-icon-57-57.png?h=c6bce9e9\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"60x60\\" href=\\"//apple-touch-icon-60-60.png?h=ad141b83\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"72x72\\" href=\\"//apple-touch-icon-72-72.png?h=11bca9f8\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"76x76\\" href=\\"//apple-touch-icon-76-76.png?h=833e8747\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"114x114\\" href=\\"//apple-touch-icon-114-114.png?h=9c295d64\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"120x120\\" href=\\"//apple-touch-icon-120-120.png?h=40259424\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"144x144\\" href=\\"//apple-touch-icon-144-144.png?h=2fd1dee9\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"152x152\\" href=\\"//apple-touch-icon-152-152.png?h=777fee3d\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"167x167\\" href=\\"//apple-touch-icon-167-167.png?h=6be670f9\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"//apple-touch-icon-180-180.png?h=cf34fc39\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"//apple-touch-icon.png?h=cf34fc39\\">
-<link rel=\\"apple-touch-icon\\" href=\\"//apple-touch-icon.png?h=cf34fc39\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"//apple-touch-icon-precomposed.png?h=cf34fc39\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"1024x1024\\" href=\\"//apple-touch-icon-1024-1024.png?h=b8283de9\\">
-<link rel=\\"apple-touch-icon\\" sizes=\\"512x512\\" href=\\"//apple-touch-icon-512-512.png?h=aad27010\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-xs-max-1242-2688.png?h=b9b4b54d\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-xr-828-1792.png?h=082bbf50\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 375) and (device-height: 812) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-xs-1125-2436.png?h=8622ebb9\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-8-plus-1242-2208.png?h=8f68b921\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-8-752-1334.png?h=dfff9205\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-screen-default.png?h=294216d0\\">
-<link rel=\\"apple-touch-icon\\" href=\\"//apple-launch-screen-default.png?h=294216d0\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 1024) and (device-height: 1366) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-pro-xl-2048-2732.png?h=1cd6efa6\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 834) and (device-height: 1194) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-pro-1668-2388.png?h=d4ea21ac\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 834) and (device-height: 1112) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-pro-s-1668-2224.png?h=35f51b1e\\">
-<link rel=\\"apple-touch-icon\\" media=\\"(device-width: 768) and (device-height: 1024) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-air-1536-2048.png?h=250bc275\\">
-<link rel=\\"shortcut icon\\" href=\\"//favicon.ico?h=5f6bd7c9\\">"
+"<link rel="icon" type="image/png" sizes="16x16" href="//favicon-16-16.png?h=test">
+<link rel="icon" type="image/png" sizes="24x24" href="//favicon-24-24.png?h=test">
+<link rel="icon" type="image/png" sizes="32x32" href="//favicon-32-32.png?h=test">
+<link rel="icon" type="image/png" sizes="48x48" href="//favicon-48-48.png?h=test">
+<link rel="icon" type="image/png" sizes="64x64" href="//favicon-64-64.png?h=test">
+<link rel="icon" type="image/png" sizes="72x72" href="//favicon-72-72.png?h=test">
+<link rel="icon" type="image/png" sizes="96x96" href="//favicon-96-96.png?h=test">
+<link rel="icon" type="image/png" sizes="128x128" href="//favicon-128-128.png?h=test">
+<link rel="icon" type="image/png" sizes="36x36" href="//android-chrome-36-36.png?h=test">
+<link rel="icon" type="image/png" sizes="48x48" href="//android-chrome-48-48.png?h=test">
+<link rel="icon" type="image/png" sizes="72x72" href="//android-chrome-72-72.png?h=test">
+<link rel="icon" type="image/png" sizes="96x96" href="//android-chrome-96-96.png?h=test">
+<link rel="icon" type="image/png" sizes="144x144" href="//android-chrome-144-144.png?h=test">
+<link rel="icon" type="image/png" sizes="192x192" href="//android-chrome-192-192.png?h=test">
+<link rel="icon" type="image/png" sizes="256x256" href="//android-chrome-256-256.png?h=test">
+<link rel="icon" type="image/png" sizes="384x384" href="//android-chrome-384-384.png?h=test">
+<link rel="icon" type="image/png" sizes="512x512" href="//android-chrome-512-512.png?h=test">
+<link rel="apple-touch-icon" sizes="57x57" href="//apple-touch-icon-57-57.png?h=test">
+<link rel="apple-touch-icon" sizes="60x60" href="//apple-touch-icon-60-60.png?h=test">
+<link rel="apple-touch-icon" sizes="72x72" href="//apple-touch-icon-72-72.png?h=test">
+<link rel="apple-touch-icon" sizes="76x76" href="//apple-touch-icon-76-76.png?h=test">
+<link rel="apple-touch-icon" sizes="114x114" href="//apple-touch-icon-114-114.png?h=test">
+<link rel="apple-touch-icon" sizes="120x120" href="//apple-touch-icon-120-120.png?h=test">
+<link rel="apple-touch-icon" sizes="144x144" href="//apple-touch-icon-144-144.png?h=test">
+<link rel="apple-touch-icon" sizes="152x152" href="//apple-touch-icon-152-152.png?h=test">
+<link rel="apple-touch-icon" sizes="167x167" href="//apple-touch-icon-167-167.png?h=test">
+<link rel="apple-touch-icon" sizes="180x180" href="//apple-touch-icon-180-180.png?h=test">
+<link rel="apple-touch-icon" sizes="1024x1024" href="//apple-touch-icon.png.png?h=test">
+<link rel="apple-touch-icon" sizes="180x180" href="//apple-touch-icon-precomposed.png.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 320) and (device-height: 568) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-se-640-1136.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 375) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-8-750-1334.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 375) and (device-height: 812) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-xs-1125-2436.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 390) and (device-height: 844) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-12-1170-2532.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-11-828-1792.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-11-pro-max-1242-2688.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-8-plus-1242-2208.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-6-plus-1242-2208.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 428) and (device-height: 926) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-12-pro-max-1284-2778.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-screen-default.png?h=test">
+<link rel="apple-touch-icon" href="//apple-launch-screen-default.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 768) and (device-height: 1024) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-s-1536-2048.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 810) and (device-height: 1080) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-1620-2160.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 834) and (device-height: 1194) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-l-1668-2388.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 834) and (device-height: 1112) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-air-1668-2224.png?h=test">
+<link rel="apple-touch-icon" media="(device-width: 1024) and (device-height: 1366) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-xl-2048-2732.png?h=test">
+<link rel="shortcut icon" href="//favicon.ico?h=test">"
 `;
 
 exports[`generateTags renders correctly: json 1`] = `
 "[
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"16x16\\",
-    \\"href\\": \\"//favicon-16-16.png?h=06804237\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "16x16",
+    "href": "//favicon-16-16.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"24x24\\",
-    \\"href\\": \\"//favicon-24-24.png?h=2b2416ce\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "24x24",
+    "href": "//favicon-24-24.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"32x32\\",
-    \\"href\\": \\"//favicon-32-32.png?h=4beb1a43\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "32x32",
+    "href": "//favicon-32-32.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"48x48\\",
-    \\"href\\": \\"//favicon-48-48.png?h=ed5e3b95\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "48x48",
+    "href": "//favicon-48-48.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"64x64\\",
-    \\"href\\": \\"//favicon-64-64.png?h=2c887f6d\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "64x64",
+    "href": "//favicon-64-64.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"72x72\\",
-    \\"href\\": \\"//favicon-72-72.png?h=11bca9f8\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "72x72",
+    "href": "//favicon-72-72.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"96x96\\",
-    \\"href\\": \\"//favicon-96-96.png?h=c982d080\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "96x96",
+    "href": "//favicon-96-96.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"128x128\\",
-    \\"href\\": \\"//favicon-128-128.png?h=7fd1e436\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "128x128",
+    "href": "//favicon-128-128.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"36x36\\",
-    \\"href\\": \\"//android-chrome-36-36.png?h=2418a4a3\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "36x36",
+    "href": "//android-chrome-36-36.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"48x48\\",
-    \\"href\\": \\"//android-chrome-48-48.png?h=ed5e3b95\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "48x48",
+    "href": "//android-chrome-48-48.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"72x72\\",
-    \\"href\\": \\"//android-chrome-72-72.png?h=11bca9f8\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "72x72",
+    "href": "//android-chrome-72-72.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"96x96\\",
-    \\"href\\": \\"//android-chrome-96-96.png?h=c982d080\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "96x96",
+    "href": "//android-chrome-96-96.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"144x144\\",
-    \\"href\\": \\"//android-chrome-144-144.png?h=2fd1dee9\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "144x144",
+    "href": "//android-chrome-144-144.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"192x192\\",
-    \\"href\\": \\"//android-chrome-192-192.png?h=b71edbe2\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "192x192",
+    "href": "//android-chrome-192-192.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"256x256\\",
-    \\"href\\": \\"//android-chrome-256-256.png?h=b3db4b56\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "256x256",
+    "href": "//android-chrome-256-256.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"384x384\\",
-    \\"href\\": \\"//android-chrome-384-384.png?h=687240c7\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "384x384",
+    "href": "//android-chrome-384-384.png?h=test"
   },
   {
-    \\"rel\\": \\"icon\\",
-    \\"type\\": \\"image/png\\",
-    \\"sizes\\": \\"512x512\\",
-    \\"href\\": \\"//android-chrome-512-512.png?h=aad27010\\"
+    "rel": "icon",
+    "type": "image/png",
+    "sizes": "512x512",
+    "href": "//android-chrome-512-512.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"57x57\\",
-    \\"href\\": \\"//apple-touch-icon-57-57.png?h=c6bce9e9\\"
+    "rel": "apple-touch-icon",
+    "sizes": "57x57",
+    "href": "//apple-touch-icon-57-57.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"60x60\\",
-    \\"href\\": \\"//apple-touch-icon-60-60.png?h=ad141b83\\"
+    "rel": "apple-touch-icon",
+    "sizes": "60x60",
+    "href": "//apple-touch-icon-60-60.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"72x72\\",
-    \\"href\\": \\"//apple-touch-icon-72-72.png?h=11bca9f8\\"
+    "rel": "apple-touch-icon",
+    "sizes": "72x72",
+    "href": "//apple-touch-icon-72-72.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"76x76\\",
-    \\"href\\": \\"//apple-touch-icon-76-76.png?h=833e8747\\"
+    "rel": "apple-touch-icon",
+    "sizes": "76x76",
+    "href": "//apple-touch-icon-76-76.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"114x114\\",
-    \\"href\\": \\"//apple-touch-icon-114-114.png?h=9c295d64\\"
+    "rel": "apple-touch-icon",
+    "sizes": "114x114",
+    "href": "//apple-touch-icon-114-114.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"120x120\\",
-    \\"href\\": \\"//apple-touch-icon-120-120.png?h=40259424\\"
+    "rel": "apple-touch-icon",
+    "sizes": "120x120",
+    "href": "//apple-touch-icon-120-120.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"144x144\\",
-    \\"href\\": \\"//apple-touch-icon-144-144.png?h=2fd1dee9\\"
+    "rel": "apple-touch-icon",
+    "sizes": "144x144",
+    "href": "//apple-touch-icon-144-144.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"152x152\\",
-    \\"href\\": \\"//apple-touch-icon-152-152.png?h=777fee3d\\"
+    "rel": "apple-touch-icon",
+    "sizes": "152x152",
+    "href": "//apple-touch-icon-152-152.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"167x167\\",
-    \\"href\\": \\"//apple-touch-icon-167-167.png?h=6be670f9\\"
+    "rel": "apple-touch-icon",
+    "sizes": "167x167",
+    "href": "//apple-touch-icon-167-167.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"180x180\\",
-    \\"href\\": \\"//apple-touch-icon-180-180.png?h=cf34fc39\\"
+    "rel": "apple-touch-icon",
+    "sizes": "180x180",
+    "href": "//apple-touch-icon-180-180.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"180x180\\",
-    \\"href\\": \\"//apple-touch-icon.png?h=cf34fc39\\"
+    "rel": "apple-touch-icon",
+    "sizes": "1024x1024",
+    "href": "//apple-touch-icon.png.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"href\\": \\"//apple-touch-icon.png?h=cf34fc39\\"
+    "rel": "apple-touch-icon",
+    "sizes": "180x180",
+    "href": "//apple-touch-icon-precomposed.png.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"180x180\\",
-    \\"href\\": \\"//apple-touch-icon-precomposed.png?h=cf34fc39\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 320) and (device-height: 568) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)",
+    "href": "//apple-launch-se-640-1136.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"1024x1024\\",
-    \\"href\\": \\"//apple-touch-icon-1024-1024.png?h=b8283de9\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 375) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)",
+    "href": "//apple-launch-8-750-1334.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"sizes\\": \\"512x512\\",
-    \\"href\\": \\"//apple-touch-icon-512-512.png?h=aad27010\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 375) and (device-height: 812) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)",
+    "href": "//apple-launch-xs-1125-2436.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\",
-    \\"href\\": \\"//apple-launch-xs-max-1242-2688.png?h=b9b4b54d\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 390) and (device-height: 844) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)",
+    "href": "//apple-launch-12-1170-2532.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\",
-    \\"href\\": \\"//apple-launch-xr-828-1792.png?h=082bbf50\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)",
+    "href": "//apple-launch-11-828-1792.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 375) and (device-height: 812) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\",
-    \\"href\\": \\"//apple-launch-xs-1125-2436.png?h=8622ebb9\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)",
+    "href": "//apple-launch-11-pro-max-1242-2688.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\",
-    \\"href\\": \\"//apple-launch-8-plus-1242-2208.png?h=8f68b921\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)",
+    "href": "//apple-launch-8-plus-1242-2208.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\",
-    \\"href\\": \\"//apple-launch-8-752-1334.png?h=dfff9205\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)",
+    "href": "//apple-launch-6-plus-1242-2208.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\",
-    \\"href\\": \\"//apple-launch-screen-default.png?h=294216d0\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 428) and (device-height: 926) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)",
+    "href": "//apple-launch-12-pro-max-1284-2778.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"href\\": \\"//apple-launch-screen-default.png?h=294216d0\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)",
+    "href": "//apple-launch-screen-default.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 1024) and (device-height: 1366) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\",
-    \\"href\\": \\"//apple-launch-ipad-pro-xl-2048-2732.png?h=1cd6efa6\\"
+    "rel": "apple-touch-icon",
+    "href": "//apple-launch-screen-default.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 834) and (device-height: 1194) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\",
-    \\"href\\": \\"//apple-launch-ipad-pro-1668-2388.png?h=d4ea21ac\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 768) and (device-height: 1024) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)",
+    "href": "//apple-launch-ipad-pro-s-1536-2048.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 834) and (device-height: 1112) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\",
-    \\"href\\": \\"//apple-launch-ipad-pro-s-1668-2224.png?h=35f51b1e\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 810) and (device-height: 1080) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)",
+    "href": "//apple-launch-ipad-pro-1620-2160.png?h=test"
   },
   {
-    \\"rel\\": \\"apple-touch-icon\\",
-    \\"media\\": \\"(device-width: 768) and (device-height: 1024) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\",
-    \\"href\\": \\"//apple-launch-ipad-air-1536-2048.png?h=250bc275\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 834) and (device-height: 1194) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)",
+    "href": "//apple-launch-ipad-pro-l-1668-2388.png?h=test"
   },
   {
-    \\"rel\\": \\"shortcut icon\\",
-    \\"href\\": \\"//favicon.ico?h=5f6bd7c9\\"
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 834) and (device-height: 1112) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)",
+    "href": "//apple-launch-air-1668-2224.png?h=test"
+  },
+  {
+    "rel": "apple-touch-icon",
+    "media": "(device-width: 1024) and (device-height: 1366) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)",
+    "href": "//apple-launch-ipad-pro-xl-2048-2732.png?h=test"
+  },
+  {
+    "rel": "shortcut icon",
+    "href": "//favicon.ico?h=test"
   }
 ]"
 `;
 
 exports[`generateTags renders correctly: jsx 1`] = `
-"import React from \\"react\\"
+"import React from "react"
 
 const Icons = () => (<>
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"16x16\\" href=\\"//favicon-16-16.png?h=06804237\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"24x24\\" href=\\"//favicon-24-24.png?h=2b2416ce\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"32x32\\" href=\\"//favicon-32-32.png?h=4beb1a43\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"48x48\\" href=\\"//favicon-48-48.png?h=ed5e3b95\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"64x64\\" href=\\"//favicon-64-64.png?h=2c887f6d\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"72x72\\" href=\\"//favicon-72-72.png?h=11bca9f8\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"96x96\\" href=\\"//favicon-96-96.png?h=c982d080\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"128x128\\" href=\\"//favicon-128-128.png?h=7fd1e436\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"36x36\\" href=\\"//android-chrome-36-36.png?h=2418a4a3\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"48x48\\" href=\\"//android-chrome-48-48.png?h=ed5e3b95\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"72x72\\" href=\\"//android-chrome-72-72.png?h=11bca9f8\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"96x96\\" href=\\"//android-chrome-96-96.png?h=c982d080\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"144x144\\" href=\\"//android-chrome-144-144.png?h=2fd1dee9\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"192x192\\" href=\\"//android-chrome-192-192.png?h=b71edbe2\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"256x256\\" href=\\"//android-chrome-256-256.png?h=b3db4b56\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"384x384\\" href=\\"//android-chrome-384-384.png?h=687240c7\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"512x512\\" href=\\"//android-chrome-512-512.png?h=aad27010\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"57x57\\" href=\\"//apple-touch-icon-57-57.png?h=c6bce9e9\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"60x60\\" href=\\"//apple-touch-icon-60-60.png?h=ad141b83\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"72x72\\" href=\\"//apple-touch-icon-72-72.png?h=11bca9f8\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"76x76\\" href=\\"//apple-touch-icon-76-76.png?h=833e8747\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"114x114\\" href=\\"//apple-touch-icon-114-114.png?h=9c295d64\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"120x120\\" href=\\"//apple-touch-icon-120-120.png?h=40259424\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"144x144\\" href=\\"//apple-touch-icon-144-144.png?h=2fd1dee9\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"152x152\\" href=\\"//apple-touch-icon-152-152.png?h=777fee3d\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"167x167\\" href=\\"//apple-touch-icon-167-167.png?h=6be670f9\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"//apple-touch-icon-180-180.png?h=cf34fc39\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"//apple-touch-icon.png?h=cf34fc39\\" />
-  <link rel=\\"apple-touch-icon\\" href=\\"//apple-touch-icon.png?h=cf34fc39\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"//apple-touch-icon-precomposed.png?h=cf34fc39\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"1024x1024\\" href=\\"//apple-touch-icon-1024-1024.png?h=b8283de9\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"512x512\\" href=\\"//apple-touch-icon-512-512.png?h=aad27010\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-xs-max-1242-2688.png?h=b9b4b54d\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-xr-828-1792.png?h=082bbf50\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 375) and (device-height: 812) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-xs-1125-2436.png?h=8622ebb9\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-8-plus-1242-2208.png?h=8f68b921\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-8-752-1334.png?h=dfff9205\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-screen-default.png?h=294216d0\\" />
-  <link rel=\\"apple-touch-icon\\" href=\\"//apple-launch-screen-default.png?h=294216d0\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 1024) and (device-height: 1366) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-pro-xl-2048-2732.png?h=1cd6efa6\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 834) and (device-height: 1194) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-pro-1668-2388.png?h=d4ea21ac\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 834) and (device-height: 1112) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-pro-s-1668-2224.png?h=35f51b1e\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 768) and (device-height: 1024) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-air-1536-2048.png?h=250bc275\\" />
-  <link rel=\\"shortcut icon\\" href=\\"//favicon.ico?h=5f6bd7c9\\" />
+  <link rel="icon" type="image/png" sizes="16x16" href="//favicon-16-16.png?h=test" />
+  <link rel="icon" type="image/png" sizes="24x24" href="//favicon-24-24.png?h=test" />
+  <link rel="icon" type="image/png" sizes="32x32" href="//favicon-32-32.png?h=test" />
+  <link rel="icon" type="image/png" sizes="48x48" href="//favicon-48-48.png?h=test" />
+  <link rel="icon" type="image/png" sizes="64x64" href="//favicon-64-64.png?h=test" />
+  <link rel="icon" type="image/png" sizes="72x72" href="//favicon-72-72.png?h=test" />
+  <link rel="icon" type="image/png" sizes="96x96" href="//favicon-96-96.png?h=test" />
+  <link rel="icon" type="image/png" sizes="128x128" href="//favicon-128-128.png?h=test" />
+  <link rel="icon" type="image/png" sizes="36x36" href="//android-chrome-36-36.png?h=test" />
+  <link rel="icon" type="image/png" sizes="48x48" href="//android-chrome-48-48.png?h=test" />
+  <link rel="icon" type="image/png" sizes="72x72" href="//android-chrome-72-72.png?h=test" />
+  <link rel="icon" type="image/png" sizes="96x96" href="//android-chrome-96-96.png?h=test" />
+  <link rel="icon" type="image/png" sizes="144x144" href="//android-chrome-144-144.png?h=test" />
+  <link rel="icon" type="image/png" sizes="192x192" href="//android-chrome-192-192.png?h=test" />
+  <link rel="icon" type="image/png" sizes="256x256" href="//android-chrome-256-256.png?h=test" />
+  <link rel="icon" type="image/png" sizes="384x384" href="//android-chrome-384-384.png?h=test" />
+  <link rel="icon" type="image/png" sizes="512x512" href="//android-chrome-512-512.png?h=test" />
+  <link rel="apple-touch-icon" sizes="57x57" href="//apple-touch-icon-57-57.png?h=test" />
+  <link rel="apple-touch-icon" sizes="60x60" href="//apple-touch-icon-60-60.png?h=test" />
+  <link rel="apple-touch-icon" sizes="72x72" href="//apple-touch-icon-72-72.png?h=test" />
+  <link rel="apple-touch-icon" sizes="76x76" href="//apple-touch-icon-76-76.png?h=test" />
+  <link rel="apple-touch-icon" sizes="114x114" href="//apple-touch-icon-114-114.png?h=test" />
+  <link rel="apple-touch-icon" sizes="120x120" href="//apple-touch-icon-120-120.png?h=test" />
+  <link rel="apple-touch-icon" sizes="144x144" href="//apple-touch-icon-144-144.png?h=test" />
+  <link rel="apple-touch-icon" sizes="152x152" href="//apple-touch-icon-152-152.png?h=test" />
+  <link rel="apple-touch-icon" sizes="167x167" href="//apple-touch-icon-167-167.png?h=test" />
+  <link rel="apple-touch-icon" sizes="180x180" href="//apple-touch-icon-180-180.png?h=test" />
+  <link rel="apple-touch-icon" sizes="1024x1024" href="//apple-touch-icon.png.png?h=test" />
+  <link rel="apple-touch-icon" sizes="180x180" href="//apple-touch-icon-precomposed.png.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 320) and (device-height: 568) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-se-640-1136.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 375) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-8-750-1334.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 375) and (device-height: 812) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-xs-1125-2436.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 390) and (device-height: 844) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-12-1170-2532.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-11-828-1792.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-11-pro-max-1242-2688.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-8-plus-1242-2208.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-6-plus-1242-2208.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 428) and (device-height: 926) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-12-pro-max-1284-2778.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-screen-default.png?h=test" />
+  <link rel="apple-touch-icon" href="//apple-launch-screen-default.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 768) and (device-height: 1024) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-s-1536-2048.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 810) and (device-height: 1080) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-1620-2160.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 834) and (device-height: 1194) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-l-1668-2388.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 834) and (device-height: 1112) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-air-1668-2224.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 1024) and (device-height: 1366) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-xl-2048-2732.png?h=test" />
+  <link rel="shortcut icon" href="//favicon.ico?h=test" />
 </>);
 
 export default Icons;"
 `;
 
 exports[`generateTags renders correctly: tsx 1`] = `
-"import React from \\"react\\"
+"import React from "react"
 
 const Icons: React.FC = () => (<>
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"16x16\\" href=\\"//favicon-16-16.png?h=06804237\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"24x24\\" href=\\"//favicon-24-24.png?h=2b2416ce\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"32x32\\" href=\\"//favicon-32-32.png?h=4beb1a43\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"48x48\\" href=\\"//favicon-48-48.png?h=ed5e3b95\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"64x64\\" href=\\"//favicon-64-64.png?h=2c887f6d\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"72x72\\" href=\\"//favicon-72-72.png?h=11bca9f8\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"96x96\\" href=\\"//favicon-96-96.png?h=c982d080\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"128x128\\" href=\\"//favicon-128-128.png?h=7fd1e436\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"36x36\\" href=\\"//android-chrome-36-36.png?h=2418a4a3\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"48x48\\" href=\\"//android-chrome-48-48.png?h=ed5e3b95\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"72x72\\" href=\\"//android-chrome-72-72.png?h=11bca9f8\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"96x96\\" href=\\"//android-chrome-96-96.png?h=c982d080\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"144x144\\" href=\\"//android-chrome-144-144.png?h=2fd1dee9\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"192x192\\" href=\\"//android-chrome-192-192.png?h=b71edbe2\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"256x256\\" href=\\"//android-chrome-256-256.png?h=b3db4b56\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"384x384\\" href=\\"//android-chrome-384-384.png?h=687240c7\\" />
-  <link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"512x512\\" href=\\"//android-chrome-512-512.png?h=aad27010\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"57x57\\" href=\\"//apple-touch-icon-57-57.png?h=c6bce9e9\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"60x60\\" href=\\"//apple-touch-icon-60-60.png?h=ad141b83\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"72x72\\" href=\\"//apple-touch-icon-72-72.png?h=11bca9f8\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"76x76\\" href=\\"//apple-touch-icon-76-76.png?h=833e8747\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"114x114\\" href=\\"//apple-touch-icon-114-114.png?h=9c295d64\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"120x120\\" href=\\"//apple-touch-icon-120-120.png?h=40259424\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"144x144\\" href=\\"//apple-touch-icon-144-144.png?h=2fd1dee9\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"152x152\\" href=\\"//apple-touch-icon-152-152.png?h=777fee3d\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"167x167\\" href=\\"//apple-touch-icon-167-167.png?h=6be670f9\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"//apple-touch-icon-180-180.png?h=cf34fc39\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"//apple-touch-icon.png?h=cf34fc39\\" />
-  <link rel=\\"apple-touch-icon\\" href=\\"//apple-touch-icon.png?h=cf34fc39\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"//apple-touch-icon-precomposed.png?h=cf34fc39\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"1024x1024\\" href=\\"//apple-touch-icon-1024-1024.png?h=b8283de9\\" />
-  <link rel=\\"apple-touch-icon\\" sizes=\\"512x512\\" href=\\"//apple-touch-icon-512-512.png?h=aad27010\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-xs-max-1242-2688.png?h=b9b4b54d\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-xr-828-1792.png?h=082bbf50\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 375) and (device-height: 812) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-xs-1125-2436.png?h=8622ebb9\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-8-plus-1242-2208.png?h=8f68b921\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-8-752-1334.png?h=dfff9205\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)\\" href=\\"//apple-launch-screen-default.png?h=294216d0\\" />
-  <link rel=\\"apple-touch-icon\\" href=\\"//apple-launch-screen-default.png?h=294216d0\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 1024) and (device-height: 1366) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-pro-xl-2048-2732.png?h=1cd6efa6\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 834) and (device-height: 1194) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-pro-1668-2388.png?h=d4ea21ac\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 834) and (device-height: 1112) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-pro-s-1668-2224.png?h=35f51b1e\\" />
-  <link rel=\\"apple-touch-icon\\" media=\\"(device-width: 768) and (device-height: 1024) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)\\" href=\\"//apple-launch-ipad-air-1536-2048.png?h=250bc275\\" />
-  <link rel=\\"shortcut icon\\" href=\\"//favicon.ico?h=5f6bd7c9\\" />
+  <link rel="icon" type="image/png" sizes="16x16" href="//favicon-16-16.png?h=test" />
+  <link rel="icon" type="image/png" sizes="24x24" href="//favicon-24-24.png?h=test" />
+  <link rel="icon" type="image/png" sizes="32x32" href="//favicon-32-32.png?h=test" />
+  <link rel="icon" type="image/png" sizes="48x48" href="//favicon-48-48.png?h=test" />
+  <link rel="icon" type="image/png" sizes="64x64" href="//favicon-64-64.png?h=test" />
+  <link rel="icon" type="image/png" sizes="72x72" href="//favicon-72-72.png?h=test" />
+  <link rel="icon" type="image/png" sizes="96x96" href="//favicon-96-96.png?h=test" />
+  <link rel="icon" type="image/png" sizes="128x128" href="//favicon-128-128.png?h=test" />
+  <link rel="icon" type="image/png" sizes="36x36" href="//android-chrome-36-36.png?h=test" />
+  <link rel="icon" type="image/png" sizes="48x48" href="//android-chrome-48-48.png?h=test" />
+  <link rel="icon" type="image/png" sizes="72x72" href="//android-chrome-72-72.png?h=test" />
+  <link rel="icon" type="image/png" sizes="96x96" href="//android-chrome-96-96.png?h=test" />
+  <link rel="icon" type="image/png" sizes="144x144" href="//android-chrome-144-144.png?h=test" />
+  <link rel="icon" type="image/png" sizes="192x192" href="//android-chrome-192-192.png?h=test" />
+  <link rel="icon" type="image/png" sizes="256x256" href="//android-chrome-256-256.png?h=test" />
+  <link rel="icon" type="image/png" sizes="384x384" href="//android-chrome-384-384.png?h=test" />
+  <link rel="icon" type="image/png" sizes="512x512" href="//android-chrome-512-512.png?h=test" />
+  <link rel="apple-touch-icon" sizes="57x57" href="//apple-touch-icon-57-57.png?h=test" />
+  <link rel="apple-touch-icon" sizes="60x60" href="//apple-touch-icon-60-60.png?h=test" />
+  <link rel="apple-touch-icon" sizes="72x72" href="//apple-touch-icon-72-72.png?h=test" />
+  <link rel="apple-touch-icon" sizes="76x76" href="//apple-touch-icon-76-76.png?h=test" />
+  <link rel="apple-touch-icon" sizes="114x114" href="//apple-touch-icon-114-114.png?h=test" />
+  <link rel="apple-touch-icon" sizes="120x120" href="//apple-touch-icon-120-120.png?h=test" />
+  <link rel="apple-touch-icon" sizes="144x144" href="//apple-touch-icon-144-144.png?h=test" />
+  <link rel="apple-touch-icon" sizes="152x152" href="//apple-touch-icon-152-152.png?h=test" />
+  <link rel="apple-touch-icon" sizes="167x167" href="//apple-touch-icon-167-167.png?h=test" />
+  <link rel="apple-touch-icon" sizes="180x180" href="//apple-touch-icon-180-180.png?h=test" />
+  <link rel="apple-touch-icon" sizes="1024x1024" href="//apple-touch-icon.png.png?h=test" />
+  <link rel="apple-touch-icon" sizes="180x180" href="//apple-touch-icon-precomposed.png.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 320) and (device-height: 568) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-se-640-1136.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 375) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-8-750-1334.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 375) and (device-height: 812) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-xs-1125-2436.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 390) and (device-height: 844) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-12-1170-2532.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-11-828-1792.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 896) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-11-pro-max-1242-2688.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-8-plus-1242-2208.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 414) and (device-height: 736) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-6-plus-1242-2208.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 428) and (device-height: 926) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-12-pro-max-1284-2778.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 376) and (device-height: 667) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="//apple-launch-screen-default.png?h=test" />
+  <link rel="apple-touch-icon" href="//apple-launch-screen-default.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 768) and (device-height: 1024) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-s-1536-2048.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 810) and (device-height: 1080) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-1620-2160.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 834) and (device-height: 1194) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-l-1668-2388.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 834) and (device-height: 1112) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-air-1668-2224.png?h=test" />
+  <link rel="apple-touch-icon" media="(device-width: 1024) and (device-height: 1366) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-ipad-pro-xl-2048-2732.png?h=test" />
+  <link rel="shortcut icon" href="//favicon.ico?h=test" />
 </>);
 
 export default Icons;"

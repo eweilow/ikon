@@ -1,0 +1,33 @@
+name: Test
+on: push
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        nodejs: [16.x, 18.x]
+
+    name: "Test"
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.nodejs }}
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Run build
+        run: yarn build-ts
+
+      - name: Check style
+        run: yarn check-style
+
+      - name: Run lint
+        run: yarn check-lint
+
+      - name: Run tests
+        run: yarn check-unit --ci

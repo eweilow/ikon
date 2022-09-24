@@ -21,14 +21,14 @@ export async function attemptStartServer(obj: () => IStartable, preferredPort: n
             resolve(address.port);
           }
         });
-        createdServer.on("error", error => {
+        createdServer.on("error", (error) => {
           reject(error);
         });
         server = createdServer;
       });
       break;
     } catch (err) {
-      if (err.code !== "EADDRINUSE") {
+      if ((err as any)?.code !== "EADDRINUSE") {
         throw err;
       }
       preferredPort = 0;
@@ -50,6 +50,6 @@ export async function attemptStartServer(obj: () => IStartable, preferredPort: n
   }
   return {
     port,
-    server
+    server,
   };
 }

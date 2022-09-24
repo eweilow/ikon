@@ -5,7 +5,7 @@ import {
   FaviconSizes,
   IOSAppIconSizes,
   IPadStartScreens,
-  IPhoneStartScreens
+  IPhoneStartScreens,
 } from "../../sizes";
 import { IconGenerationComponent, IconGenerationComponentProps } from "../../types";
 
@@ -13,20 +13,20 @@ import { Html } from "./html";
 import { Icons } from "./icons";
 
 const rotate = (icons: IconGenerationComponentProps[]) =>
-  icons.map(icon => ({
+  icons.map((icon) => ({
     ...icon,
     height: icon.width,
     width: icon.height,
-    name: icon.name + "-rot"
+    name: icon.name + "-rot",
   }));
 
 export const AllIcons: React.FC<{
   Component: IconGenerationComponent;
-}> = props => (
+}> = (props) => (
   <Html background="#e0e0e0">
     <style
       dangerouslySetInnerHTML={{
-        __html: `.iconWrapper:hover > .icon { transform: translate(-50%, -50%) !important; z-index: 1000; }`
+        __html: `.iconWrapper:hover > .icon { transform: translate(-50%, -50%) !important; z-index: 1000; }`,
       }}
     />
     <Icons

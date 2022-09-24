@@ -1,5 +1,6 @@
 import { IconGenerationComponent, generateTags } from "@eweilow/ikon";
-import Datauri from "datauri";
+import assert from "assert";
+import Datauri from "datauri/parser";
 import { extname } from "path";
 
 type StreamWriter = (chunk: string) => void;
@@ -18,7 +19,7 @@ export async function generateTagsHTML(
     publicPath,
     outDir,
     concurrency,
-    tag => write(tag.replace(/</g, "&lt;").replace(/>/g, "&gt;") + "\n"),
+    (tag) => write(tag.replace(/</g, "&lt;").replace(/>/g, "&gt;") + "\n"),
     undefined,
     true
   );
@@ -50,6 +51,7 @@ export async function generateIconsHTML(
       } else {
         const outputUri = new Datauri();
         outputUri.format(extname(name), image);
+        assert(outputUri.content != null);
         src = outputUri.content;
       }
 

@@ -23,11 +23,11 @@
   "homepage": "https://github.com/eweilow/ikon",
   "dependencies": {
     "@eweilow/ikon": "^0.0.1-alpha.6",
-    "hot-module-replacement": "3.0.3",
-    "open": "6.4.0"
+    "hot-module-replacement": "^3.0.4",
+    "open": "^8.4.0"
   },
   "devDependencies": {
-    "@types/node": "^14.0.5",
+    "@types/node": "^18.7.19",
     "@types/open": "^6.2.1"
   },
   "gitHead": "b7dc79987a794604c8538d3b9e9f2d17f8ab66da",

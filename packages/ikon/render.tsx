@@ -1,4 +1,5 @@
-import Datauri from "datauri";
+import assert from "assert";
+import Datauri from "datauri/parser";
 import { Page } from "puppeteer";
 import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
@@ -12,7 +13,7 @@ import {
   FaviconSizes,
   IOSAppIconSizes,
   IPadStartScreens,
-  IPhoneStartScreens
+  IPhoneStartScreens,
 } from "./sizes";
 import { IconGenerationComponent, IconGenerationComponentProps } from "./types";
 
@@ -27,7 +28,7 @@ export function getIcons() {
     ...AndroidAppIconSizes,
     ...IOSAppIconSizes,
     ...IPhoneStartScreens,
-    ...IPadStartScreens
+    ...IPadStartScreens,
   ];
 }
 
@@ -49,6 +50,8 @@ export async function renderIcon(
   const datauri = new Datauri();
   datauri.format(".html", data);
 
+  assert(datauri.content != null);
+
   const realWidth = icon.width * icon.pixelRatio;
   let superSampling: number = 1;
   if (icon.pixelRatio === 1 && realWidth < 512) {
@@ -62,15 +65,18 @@ export async function renderIcon(
     height: icon.height * icon.pixelRatio,
     isMobile: false,
     hasTouch: false,
-    deviceScaleFactor: superSampling
+    deviceScaleFactor: superSampling,
   });
 
   const src = await page.screenshot({
     fullPage: true,
     encoding: "binary",
     omitBackground: true,
-    type: "png"
+    type: "png",
   });
+
+  assert(typeof src !== "string");
+
   const resized =
     superSampling !== 1
       ? await sharp(src)

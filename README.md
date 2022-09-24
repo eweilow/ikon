@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.com/eweilow/ikon.svg?branch=master)](https://travis-ci.com/eweilow/ikon)
-[![npm (scoped)](https://img.shields.io/npm/v/@eweilow/ikon-cli.svg)](https://www.npmjs.com/package/@eweilow/ikon-cli)
-[![Renovate badge](https://badges.renovateapi.com/github/eweilow/ikon)](https://renovatebot.com/)
-
 # Ikon (**work in progress**)
 
 Warning: this is a work in progress, so bugs might really occur. If you chose to use Ikon, please let me know if any issues arise.

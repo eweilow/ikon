@@ -24,186 +24,544 @@ exports[`generateIcons renders HTML correctly 1`] = `
         }
       </style>
       <section>
-        <h1 style=\\"text-align:center;margin:16px 8px\\">Android icons</h1>
+        <h1 style="text-align: center; margin: 16px 8px">Android icons</h1>
         <div
-          style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+          "
         >
           <div
-            style=\\"width:36px;height:68px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:6.315789473684211px;border-top-right-radius:6.315789473684211px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 36px;
+              height: 68px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 6.315789473684211px;
+              border-top-right-radius: 6.315789473684211px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:18px;left:18px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:36px;height:36px;border-radius:6.315789473684211px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 18px;
+                left: 18px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 36px;
+                height: 36px;
+                border-radius: 6.315789473684211px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#242464;background:#dbdb9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #242464;
+                  background: #dbdb9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 36x36 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               36
             </footer>
           </div>
           <div
-            style=\\"width:48px;height:80px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:8.421052631578947px;border-top-right-radius:8.421052631578947px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 48px;
+              height: 80px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 8.421052631578947px;
+              border-top-right-radius: 8.421052631578947px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:24px;left:24px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:48px;height:48px;border-radius:8.421052631578947px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 24px;
+                left: 24px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 48px;
+                height: 48px;
+                border-radius: 8.421052631578947px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#303064;background:#cfcf9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #303064;
+                  background: #cfcf9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 48x48 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               48
             </footer>
           </div>
           <div
-            style=\\"width:72px;height:104px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:12.631578947368421px;border-top-right-radius:12.631578947368421px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 72px;
+              height: 104px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 12.631578947368421px;
+              border-top-right-radius: 12.631578947368421px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:36px;left:36px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:72px;height:72px;border-radius:12.631578947368421px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 36px;
+                left: 36px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 72px;
+                height: 72px;
+                border-radius: 12.631578947368421px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#484864;background:#b7b79b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #484864;
+                  background: #b7b79b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 72x72 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               72
             </footer>
           </div>
           <div
-            style=\\"width:96px;height:128px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:16.842105263157894px;border-top-right-radius:16.842105263157894px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 96px;
+              height: 128px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 16.842105263157894px;
+              border-top-right-radius: 16.842105263157894px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:48px;left:48px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:96px;height:96px;border-radius:16.842105263157894px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 48px;
+                left: 48px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 96px;
+                height: 96px;
+                border-radius: 16.842105263157894px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#606064;background:#9f9f9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #606064;
+                  background: #9f9f9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 96x96 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               96
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:25.263157894736842px;border-top-right-radius:25.263157894736842px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 25.263157894736842px;
+              border-top-right-radius: 25.263157894736842px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.8888888888888888) translate(-56.25%, -56.25%);transform-origin:center;width:144px;height:144px;border-radius:25.263157894736842px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.8888888888888888) translate(-56.25%, -56.25%);
+                transform-origin: center;
+                width: 144px;
+                height: 144px;
+                border-radius: 25.263157894736842px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#808070;background:#7f7f8f;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #808070;
+                  background: #7f7f8f;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 1.125
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 1.13x
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:33.68421052631579px;border-top-right-radius:33.68421052631579px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 33.68421052631579px;
+              border-top-right-radius: 33.68421052631579px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.6666666666666666) translate(-75%, -75%);transform-origin:center;width:192px;height:192px;border-radius:33.68421052631579px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.6666666666666666) translate(-75%, -75%);
+                transform-origin: center;
+                width: 192px;
+                height: 192px;
+                border-radius: 33.68421052631579px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#808096;background:#7f7f69;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #808096;
+                  background: #7f7f69;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 1.5
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 1.50x
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:44.91228070175438px;border-top-right-radius:44.91228070175438px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 44.91228070175438px;
+              border-top-right-radius: 44.91228070175438px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:256px;height:256px;border-radius:44.91228070175438px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 256px;
+                height: 256px;
+                border-radius: 44.91228070175438px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#8080c8;background:#7f7f37;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #8080c8;
+                  background: #7f7f37;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 2
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 2.00x
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:67.36842105263158px;border-top-right-radius:67.36842105263158px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 67.36842105263158px;
+              border-top-right-radius: 67.36842105263158px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:384px;height:384px;border-radius:67.36842105263158px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 384px;
+                height: 384px;
+                border-radius: 67.36842105263158px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#80802d;background:#7f7fd2;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #80802d;
+                  background: #7f7fd2;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 3
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 3.00x
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:89.82456140350877px;border-top-right-radius:89.82456140350877px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 89.82456140350877px;
+              border-top-right-radius: 89.82456140350877px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.25) translate(-200%, -200%);transform-origin:center;width:512px;height:512px;border-radius:89.82456140350877px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.25) translate(-200%, -200%);
+                transform-origin: center;
+                width: 512px;
+                height: 512px;
+                border-radius: 89.82456140350877px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#808091;background:#7f7f6e;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #808091;
+                  background: #7f7f6e;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 4
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 4.00x
             </footer>
@@ -211,453 +569,1211 @@ exports[`generateIcons renders HTML correctly 1`] = `
         </div>
       </section>
       <section>
-        <h1 style=\\"text-align:center;margin:16px 8px\\">iOS icons</h1>
+        <h1 style="text-align: center; margin: 16px 8px">iOS icons</h1>
         <div
-          style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+          "
         >
           <div
-            style=\\"width:57px;height:89px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:10px;border-top-right-radius:10px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 57px;
+              height: 89px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:28.5px;left:28.5px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:57px;height:57px;border-radius:10px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 28.5px;
+                left: 28.5px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 57px;
+                height: 57px;
+                border-radius: 10px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#393964;background:#c6c69b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #393964;
+                  background: #c6c69b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 57x57 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               57
             </footer>
           </div>
           <div
-            style=\\"width:60px;height:92px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:10.526315789473683px;border-top-right-radius:10.526315789473683px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 60px;
+              height: 92px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 10.526315789473683px;
+              border-top-right-radius: 10.526315789473683px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:30px;left:30px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:60px;height:60px;border-radius:10.526315789473683px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 30px;
+                left: 30px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 60px;
+                height: 60px;
+                border-radius: 10.526315789473683px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#3c3c64;background:#c3c39b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #3c3c64;
+                  background: #c3c39b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 60x60 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               60
             </footer>
           </div>
           <div
-            style=\\"width:72px;height:104px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:12.631578947368421px;border-top-right-radius:12.631578947368421px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 72px;
+              height: 104px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 12.631578947368421px;
+              border-top-right-radius: 12.631578947368421px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:36px;left:36px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:72px;height:72px;border-radius:12.631578947368421px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 36px;
+                left: 36px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 72px;
+                height: 72px;
+                border-radius: 12.631578947368421px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#484864;background:#b7b79b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #484864;
+                  background: #b7b79b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 72x72 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               72
             </footer>
           </div>
           <div
-            style=\\"width:76px;height:108px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:13.333333333333332px;border-top-right-radius:13.333333333333332px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 76px;
+              height: 108px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 13.333333333333332px;
+              border-top-right-radius: 13.333333333333332px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:38px;left:38px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:76px;height:76px;border-radius:13.333333333333332px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 38px;
+                left: 38px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 76px;
+                height: 76px;
+                border-radius: 13.333333333333332px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#4c4c64;background:#b3b39b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #4c4c64;
+                  background: #b3b39b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 76x76 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               76
             </footer>
           </div>
           <div
-            style=\\"width:114px;height:146px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:20px;border-top-right-radius:20px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 114px;
+              height: 146px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:57px;left:57px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:114px;height:114px;border-radius:20px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 57px;
+                left: 57px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 114px;
+                height: 114px;
+                border-radius: 20px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#727264;background:#8d8d9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #727264;
+                  background: #8d8d9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 114x114 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               114
             </footer>
           </div>
           <div
-            style=\\"width:120px;height:152px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:21.052631578947366px;border-top-right-radius:21.052631578947366px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 120px;
+              height: 152px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 21.052631578947366px;
+              border-top-right-radius: 21.052631578947366px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:60px;left:60px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:120px;height:120px;border-radius:21.052631578947366px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 60px;
+                left: 60px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 120px;
+                height: 120px;
+                border-radius: 21.052631578947366px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#787864;background:#87879b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #787864;
+                  background: #87879b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 120x120 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               120
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:25.263157894736842px;border-top-right-radius:25.263157894736842px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 25.263157894736842px;
+              border-top-right-radius: 25.263157894736842px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.8888888888888888) translate(-56.25%, -56.25%);transform-origin:center;width:144px;height:144px;border-radius:25.263157894736842px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.8888888888888888) translate(-56.25%, -56.25%);
+                transform-origin: center;
+                width: 144px;
+                height: 144px;
+                border-radius: 25.263157894736842px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#808070;background:#7f7f8f;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #808070;
+                  background: #7f7f8f;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 1.125
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 1.13x
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:26.666666666666664px;border-top-right-radius:26.666666666666664px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 26.666666666666664px;
+              border-top-right-radius: 26.666666666666664px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.8421052631578947) translate(-59.375%, -59.375%);transform-origin:center;width:152px;height:152px;border-radius:26.666666666666664px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.8421052631578947)
+                  translate(-59.375%, -59.375%);
+                transform-origin: center;
+                width: 152px;
+                height: 152px;
+                border-radius: 26.666666666666664px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#808076;background:#7f7f89;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #808076;
+                  background: #7f7f89;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 1.1875
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 1.19x
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:29.298245614035086px;border-top-right-radius:29.298245614035086px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 29.298245614035086px;
+              border-top-right-radius: 29.298245614035086px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.7664670658682635) translate(-65.234375%, -65.234375%);transform-origin:center;width:167px;height:167px;border-radius:29.298245614035086px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.7664670658682635)
+                  translate(-65.234375%, -65.234375%);
+                transform-origin: center;
+                width: 167px;
+                height: 167px;
+                border-radius: 29.298245614035086px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#808082;background:#7f7f7d;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #808082;
+                  background: #7f7f7d;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 1.3046875
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 1.30x
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:31.57894736842105px;border-top-right-radius:31.57894736842105px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 31.57894736842105px;
+              border-top-right-radius: 31.57894736842105px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.7111111111111111) translate(-70.3125%, -70.3125%);transform-origin:center;width:180px;height:180px;border-radius:31.57894736842105px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.7111111111111111)
+                  translate(-70.3125%, -70.3125%);
+                transform-origin: center;
+                width: 180px;
+                height: 180px;
+                border-radius: 31.57894736842105px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#80808c;background:#7f7f73;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #80808c;
+                  background: #7f7f73;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 1.40625
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 1.41x
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:31.57894736842105px;border-top-right-radius:31.57894736842105px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 179.64912280701753px;
+              border-top-right-radius: 179.64912280701753px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.7111111111111111) translate(-70.3125%, -70.3125%);transform-origin:center;width:180px;height:180px;border-radius:31.57894736842105px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.125) translate(-400%, -400%);
+                transform-origin: center;
+                width: 1024px;
+                height: 1024px;
+                border-radius: 179.64912280701753px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#80808c;background:#7f7f73;text-align:center\\"
-              >
-                this is a test! size: 128x128 at 1.40625
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              128 @ 1.41x
-            </footer>
-          </div>
-          <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:31.57894736842105px;border-top-right-radius:31.57894736842105px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.7111111111111111) translate(-70.3125%, -70.3125%);transform-origin:center;width:180px;height:180px;border-radius:31.57894736842105px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#80808c;background:#7f7f73;text-align:center\\"
-              >
-                this is a test! size: 128x128 at 1.40625
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              128 @ 1.41x
-            </footer>
-          </div>
-          <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:179.64912280701753px;border-top-right-radius:179.64912280701753px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.125) translate(-400%, -400%);transform-origin:center;width:1024px;height:1024px;border-radius:179.64912280701753px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#808023;background:#7f7fdc;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #808023;
+                  background: #7f7fdc;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 8
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128 @ 8.00x
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:89.82456140350877px;border-top-right-radius:89.82456140350877px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 31.57894736842105px;
+              border-top-right-radius: 31.57894736842105px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(0.25) translate(-200%, -200%);transform-origin:center;width:512px;height:512px;border-radius:89.82456140350877px;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(0.7111111111111111)
+                  translate(-70.3125%, -70.3125%);
+                transform-origin: center;
+                width: 180px;
+                height: 180px;
+                border-radius: 31.57894736842105px;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#808091;background:#7f7f6e;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #80808c;
+                  background: #7f7f73;
+                  text-align: center;
+                "
               >
-                this is a test! size: 128x128 at 4
+                this is a test! size: 128x128 at 1.40625
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
-              128 @ 4.00x
+              128 @ 1.41x
             </footer>
           </div>
         </div>
       </section>
       <section>
-        <h1 style=\\"text-align:center;margin:16px 8px\\">Favicons</h1>
+        <h1 style="text-align: center; margin: 16px 8px">Favicons</h1>
         <div
-          style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+          "
         >
           <div
-            style=\\"width:16px;height:48px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 16px;
+              height: 48px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:8px;left:8px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:16px;height:16px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 8px;
+                left: 8px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 16px;
+                height: 16px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#101064;background:#efef9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #101064;
+                  background: #efef9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 16x16 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               16
             </footer>
           </div>
           <div
-            style=\\"width:24px;height:56px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 24px;
+              height: 56px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:12px;left:12px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:24px;height:24px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 12px;
+                left: 12px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 24px;
+                height: 24px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#181864;background:#e7e79b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #181864;
+                  background: #e7e79b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 24x24 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               24
             </footer>
           </div>
           <div
-            style=\\"width:32px;height:64px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 32px;
+              height: 64px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:16px;left:16px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:32px;height:32px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 16px;
+                left: 16px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 32px;
+                height: 32px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#202064;background:#dfdf9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #202064;
+                  background: #dfdf9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 32x32 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               32
             </footer>
           </div>
           <div
-            style=\\"width:48px;height:80px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 48px;
+              height: 80px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:24px;left:24px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:48px;height:48px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 24px;
+                left: 24px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 48px;
+                height: 48px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#303064;background:#cfcf9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #303064;
+                  background: #cfcf9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 48x48 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               48
             </footer>
           </div>
           <div
-            style=\\"width:64px;height:96px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 64px;
+              height: 96px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:32px;left:32px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:64px;height:64px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 32px;
+                left: 32px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 64px;
+                height: 64px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#404064;background:#bfbf9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #404064;
+                  background: #bfbf9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 64x64 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               64
             </footer>
           </div>
           <div
-            style=\\"width:72px;height:104px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 72px;
+              height: 104px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:36px;left:36px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:72px;height:72px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 36px;
+                left: 36px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 72px;
+                height: 72px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#484864;background:#b7b79b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #484864;
+                  background: #b7b79b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 72x72 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               72
             </footer>
           </div>
           <div
-            style=\\"width:96px;height:128px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 96px;
+              height: 128px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:48px;left:48px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:96px;height:96px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 48px;
+                left: 48px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 96px;
+                height: 96px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#606064;background:#9f9f9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #606064;
+                  background: #9f9f9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 96x96 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               96
             </footer>
           </div>
           <div
-            style=\\"width:128px;height:160px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 128px;
+              height: 160px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:64px;left:64px;transform:scale(1) translate(-50%, -50%);transform-origin:center;width:128px;height:128px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 64px;
+                left: 64px;
+                transform: scale(1) translate(-50%, -50%);
+                transform-origin: center;
+                width: 128px;
+                height: 128px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#808064;background:#7f7f9b;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #808064;
+                  background: #7f7f9b;
+                  text-align: center;
+                "
               >
                 this is a test! size: 128x128 at 1
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               128
             </footer>
@@ -665,126 +1781,605 @@ exports[`generateIcons renders HTML correctly 1`] = `
         </div>
       </section>
       <section>
-        <h1 style=\\"text-align:center;margin:16px 8px\\">iPhone start screens</h1>
+        <h1 style="text-align: center; margin: 16px 8px">
+          iPhone start screens
+        </h1>
         <div
-          style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+          "
         >
           <div
-            style=\\"width:414px;height:928px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 320px;
+              height: 600px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:448px;left:207px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:1242px;height:2688px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 284px;
+                left: 160px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 640px;
+                height: 1136px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#9f832d;background:#607cd2;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #413ac8;
+                  background: #bec537;
+                  text-align: center;
+                "
               >
-                this is a test! size: 414x896 at 3
+                this is a test! size: 320x568 at 2
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
-              414x896 @ 3.00x
+              320x568 @ 2.00x
             </footer>
           </div>
           <div
-            style=\\"width:414px;height:928px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 375px;
+              height: 699px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:448px;left:207px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:828px;height:1792px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 333.5px;
+                left: 187.5px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 750px;
+                height: 1334px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#9f83c8;background:#607c37;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #789dc8;
+                  background: #876237;
+                  text-align: center;
+                "
               >
-                this is a test! size: 414x896 at 2
+                this is a test! size: 375x667 at 2
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
-              414x896 @ 2.00x
+              375x667 @ 2.00x
             </footer>
           </div>
           <div
-            style=\\"width:375px;height:844px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 375px;
+              height: 844px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:406px;left:187.5px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:1125px;height:2436px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 406px;
+                left: 187.5px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 1125px;
+                height: 2436px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#782f2d;background:#87d0d2;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #782f2d;
+                  background: #87d0d2;
+                  text-align: center;
+                "
               >
                 this is a test! size: 375x812 at 3
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               375x812 @ 3.00x
             </footer>
           </div>
           <div
-            style=\\"width:414px;height:768px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 390px;
+              height: 876px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:368px;left:207px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:1242px;height:2208px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 422px;
+                left: 195px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 1170px;
+                height: 2532px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#9fe22d;background:#601dd2;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #874f2d;
+                  background: #78b0d2;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 390x844 at 3
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              390x844 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 414px;
+              height: 928px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 448px;
+                left: 207px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 828px;
+                height: 1792px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #9f83c8;
+                  background: #607c37;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 414x896 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              414x896 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 414px;
+              height: 928px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 448px;
+                left: 207px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 1242px;
+                height: 2688px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #9f832d;
+                  background: #607cd2;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 414x896 at 3
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              414x896 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 414px;
+              height: 768px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 368px;
+                left: 207px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 1242px;
+                height: 2208px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #9fe22d;
+                  background: #601dd2;
+                  text-align: center;
+                "
               >
                 this is a test! size: 414x736 at 3
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               414x736 @ 3.00x
             </footer>
           </div>
           <div
-            style=\\"width:376px;height:699px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 414px;
+              height: 768px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:333.5px;left:188px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:752px;height:1334px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 368px;
+                left: 207px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 1242px;
+                height: 2208px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#799dc8;background:#866237;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #9fe22d;
+                  background: #601dd2;
+                  text-align: center;
+                "
               >
-                this is a test! size: 376x667 at 2
+                this is a test! size: 414x736 at 3
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
-              376x667 @ 2.00x
+              414x736 @ 3.00x
             </footer>
           </div>
           <div
-            style=\\"width:376px;height:699px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 428px;
+              height: 958px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:333.5px;left:188px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:1128px;height:2001px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 463px;
+                left: 214px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 1284px;
+                height: 2778px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#799d2d;background:#8662d2;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #ada12d;
+                  background: #525ed2;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 428x926 at 3
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              428x926 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 376px;
+              height: 699px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 333.5px;
+                left: 188px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 1128px;
+                height: 2001px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #799d2d;
+                  background: #8662d2;
+                  text-align: center;
+                "
               >
                 this is a test! size: 376x667 at 3
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               376x667 @ 3.00x
             </footer>
@@ -792,215 +2387,914 @@ exports[`generateIcons renders HTML correctly 1`] = `
         </div>
       </section>
       <section>
-        <h1 style=\\"text-align:center;margin:16px 8px\\">iPad start screens</h1>
+        <h1 style="text-align: center; margin: 16px 8px">iPad start screens</h1>
         <div
-          style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+          "
         >
           <div
-            style=\\"width:1024px;height:1398px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 768px;
+              height: 1056px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:683px;left:512px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2048px;height:2732px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 512px;
+                left: 384px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 1536px;
+                height: 2048px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#45bc8;background:#fba437;text-align:center\\"
-              >
-                this is a test! size: 1024x1366 at 2
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              1024x1366 @ 2.00x
-            </footer>
-          </div>
-          <div
-            style=\\"width:834px;height:1226px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:597px;left:417px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1668px;height:2388px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#45aec8;background:#ba5137;text-align:center\\"
-              >
-                this is a test! size: 834x1194 at 2
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              834x1194 @ 2.00x
-            </footer>
-          </div>
-          <div
-            style=\\"width:834px;height:1144px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:556px;left:417px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1668px;height:2224px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#455cc8;background:#baa337;text-align:center\\"
-              >
-                this is a test! size: 834x1112 at 2
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              834x1112 @ 2.00x
-            </footer>
-          </div>
-          <div
-            style=\\"width:768px;height:1056px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:512px;left:384px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1536px;height:2048px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#34c8;background:#fcfb37;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #34c8;
+                  background: #fcfb37;
+                  text-align: center;
+                "
               >
                 this is a test! size: 768x1024 at 2
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               768x1024 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 810px;
+              height: 1112px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 540px;
+                left: 405px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 1620px;
+                height: 2160px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #2d3cc8;
+                  background: #d2c337;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 810x1080 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              810x1080 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 834px;
+              height: 1226px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 597px;
+                left: 417px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 1668px;
+                height: 2388px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #45aec8;
+                  background: #ba5137;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 834x1194 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              834x1194 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 834px;
+              height: 1144px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 556px;
+                left: 417px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 1668px;
+                height: 2224px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #455cc8;
+                  background: #baa337;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 834x1112 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              834x1112 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 1024px;
+              height: 1398px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 683px;
+                left: 512px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 2048px;
+                height: 2732px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #45bc8;
+                  background: #fba437;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 1024x1366 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              1024x1366 @ 2.00x
             </footer>
           </div>
         </div>
       </section>
       <section>
-        <h1 style=\\"text-align:center;margin:16px 8px\\">
+        <h1 style="text-align: center; margin: 16px 8px">
           iPhone start screens (landscape)
         </h1>
         <div
-          style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+          "
         >
           <div
-            style=\\"width:896px;height:446px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 568px;
+              height: 352px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:207px;left:448px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:2688px;height:1242px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 160px;
+                left: 284px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 1136px;
+                height: 640px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#839f2d;background:#7c60d2;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #3a41c8;
+                  background: #c5be37;
+                  text-align: center;
+                "
               >
-                this is a test! size: 896x414 at 3
+                this is a test! size: 568x320 at 2
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
-              896x414 @ 3.00x
+              568x320 @ 2.00x
             </footer>
           </div>
           <div
-            style=\\"width:896px;height:446px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 667px;
+              height: 407px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:207px;left:448px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1792px;height:828px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 187.5px;
+                left: 333.5px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 1334px;
+                height: 750px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#839fc8;background:#7c6037;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #9d78c8;
+                  background: #628737;
+                  text-align: center;
+                "
               >
-                this is a test! size: 896x414 at 2
+                this is a test! size: 667x375 at 2
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
-              896x414 @ 2.00x
+              667x375 @ 2.00x
             </footer>
           </div>
           <div
-            style=\\"width:812px;height:407px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 812px;
+              height: 407px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:187.5px;left:406px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:2436px;height:1125px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 187.5px;
+                left: 406px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 2436px;
+                height: 1125px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#2f782d;background:#d087d2;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #2f782d;
+                  background: #d087d2;
+                  text-align: center;
+                "
               >
                 this is a test! size: 812x375 at 3
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               812x375 @ 3.00x
             </footer>
           </div>
           <div
-            style=\\"width:736px;height:446px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 844px;
+              height: 422px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:207px;left:368px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:2208px;height:1242px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 195px;
+                left: 422px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 2532px;
+                height: 1170px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#e29f2d;background:#1d60d2;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #4f872d;
+                  background: #b078d2;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 844x390 at 3
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              844x390 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 896px;
+              height: 446px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 207px;
+                left: 448px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 1792px;
+                height: 828px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #839fc8;
+                  background: #7c6037;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 896x414 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              896x414 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 896px;
+              height: 446px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 207px;
+                left: 448px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 2688px;
+                height: 1242px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #839f2d;
+                  background: #7c60d2;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 896x414 at 3
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              896x414 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 736px;
+              height: 446px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 207px;
+                left: 368px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 2208px;
+                height: 1242px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #e29f2d;
+                  background: #1d60d2;
+                  text-align: center;
+                "
               >
                 this is a test! size: 736x414 at 3
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               736x414 @ 3.00x
             </footer>
           </div>
           <div
-            style=\\"width:667px;height:408px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 736px;
+              height: 446px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:188px;left:333.5px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:1334px;height:752px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 207px;
+                left: 368px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 2208px;
+                height: 1242px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#9d79c8;background:#628637;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #e29f2d;
+                  background: #1d60d2;
+                  text-align: center;
+                "
               >
-                this is a test! size: 667x376 at 2
+                this is a test! size: 736x414 at 3
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
-              667x376 @ 2.00x
+              736x414 @ 3.00x
             </footer>
           </div>
           <div
-            style=\\"width:667px;height:408px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 926px;
+              height: 460px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:188px;left:333.5px;transform:scale(0.3333333333333333) translate(-150%, -150%);transform-origin:center;width:2001px;height:1128px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 214px;
+                left: 463px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 2778px;
+                height: 1284px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#9d792d;background:#6286d2;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #a1ad2d;
+                  background: #5e52d2;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 926x428 at 3
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              926x428 @ 3.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 667px;
+              height: 408px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 188px;
+                left: 333.5px;
+                transform: scale(0.3333333333333333) translate(-150%, -150%);
+                transform-origin: center;
+                width: 2001px;
+                height: 1128px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #9d792d;
+                  background: #6286d2;
+                  text-align: center;
+                "
               >
                 this is a test! size: 667x376 at 3
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               667x376 @ 3.00x
             </footer>
@@ -1008,90 +3302,312 @@ exports[`generateIcons renders HTML correctly 1`] = `
         </div>
       </section>
       <section>
-        <h1 style=\\"text-align:center;margin:16px 8px\\">
+        <h1 style="text-align: center; margin: 16px 8px">
           iPad start screens (landscape)
         </h1>
         <div
-          style=\\"display:flex;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;text-align:center\\"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+          "
         >
           <div
-            style=\\"width:1366px;height:1056px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
+            style="
+              width: 1024px;
+              height: 800px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
           >
             <div
-              style=\\"position:absolute;top:512px;left:683px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2732px;height:2048px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
+              style="
+                position: absolute;
+                top: 384px;
+                left: 512px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 2048px;
+                height: 1536px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
             >
               <div
-                style=\\"height:100%;width:100%;color:#5b4c8;background:#a4fb37;text-align:center\\"
-              >
-                this is a test! size: 1366x1024 at 2
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              1366x1024 @ 2.00x
-            </footer>
-          </div>
-          <div
-            style=\\"width:1194px;height:866px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:417px;left:597px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2388px;height:1668px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#ae45c8;background:#51ba37;text-align:center\\"
-              >
-                this is a test! size: 1194x834 at 2
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              1194x834 @ 2.00x
-            </footer>
-          </div>
-          <div
-            style=\\"width:1112px;height:866px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:417px;left:556px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2224px;height:1668px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#5c45c8;background:#a3ba37;text-align:center\\"
-              >
-                this is a test! size: 1112x834 at 2
-              </div>
-            </div>
-            <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
-            >
-              1112x834 @ 2.00x
-            </footer>
-          </div>
-          <div
-            style=\\"width:1024px;height:800px;margin:16px;background:#f5f5f5;border-radius:2px;border-top-left-radius:2px;border-top-right-radius:2px;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d;position:relative\\"
-            class=\\"iconWrapper\\"
-          >
-            <div
-              style=\\"position:absolute;top:384px;left:512px;transform:scale(0.5) translate(-100%, -100%);transform-origin:center;width:2048px;height:1536px;border-radius:0;overflow:hidden;pointer-events:none;box-shadow:0px 2px 12px #0000000f, 0px 2px 4px #0000000d\\"
-              class=\\"icon\\"
-            >
-              <div
-                style=\\"height:100%;width:100%;color:#43c8;background:#fbfc37;text-align:center\\"
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #43c8;
+                  background: #fbfc37;
+                  text-align: center;
+                "
               >
                 this is a test! size: 1024x768 at 2
               </div>
             </div>
             <footer
-              style=\\"height:32px;display:flex;align-items:center;position:absolute;bottom:0;left:0;right:0;font-size:12px;font-weight:bold;padding:0 8px\\"
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
             >
               1024x768 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 1080px;
+              height: 842px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 405px;
+                left: 540px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 2160px;
+                height: 1620px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #3c2dc8;
+                  background: #c3d237;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 1080x810 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              1080x810 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 1194px;
+              height: 866px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 417px;
+                left: 597px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 2388px;
+                height: 1668px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #ae45c8;
+                  background: #51ba37;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 1194x834 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              1194x834 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 1112px;
+              height: 866px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 417px;
+                left: 556px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 2224px;
+                height: 1668px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #5c45c8;
+                  background: #a3ba37;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 1112x834 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              1112x834 @ 2.00x
+            </footer>
+          </div>
+          <div
+            style="
+              width: 1366px;
+              height: 1056px;
+              margin: 16px;
+              background: #f5f5f5;
+              border-radius: 2px;
+              border-top-left-radius: 2px;
+              border-top-right-radius: 2px;
+              box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              position: relative;
+            "
+            class="iconWrapper"
+          >
+            <div
+              style="
+                position: absolute;
+                top: 512px;
+                left: 683px;
+                transform: scale(0.5) translate(-100%, -100%);
+                transform-origin: center;
+                width: 2732px;
+                height: 2048px;
+                border-radius: 0;
+                overflow: hidden;
+                pointer-events: none;
+                box-shadow: 0px 2px 12px #0000000f, 0px 2px 4px #0000000d;
+              "
+              class="icon"
+            >
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  color: #5b4c8;
+                  background: #a4fb37;
+                  text-align: center;
+                "
+              >
+                this is a test! size: 1366x1024 at 2
+              </div>
+            </div>
+            <footer
+              style="
+                height: 32px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 8px;
+              "
+            >
+              1366x1024 @ 2.00x
             </footer>
           </div>
         </div>

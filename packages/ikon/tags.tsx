@@ -48,9 +48,9 @@ export async function generateTags(
             "--disable-background-timer-throttling",
             "--disable-backgrounding-occluded-windows",
             "--disable-renderer-backgrounding",
-            "--disable-dev-shm-usage"
+            "--disable-dev-shm-usage",
           ],
-          pipe: true
+          pipe: true,
         });
         browsers.push(browser);
 
@@ -83,7 +83,7 @@ export async function generateTags(
   try {
     const icons = getIcons();
     const filePaths = await Promise.all(
-      icons.map(async icon => {
+      icons.map(async (icon) => {
         await sema.acquire();
         try {
           const fileName = join(outDir, icon.id + ".png");
@@ -101,12 +101,17 @@ export async function generateTags(
             }
           }
 
-          const hash =
-            "?h=" +
-            hasha(src, {
-              algorithm: "sha1",
-              encoding: "hex"
-            }).slice(0, 8);
+          let hash: string = "";
+          if (process.env.NODE_ENV !== "test") {
+            hash =
+              "?h=" +
+              hasha(src, {
+                algorithm: "sha1",
+                encoding: "hex",
+              }).slice(0, 8);
+          } else {
+            hash = `?h=test`;
+          }
 
           const publicName = `${publicPath}/${icon.id}.png${hash}`;
           await promises.writeFile(fileName, src);
@@ -126,16 +131,18 @@ export async function generateTags(
           } else {
             if (icon.name.includes("apple")) {
               tagDidComplete(
-                `<link rel="apple-touch-icon" sizes="${icon.width * icon.pixelRatio}x${icon.height *
-                  icon.pixelRatio}" href="${publicName}">`
+                `<link rel="apple-touch-icon" sizes="${icon.width * icon.pixelRatio}x${
+                  icon.height * icon.pixelRatio
+                }" href="${publicName}">`
               );
               if (icon.id === DefaultAppIconName) {
                 tagDidComplete(`<link rel="apple-touch-icon" href="${publicName}">`);
               }
             } else {
               tagDidComplete(
-                `<link rel="icon" type="image/png" sizes="${icon.width *
-                  icon.pixelRatio}x${icon.height * icon.pixelRatio}" href="${publicName}">`
+                `<link rel="icon" type="image/png" sizes="${icon.width * icon.pixelRatio}x${
+                  icon.height * icon.pixelRatio
+                }" href="${publicName}">`
               );
             }
           }
@@ -150,12 +157,17 @@ export async function generateTags(
     const faviconName = join(outDir, "favicon.ico");
     await promises.writeFile(faviconName, favicon);
 
-    const faviconHash =
-      "?h=" +
-      hasha(favicon, {
-        algorithm: "sha1",
-        encoding: "hex"
-      }).slice(0, 8);
+    let faviconHash: string = "";
+    if (process.env.NODE_ENV !== "test") {
+      faviconHash =
+        "?h=" +
+        hasha(favicon, {
+          algorithm: "sha1",
+          encoding: "hex",
+        }).slice(0, 8);
+    } else {
+      faviconHash = `?h=test`;
+    }
 
     tagDidComplete(`<link rel="shortcut icon" href="${publicPath}/favicon.ico${faviconHash}">`);
     imageDidComplete(faviconName, favicon, `${publicPath}/favicon.ico${faviconHash}`);

@@ -18,7 +18,7 @@ describe("generateIconsHTML", () => {
   it("renders correctly", async () => {
     const file: string[] = [];
     await generateIconsHTML(
-      props => {
+      (props) => {
         const r = Math.floor(props.width % 255);
         const g = Math.floor(props.height % 255);
         const b = Math.floor((props.pixelRatio * 100) % 255);
@@ -27,10 +27,10 @@ describe("generateIconsHTML", () => {
             style={{
               height: "100%",
               width: "100%",
-              color: "#" + [r, g, b].map(s => s.toString(16)).join(""),
-              background: "#" + [r, g, b].map(s => (255 - s).toString(16)).join(""),
+              color: "#" + [r, g, b].map((s) => s.toString(16)).join(""),
+              background: "#" + [r, g, b].map((s) => (255 - s).toString(16)).join(""),
               textAlign: "center",
-              position: "relative"
+              position: "relative",
             }}
           >
             <div
@@ -43,13 +43,13 @@ describe("generateIconsHTML", () => {
                 height: 16,
                 width: 16,
                 borderRadius: 8,
-                background: "white"
+                background: "white",
               }}
             />
           </div>
         );
       },
-      chunk => file.push(chunk),
+      (chunk) => file.push(chunk),
       tmpDir.path,
       "/",
       true,
