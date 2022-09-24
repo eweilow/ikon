@@ -4,6 +4,7 @@ on: push
 jobs:
   test:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest]
         nodejs: [16.x, 18.x]
