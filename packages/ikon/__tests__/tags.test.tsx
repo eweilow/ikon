@@ -72,7 +72,7 @@ describe("generateTags", () => {
       expect(image.buffer).toMatchImageSnapshot({
         customSnapshotIdentifier: fileName,
         blur: 1,
-        failureThreshold: 1,
+        failureThreshold: 0.01,
         failureThresholdType: "percent",
       });
 
