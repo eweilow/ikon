@@ -5,8 +5,7 @@
   "description": "A basic example",
   "scripts": {
     "start": "ikon dev --file icon.tsx",
-    "build": "ikon build --file icon.tsx",
-    "now-prepare": "yarn build --outDir /dist/icons && ikon export --publicPath /simple/icons --file icon.tsx"
+    "build": "ikon build --file icon.tsx"
   },
   "repository": {
     "type": "git",
