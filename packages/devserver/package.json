@@ -27,7 +27,7 @@
     "open": "6.4.0"
   },
   "devDependencies": {
-    "@types/node": "^14.0.5",
+    "@types/node": "^14.18.30",
     "@types/open": "^6.2.1"
   },
   "gitHead": "b7dc79987a794604c8538d3b9e9f2d17f8ab66da",
