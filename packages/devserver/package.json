@@ -1,6 +1,6 @@
 {
   "name": "@eweilow/ikon-devserver",
-  "version": "0.0.1-alpha.6",
+  "version": "0.0.1-alpha.9",
   "description": "The development server for @eweilow-ikon",
   "main": "./dist/cjs",
   "module": "./dist/esm",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/eweilow/ikon",
   "dependencies": {
-    "@eweilow/ikon": "^0.0.1-alpha.6",
+    "@eweilow/ikon": "^0.0.1-alpha.9",
     "hot-module-replacement": "^3.0.4",
     "open": "^8.4.0"
   },
