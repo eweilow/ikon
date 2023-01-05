@@ -1,6 +1,6 @@
 {
   "name": "@eweilow/ikon-cli",
-  "version": "0.0.1-alpha.9",
+  "version": "0.0.1-alpha.10",
   "description": "The CLI for @eweilow-ikon",
   "main": "./dist/cjs",
   "module": "./dist/esm",
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/eweilow/ikon",
   "dependencies": {
-    "@eweilow/ikon": "^0.0.1-alpha.9",
-    "@eweilow/ikon-devserver": "^0.0.1-alpha.9",
+    "@eweilow/ikon": "^0.0.1-alpha.10",
+    "@eweilow/ikon-devserver": "^0.0.1-alpha.10",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.3",
