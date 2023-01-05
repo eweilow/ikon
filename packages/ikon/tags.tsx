@@ -86,7 +86,12 @@ export async function generateTags(
       icons.map(async (icon) => {
         await sema.acquire();
         try {
-          const fileName = join(outDir, icon.id + ".png");
+          let id = icon.id;
+          if (!id.endsWith(".png")) {
+            id += ".png";
+          }
+
+          const fileName = join(outDir, id);
 
           let src!: Buffer;
           if (skipBuildIfPossible && existsSync(fileName)) {
@@ -113,7 +118,7 @@ export async function generateTags(
             hash = `?h=test`;
           }
 
-          const publicName = `${publicPath}/${icon.id}.png${hash}`;
+          const publicName = `${publicPath}/${id}${hash}`;
           await promises.writeFile(fileName, src);
           imageDidComplete(fileName, src, publicName);
 

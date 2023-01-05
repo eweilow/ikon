@@ -20,9 +20,7 @@ const rotate = (icons: IconGenerationComponentProps[]) =>
     name: icon.name + "-rot",
   }));
 
-export const AllIcons: React.FC<{
-  Component: IconGenerationComponent;
-}> = (props) => (
+export const AllIcons = (props: { Component: IconGenerationComponent }) => (
   <Html background="#e0e0e0">
     <style
       dangerouslySetInnerHTML={{

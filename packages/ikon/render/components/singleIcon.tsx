@@ -4,10 +4,10 @@ import { IconGenerationComponent, IconGenerationComponentProps } from "../../typ
 
 import { Html } from "./html";
 
-export const SingleIcon: React.FC<{
+export const SingleIcon = (props: {
   icon: IconGenerationComponentProps;
   Component: IconGenerationComponent;
-}> = (props) => (
+}) => (
   <Html background="transparent">
     <props.Component {...props.icon} />
   </Html>

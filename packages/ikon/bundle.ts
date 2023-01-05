@@ -13,7 +13,7 @@ export async function bundleFiles(built: string[], outDir: string) {
   typescript.push(``);
   javascript.push(`import React from "react"`);
   javascript.push(``);
-  typescript.push(`const Icons: React.FC = () => (<>`);
+  typescript.push(`const Icons = () => (<>`);
   javascript.push(`const Icons = () => (<>`);
 
   for (const icon of built) {

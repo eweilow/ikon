@@ -417,7 +417,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eweilow/ikon-cli@^0.0.1-alpha.9, @eweilow/ikon-cli@workspace:packages/cli":
+"@eweilow/ikon-cli@workspace:*, @eweilow/ikon-cli@workspace:packages/cli":
   version: 0.0.0-use.local
   resolution: "@eweilow/ikon-cli@workspace:packages/cli"
   dependencies:
@@ -454,7 +454,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eweilow/ikon-examples-basic@workspace:examples/simple"
   dependencies:
-    "@eweilow/ikon-cli": ^0.0.1-alpha.9
+    "@eweilow/ikon-cli": "workspace:*"
   languageName: unknown
   linkType: soft
 

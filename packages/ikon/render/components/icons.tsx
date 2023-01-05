@@ -2,13 +2,13 @@ import React from "react";
 
 import { IconGenerationComponent, IconGenerationComponentProps } from "../../types";
 
-export const Icons: React.FC<{
+export const Icons = (props: {
   icons: IconGenerationComponentProps[];
   title: string;
   scale: number;
   borderRadius: number;
   Component: IconGenerationComponent;
-}> = (props) => (
+}) => (
   <section>
     <h1
       style={{

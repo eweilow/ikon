@@ -58,9 +58,9 @@ exports[`generateTagsHTML renders correctly 1`] = `
 
 &lt;link rel="apple-touch-icon" sizes="180x180" href="//apple-touch-icon-180-180.png?h=test"&gt;
 
-&lt;link rel="apple-touch-icon" sizes="1024x1024" href="//apple-touch-icon.png.png?h=test"&gt;
+&lt;link rel="apple-touch-icon" sizes="1024x1024" href="//apple-touch-icon.png?h=test"&gt;
 
-&lt;link rel="apple-touch-icon" sizes="180x180" href="//apple-touch-icon-precomposed.png.png?h=test"&gt;
+&lt;link rel="apple-touch-icon" sizes="180x180" href="//apple-touch-icon-precomposed.png?h=test"&gt;
 
 &lt;link rel="apple-touch-icon" media="(device-width: 320) and (device-height: 568) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="//apple-launch-se-640-1136.png?h=test"&gt;
 
